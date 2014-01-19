@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    margin: 0 auto;
+    width: 780px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+a {
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+time {
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+code {
+    font-family: monospace;
+    background-color: #eaeaea;
+}
+
+pre > code {
+    background-color: transparent;
+}
+
+pre {
+    font-size: 14px;
+    line-height: 1.3em;
+    padding: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+small {
+    font-size: smaller;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+ul {
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+}
+
+blockquote {
+    border-left: 10px solid #aaa;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+body > header {
+    background-color: #ddd;
+    padding: 20px 15px 15px 15px;
+    margin: 0 -15px;
+}
+
+.postPreview {
+    margin: 30px 0;
+}
+
+.postPreview > header {
+    margin: 5px 0;
+}
+.postPreview > header > h1 {
+    display: inline;
+    font-size: 24px;
+}
+
+.post {
+    margin: 30px 0;
+}
+
+.post > header {
+    margin: 15px 0;
+}
+.backLink {
+    display: block;
+    margin: 10px 0;
+}
+.post > header > h1 {
+    display: inline;
+    font-size: 32px;
+}
+.post > section > h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+.post > section > h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.followupActions {
+    background-color: #ddd;
+    padding: 15px;
+    margin: 15px -15px;
+}
