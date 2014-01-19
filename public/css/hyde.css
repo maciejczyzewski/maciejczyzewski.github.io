@@ -62,6 +62,12 @@ html {
   background: url('/public/background.jpg');
   background-position: center;
   background-size: cover;
+
+  /*
+background: url('/public/background.jpg');
+background-position: 90% 75%;
+background-size: inherit;
+  */
 }
 @media (min-width: 48rem) {
   .sidebar {
