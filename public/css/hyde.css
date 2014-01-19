@@ -60,8 +60,8 @@ html {
   background-color: #202020;
 
   background: url('/public/background.jpg');
-  background-position: 100%;
-  background-size: inherit;
+  background-position: center;
+  background-size: cover;
 }
 @media (min-width: 48rem) {
   .sidebar {
