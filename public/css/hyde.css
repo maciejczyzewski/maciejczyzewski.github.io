@@ -83,6 +83,11 @@ html {
   font-size: 3.25rem;
 }
 
+.sidebar-about .avatar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
