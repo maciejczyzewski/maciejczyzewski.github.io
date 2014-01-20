@@ -120,9 +120,6 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48rem) {
-  .sidebar-nav {
-    text-align: center;
-  }
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
