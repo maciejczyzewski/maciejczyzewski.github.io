@@ -92,6 +92,9 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+.sidebar-about .lead {
+  text-align: center;
+}
 
 /* Sidebar nav */
 .sidebar-nav {
