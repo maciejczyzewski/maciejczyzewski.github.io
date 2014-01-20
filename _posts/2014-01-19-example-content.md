@@ -52,4 +52,4 @@ Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
 
 -----
 
-Want to see something else added? <a href="https://github.com/mdo/hyde/issues/new">Open an issue.</a>
+Want to see something else added? <a href="#">Open an issue.</a>

@@ -59,10 +59,6 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 
-  /*background: url('/public/background.jpg');
-  background-position: center;
-  background-size: cover;*/
-
   background: url('/public/background.jpg');
   background-position: 90% 75%;
   background-size: inherit;
