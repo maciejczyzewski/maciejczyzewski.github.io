@@ -100,8 +100,6 @@ html {
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
-  height: 30px;
-  text-align: center;
 }
 .sidebar-nav-item {
   display: inline;
@@ -122,6 +120,9 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48rem) {
+  .sidebar-nav {
+    text-align: center;
+  }
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
