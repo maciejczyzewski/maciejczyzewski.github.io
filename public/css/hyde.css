@@ -77,6 +77,8 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  border: 2px solid #fff;
+  padding: 4px 10px;
 }
 
 /* About section */
@@ -86,7 +88,6 @@ html {
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
 }
-
 .sidebar-about .avatar {
   margin-left: auto;
   margin-right: auto;
@@ -96,9 +97,12 @@ html {
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+  height: 30px;
+  text-align: center;
 }
 .sidebar-nav-item {
-  display: block;
+  display: inline;
+  margin-right: 10px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
