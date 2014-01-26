@@ -3,7 +3,7 @@ layout: post
 title: Retter - Creating cryptographic hash function
 ---
 
-If you want see result of this article, see <a href="https://github.com/MaciejCzyzewski/Retter">ready source on Github</a>. Remeber, Retter is engine of RTR0, cryptographic hash function.
+If you want see result of this article, see <a href="https://github.com/MaciejCzyzewski/Retter">ready source on Github</a>. Remeber, Retter is engine of RTR series.
 
 -----
 
