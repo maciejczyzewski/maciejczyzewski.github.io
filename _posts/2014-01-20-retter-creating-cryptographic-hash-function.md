@@ -1,13 +1,17 @@
 ---
 layout: post
-title: Example content
+title: Retter - Creating cryptographic hash function
 ---
 
-This blog post shows a few different types of content that's supported and styled with Hyde. Basic typography, images, and code are all supported.
+If you want see result of this article, see <a href="https://github.com/MaciejCzyzewski/Retter">ready source on Github</a>. Remeber, Retter is engine of RTR0, cryptographic hash function.
 
 -----
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+<p align="center">
+ 	<img src="https://raw.github.com/MaciejCzyzewski/Retter/gh-pages/Retter.png" alt="Retter"/>
+</p>
+
+What are the 16 squares in the picture? This will be the base of our algorithm. They are drawers.
 
 > Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
