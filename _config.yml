@@ -6,13 +6,13 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Maciej Czyżewski
+title:            Maciej A. Czyżewski
 tagline:          'Blog'
 description:      'Programmer & Designer'
-url:              http://MaciejCzyzewski.github.io
+url:              http://MaciejAnthonyCzyzewski.github.io
 
 author:
-  name:           'Maciej Czyżewski'
-  url:            http://MaciejCzyzewski.github.io
+  name:           'Maciej A. Czyżewski'
+  url:            http://MaciejAnthonyCzyzewski.github.io
 
 paginate:         5
