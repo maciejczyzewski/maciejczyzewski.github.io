@@ -9,10 +9,10 @@ permalink:        pretty
 title:            Maciej A. Czyzewski
 tagline:          'Blog'
 description:      'Programmer & Designer'
-url:              http://MaciejAnthonyCzyzewski.github.io
+url:              http://MaciejCzyzewski.github.io
 
 author:
   name:           'Maciej A. Czyzewski'
-  url:            http://MaciejAnthonyCzyzewski.github.io
+  url:            http://MaciejCzyzewski.github.io
 
 paginate:         5
