@@ -2,7 +2,30 @@
 layout: default
 ---
 
-<div class="page">
-  	<h1 class="page-title">{{ page.title }}</h1>
-  	{{ content }}
-</div>
+<main class="content" role="main">
+    <article class="post">
+        <header class="post-header">
+            <a id="blog-logo" href="/">
+                {% if site.logo %}
+                    <img src="{{site.logo}}" alt="{{ site.name }}" />
+                {% else %}
+                    <span class="blog-title">{{ site.name }}</span>
+                {%endif%} 
+            </a>
+            <section>
+                <a href="{{ site.github }}">Github</a>
+                <a href="{{ site.twitter }}">Twitter</a>
+            </section>
+        </header>
+
+        {% if page.title %}
+            <h1 class="post-title">{{ page.title }}</h1>
+        {%endif%} 
+        
+        <section class="post-content">
+            {{content}}
+        </section>
+
+    </article>
+
+</main>

@@ -1,18 +1,14 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+name: 			Maciej A. Czyzewski
+description: 	"Developer, hacker, and design enthusiast"
 
-# Permalinks
-permalink:        pretty
+markdown: 		redcarpet
+pygments: 		true
+logo: 			false
+paginate: 		1000
 
-# Setup
-title:            Maciej A. Czyzewski
-tagline:          'Blog'
-description:      'Programmer & Designer'
-url:              http://MaciejCzyzewski.github.io
+url:            "http://maciejczyzewski.github.io/"
+author:         "Maciej A. Czyzewski"
+bio:			"Programmer, developer, speaker. I love making new beautiful things, mostly on the web!"
 
-author:
-  name:           'Maciej A. Czyzewski'
-  url:            http://MaciejCzyzewski.github.io
-
-paginate:         5
+github: 		https://github.com/MaciejCzyzewski
+twitter: 		https://twitter.com/_czyzewski

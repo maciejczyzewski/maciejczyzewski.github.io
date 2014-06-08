@@ -1,37 +1,36 @@
 ---
 layout: default
 title: Home
+cover: /assets/images/cover.jpg
+about: 'about.html'
 ---
 
-<div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post">
-        <h1 class="post-title">
-            <a href="{{ post.url }}">
-                {{ post.title }}
-            </a>
-        </h1>
-
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-
-        {{ post.content }}
+<header class="site-head" {% if page.cover %} style="background-image: url({{ page.cover }})"{% endif %}>
+    <div class="vertical">
+        <div class="site-head-content" class="inner">
+            {% if page.logo %}
+                <a class="blog-logo" href="{{ site.baseurl }}">
+                    <img src="{{ page.logo }}" alt="Blog Logo" />
+                </a>
+            {% endif %}
+            <h1 class="blog-title">{{ site.name }}</h1>
+            <h2 class="blog-description"> 
+                {{ site.description }}. 
+                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+            </h2>
+        </div>
     </div>
-    {% endfor %}
-</div>
+</header>
 
-<div class="pagination">
-    {% if paginator.next_page %}
-        <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-    {% else %}
-        <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-            <a class="pagination-item newer" href="/">Newer</a>
-        {% else %}
-            <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-        {% endif %}
-    {% else %}
-        <span class="pagination-item newer">Newer</span>
-    {% endif %}
-</div>
+<main class="content post" role="main">
+
+    {% for post in paginator.posts %}
+
+    <article>
+        <header><a href="{{ post.url }}">{{ post.title }}</a></header>
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    </article>
+
+    {% endfor %}
+
+</main>
