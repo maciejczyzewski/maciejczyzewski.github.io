@@ -16,8 +16,8 @@ layout: page
     <p>Presentation nano-framework</p>
 </article>
 <article>
-    <header><a href="https://github.com/MaciejCzyzewski/Retter">Retter</a></header>
-    <p>Retter is engine of RTR series, cryptographic hash function</p>
+    <header><a href="https://github.com/MaciejCzyzewski/retter">retter</a></header>
+    <p>Engine of RTR series, cryptographic hash function</p>
 </article>
 </main>
 
