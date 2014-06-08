@@ -13,7 +13,7 @@ layout: page
 <main class="content post" role="main">
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/hyhyhy">hyhyhy</a></header>
-    <p>Presentation nano-framework.</p>
+    <p>Presentation nano-framework</p>
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/Retter">Retter</a></header>
