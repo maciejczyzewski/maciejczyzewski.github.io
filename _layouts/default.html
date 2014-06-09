@@ -8,12 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Basic -->
-    <title>$ touch '{{ site.name }}'</title>
+    {% if page.title == 'Home' %}
+        <title>$ touch '{{ site.name }}'</title>
+    {% else %}
+        <title>$ echo '{{ page.title }}' > '{{ site.name }}'</title>
+    {% endif %} 
+
     <meta name="description" content="{{ site.description }}" />
     <meta name="author" content="{{ site.name }}" />
 
-    <!-- Twitter -->
-    <meta name="twitter:site" content="@{{ site.twitter }}" />
+    <!-- Twitter --> 
+    <meta name="twitter:card" content="summary"> 
+    <meta name="twitter:site" content="@{{ site.twitter }}"> 
+    <meta name="twitter:title" content="{{ page.title }}"> 
+    <meta name="twitter:description" content="{{ site.description }}"> 
+    <meta name="twitter:creator" content="@{{ site.twitter }}"> 
+
+    <!-- Open Graph --> 
+    <meta property="og:title" content="{{ page.title }}" /> 
+    <meta property="og:type" content="article" /> 
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" /> 
+    <meta property="og:site_name" content="{{ site.name }}" /> 
 
     <!-- Google -->
     <link rel="author" href="https://plus.google.com/117309494777005011259/posts"/>
@@ -37,7 +53,7 @@
     <footer class="site-footer">
         <a class="subscribe icon-feed" href="{{ site.baseurl }}rss.xml"><span class="tooltip">Subscribe!</span></a>
         <div class="inner">
-             <section class="copyright">All content copyright <a href="{{ page.about }}">{{ site.name }}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
+             <section class="copyright">All content copyright <a href="{{ page.about }}">{{ site.name }}</a> &copy; {{ date format="YYYY" }} &bull; All rights reserved.</section>
         </div>
     </footer>
 

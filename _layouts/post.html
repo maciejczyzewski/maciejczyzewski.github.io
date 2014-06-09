@@ -13,7 +13,7 @@ archive: true
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
                 {% else %}
                     <span class="blog-title">{{ site.name }}</span>
-                {%endif%} 
+                {% endif %} 
             </a>
             <section>
                 <a href="https://github.com/{{ site.github }}">Github</a>
@@ -28,7 +28,7 @@ archive: true
         <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
 
         <section class="post-content" itemprop="articleBody">
-            {{content}}
+            {{ content }}
         </section>
 
         <footer class="post-footer">
