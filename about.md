@@ -10,7 +10,7 @@ layout: page
 	Below is a short list of projects I have created or worked on. You can find many more recent projects on GitHub.
 </div>
 
-<main class="content post" role="main">
+<main class="content post" role="projects">
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/hyhyhy">hyhyhy</a></header>
     <p>Presentation nano-framework</p>

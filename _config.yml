@@ -4,7 +4,6 @@ description:    "Developer, hacker, and design enthusiast"
 markdown:       redcarpet
 pygments:       true
 logo:           false
-paginate:       1000
 
 url:            "http://maciejczyzewski.github.io"
 author:         "Maciej A. Czyzewski"
