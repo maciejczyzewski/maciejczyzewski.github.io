@@ -6,7 +6,7 @@ archive: false
 
 <main class="content" role="main">
 
-    <article class="post">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
             <a id="blog-logo" href="/">
                 {% if site.logo %}
@@ -16,18 +16,18 @@ archive: false
                 {%endif%} 
             </a>
             <section>
-                <a href="{{ site.github }}">Github</a>
-                <a href="{{ site.twitter }}">Twitter</a>
+                <a href="https://github.com/{{ site.github }}">Github</a>
+                <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
             </section>
         </header>
         
         <span class="post-meta">
-        	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
+        	<time datetime="{{ page.date | date:"%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
        	</span>
 
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
 
-        <section class="post-content">
+        <section class="post-content" itemprop="articleBody">
             {{content}}
         </section>
 
@@ -53,7 +53,7 @@ archive: false
                     </header>
                 	<article>
                 		<!-- Author Name -->
-                    	<h4> {{ site.author }} </h4>
+                    	<h4 itemprop="author"> {{ site.author }} </h4>
                     	<!-- Author Bio -->
                     	<p> 
                     		{{ site.bio }}
@@ -64,15 +64,15 @@ archive: false
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="http://twitter.com/intent/tweet?status={{page.title}} {{site.url}}{{ page.url }} via @_czyzewski"
+                <a class="icon-twitter" href="http://twitter.com/intent/tweet?status={{ page.title }} {{ site.url }}{{ page.url }} via @{{ site.twitter }}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
+                <a class="icon-google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>

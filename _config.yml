@@ -1,14 +1,14 @@
-name: 			Maciej A. Czyzewski
-description: 	"Developer, hacker, and design enthusiast"
+name:           Maciej A. Czyzewski
+description:    "Developer, hacker, and design enthusiast"
 
-markdown: 		redcarpet
-pygments: 		true
-logo: 			false
-paginate: 		1000
+markdown:       redcarpet
+pygments:       true
+logo:           false
+paginate:       1000
 
 url:            "http://maciejczyzewski.github.io"
 author:         "Maciej A. Czyzewski"
-bio:			"Programmer, developer, speaker. I love making new beautiful things, mostly on the web!"
+bio:            "Programmer, developer, speaker. I love making new beautiful things, mostly on the web!"
 
-github: 		https://github.com/MaciejCzyzewski
-twitter: 		https://twitter.com/_czyzewski
+github:         MaciejCzyzewski
+twitter:        _czyzewski
