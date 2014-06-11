@@ -37,14 +37,14 @@ archive: true
                 <section class="author" itemscope itemtype="http://schema.org/Person">
                 	<header> 
                         <a href="{{ site.baseurl }}"> 
-                            <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture" itemprop="photo" />
+                            <img class="profile" src="/assets/images/profile.png" alt="Author's profile picture" itemprop="image" />
                         </a>
                     </header>
                 	<article>
                 		<!-- Author Name -->
-                    	<h4 itemprop="name"> {{ site.author }} </h4>
+                    	<h4 itemprop="name">{{ site.author }}</h4>
                     	<!-- Author Bio -->
-                    	<p> 
+                    	<p itemprop="description"> 
                     		{{ site.bio }}
                     	</p>
                     </article>
