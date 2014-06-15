@@ -13,7 +13,7 @@ layout: page
 <main class="content post" role="projects">
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/hyhyhy">hyhyhy</a></header>
-    <p>Presentation nano-framework</p>
+    <p>It's a tool for easily creating pure and simple HTML5 presentations or websites</p>
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/retter">retter</a></header>
