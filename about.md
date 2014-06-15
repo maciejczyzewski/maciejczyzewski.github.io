@@ -13,7 +13,11 @@ layout: page
 <main class="content post" role="projects">
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/hyhyhy">hyhyhy</a></header>
-    <p>It's a tool for easily creating pure and simple HTML5 presentations or websites</p>
+    <p>A tool for easily creating pure and simple HTML5 presentations or websites</p>
+</article>
+<article>
+    <header><a href="https://github.com/MaciejCzyzewski/bottomline">bottomline</a></header>
+    <p>A utility library delivering consistency, customization, performance & extras</p>
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/retter">retter</a></header>
