@@ -21,7 +21,7 @@ layout: page
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/retter">retter</a></header>
-    <p>Engine of RTR series, cryptographic hash function</p>
+    <p>A engine of RTR series, cryptographic hash function</p>
 </article>
 </main>
 
