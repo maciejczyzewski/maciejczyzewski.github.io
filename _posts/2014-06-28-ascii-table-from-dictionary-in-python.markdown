@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ascii table of dictionary in Python"
+title:  "Ascii table from dictionary in Python"
 date:   2014-06-28 17:14:00
 ---
 
