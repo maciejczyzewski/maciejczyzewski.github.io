@@ -241,7 +241,8 @@ pre {
     margin: 1.6em 0;
     width: 100%;
     padding: 1.4444rem;
-    font: 83.333%/1.5333 "Source Code Pro", Monaco, monospace;
+    /* font: 83.333%/1.5333 "Source Code Pro", Monaco, monospace; */
+    font: 76.315%/1.5333 "Source Code Pro", Monaco, monospace;
     white-space: pre;
     overflow: auto;
     background-color: #f6f7f8;
