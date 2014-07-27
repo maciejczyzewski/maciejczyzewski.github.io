@@ -38,12 +38,11 @@
     font-style: normal;
 }
 
-/* Apply these base styles to all icons */
-.icon-ghost:before, 
-.icon-feed:before, 
-.icon-twitter:before, 
+/* Apply these base styles to all icons */ 
 .icon-google-plus:before, 
-.icon-facebook:before {
+.icon-facebook:before,
+.icon-twitter:before,
+.icon-github:before {
     font-family: 'icons';
     speak: none;
     font-style: normal;
@@ -57,23 +56,29 @@
 
 /* Each icon is created by inserting the corret character into the 
    content of the :before pseudo element. Like a boss. */
-.icon-ghost:before {
-    content: "\e000";
-}
-.icon-feed:before {
-    content: "\e001";
-}
-.icon-twitter:before {
-    content: "\e002";
-    font-size: 1.1em;
-}
 .icon-google-plus:before {
-    content: "\e003";
+    content: "\e600";
 }
 .icon-facebook:before {
-    content: "\e004";
+    content: "\e601";
+}
+.icon-twitter:before {
+    content: "\e602";
+    font-size: 1.1em;
+}
+.icon-github:before {
+    content: "\e603";
 }
 
+.github {
+    width: 46px;
+    margin: 0 auto; 
+}
+
+.github .icon-github {
+    display: inline-block;                                                                       
+    font-size: 46px;   
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
