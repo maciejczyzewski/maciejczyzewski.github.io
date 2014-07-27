@@ -21,7 +21,7 @@ layout: page
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/bottomline">bottomline</a></header>
-    <p>A utility library delivering consistency, customization, performance & extras</p>
+    <p>A full-on PHP manipulation utility-belt that provides support for the usual functional</p>
 </article>
 <article>
     <header><a href="https://github.com/MaciejCzyzewski/retter">retter</a></header>
