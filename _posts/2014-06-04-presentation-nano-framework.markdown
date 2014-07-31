@@ -4,7 +4,7 @@ title:  "Presentation nano-framework"
 date:   2014-06-04 22:02:00
 ---
 
-It's very simple project in python to create a static presentation. I hope someone does it profit or want to [contribute][hyhyhy-gh] to the project.
+It's very simple project in python to create a static presentation. I hope someone does it profit or want to [contribute][hyhyhy-gh].
 
 <div style="text-align: center;">
 	<a href="http://maciejczyzewski.github.io/hyhyhy/" target="_blank"><h3>hyhyhy</h3></a>
