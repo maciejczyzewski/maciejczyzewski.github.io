@@ -16,10 +16,6 @@ layout: page
     <p>A tool for easily creating pure and simple HTML5 presentations or websites</p>
 </article>
 <article>
-    <header><a href="https://github.com/MaciejCzyzewski/hashbase">hashbase</a></header>
-    <p>A fast, efficient on-disk/in-memory database with many different kind of data structures</p>
-</article>
-<article>
     <header><a href="https://github.com/MaciejCzyzewski/bottomline">bottomline</a></header>
     <p>A full-on PHP manipulation utility-belt that provides support for the usual functional</p>
 </article>
@@ -28,6 +24,14 @@ layout: page
     <p>A engine of RTR series, cryptographic hash function</p>
 </article>
 </main>
+<article>
+    <header><a href="https://github.com/MaciejCzyzewski/hashbase">hashbase</a></header>
+    <p>A fast, efficient on-disk/in-memory database with many different kind of data structures</p>
+</article>
+<article>
+    <header><a href="https://github.com/netflam/netflam">netflam</a></header>
+    <p>A community where people can discuss, share interesting links, questions and timely events</p>
+</article>
 
 <img src="/assets/images/work.jpg" />
 
