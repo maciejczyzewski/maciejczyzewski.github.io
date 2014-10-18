@@ -6,12 +6,12 @@ date:   2014-06-28 17:14:00
 
 Sometimes I wish to print pretty table of dictionary as an ascii, like this:
 
-                | Github project | Number of stars | Number of watchers |
-                +----------------+-----------------+--------------------+
-                | hyhyhy         |             195 |                 12 |
-                | bottomline     |              17 |                  3 |
-                | retter         |               2 |                  2 |
-                | hashbase       |               1 |                  1 |
+                    | Github project | Number of stars | Number of watchers |
+                    +----------------+-----------------+--------------------+
+                    | hyhyhy         |             195 |                 12 |
+                    | bottomline     |              17 |                  3 |
+                    | retter         |               2 |                  2 |
+                    | hashbase       |               1 |                  1 |
 
 
 Surprisingly it got complicated because of variable lengths of the data.
@@ -88,7 +88,7 @@ data = [
     {'name': 'hyhyhy',     'stars': 195, 'watchers': 12},
     {'name': 'bottomline', 'stars': 17,  'watchers': 3},
     {'name': 'retter',     'stars': 2,   'watchers': 2},
-    {'name':  'hashbase',  'stars': 1,   'watchers': 1}
+    {'name': 'hashbase',   'stars': 1,   'watchers': 1}
 ]
 
 headers = [
