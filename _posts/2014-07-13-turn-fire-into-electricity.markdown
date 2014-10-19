@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Turn fire into Electricity..."
-date:   2014-06-07 18:29:00
+date:   2014-07-13 18:29:00
 ---
 
 I recently discovered a very interesting project at Kickstarter. I was wondering how to charge my phone while camping. Suddenly. Booom. I found this!

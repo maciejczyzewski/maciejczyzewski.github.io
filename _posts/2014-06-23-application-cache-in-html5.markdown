@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Application cache in HTML5"
-date:   2014-06-06 21:16:00
+date:   2014-06-23 21:16:00
 ---
 
 Often there is no time to retrieve packages again. It’s becoming increasingly important for web-based applications to be accessible offline.

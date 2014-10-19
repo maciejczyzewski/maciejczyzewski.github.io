@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ASCII table from dictionary in Python"
-date:   2014-06-28 17:14:00
+date:   2014-09-03 17:14:00
 ---
 
 Sometimes I wish to print pretty table of dictionary as an ASCII, like this:
