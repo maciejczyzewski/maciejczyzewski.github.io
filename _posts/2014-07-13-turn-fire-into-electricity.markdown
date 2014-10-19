@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Turn fire into Electricity..."
+title:  "Turn fire into electricity..."
 date:   2014-07-13 18:29:00
 ---
 
