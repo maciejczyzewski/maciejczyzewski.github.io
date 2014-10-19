@@ -27,7 +27,7 @@ Removal is impossible without introducing false negatives, but there are version
 
 Internally Bloom filters use a bit array, and multiple different hash functions.
 
-### Example
+## Example
 
 Let’s say for instance we have a bit array of a _100 elements_, and _3 hash functions_.
 

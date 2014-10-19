@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Year 2038 problem"
+date:   2014-10-19 14:01:00
+---
+
+![2038](http://upload.wikimedia.org/wikipedia/commons/e/e9/Year_2038_problem.gif)
+
+The __year 2038 problem__ is an issue for computing and data storage situations in which time values are stored or calculated as a _signed 32-bit_ integer.
+
+All the smart kids know that this number is interpreted as the number of seconds since _00:00:00 UTC on 1 January 1970_ ("the epoch").
+
+## Mathematics
+
+<p class="ta">2147483648 = 2^31 is a perfect 31st power.</p>
+
+Timestamp will be out of _signed 32-bit_ range...
+
+## Solution
+
+* Change _signed 32-bit_ to _signed 64-bit_
+* Start counting from the date of _03:14:07 UTC on Tuesday, 19 January 2038_
+
+## Analogy
+
+![Y2K](http://upload.wikimedia.org/wikipedia/commons/f/fb/Bug_de_l%27an_2000.jpg)
