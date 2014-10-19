@@ -4,23 +4,23 @@ title:  "Application cache in HTML5"
 date:   2014-06-06 21:16:00
 ---
 
-Often there is no time to retrieve packages again. It's becoming increasingly important for web-based applications to be accessible offline.
+Often there is no time to retrieve packages again. It’s becoming increasingly important for web-based applications to be accessible offline.
 
 > The cache manifest in HTML5 is a software storage feature which provides the ability to access a web application even without a network connection.
 
 Advantages:
 
-* __Offline browsing__ - users can navigate your full site when they're offline
+* __Offline browsing__ - users can navigate your full site when they’re offline
 * __Speed__ - resources come straight from disk, no trip to the network
 * __Resilience__ - if your site goes down for "maintenance", your users will get the offline experience
 
 Disadvantages:
 
-* __Outdated__ - packages don't resent automatically
+* __Outdated__ - packages don’t resent automatically
 
 ### Referencing
 
-To enable the application cache for an app, include the manifest attribute on the document's `html` tag:
+To enable the application cache for an app, include the manifest attribute on the document’s `html` tag:
 
 {% highlight html %}
 <html manifest="example.appcache">
@@ -56,7 +56,7 @@ The manifest is a separate file you link to via the manifest attribute on the ht
 
 ### Status
 
-The `window.applicationCache` object is your programmatic access the browser's app cache. Its status property is useful for checking the current state of the cache:
+The `window.applicationCache` object is your programmatic access the browser’s app cache. Its status property is useful for checking the current state of the cache:
 
 {% highlight javascript %}
 var appCache = window.applicationCache;

@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Ascii table from dictionary in Python"
+title:  "ASCII table from dictionary in Python"
 date:   2014-06-28 17:14:00
 ---
 
-Sometimes I wish to print pretty table of dictionary as an ascii, like this:
+Sometimes I wish to print pretty table of dictionary as an ASCII, like this:
 
-                    | Github project | Number of stars | Number of watchers |
-                    +----------------+-----------------+--------------------+
-                    | hyhyhy         |             195 |                 12 |
-                    | bottomline     |              17 |                  3 |
-                    | retter         |               2 |                  2 |
-                    | hashbase       |               1 |                  1 |
+               | Github project | Number of stars | Number of watchers |
+               +----------------+-----------------+--------------------+
+               | hyhyhy         |             195 |                 12 |
+               | bottomline     |              17 |                  3 |
+               | retter         |               2 |                  2 |
+               | hashbase       |               1 |                  1 |
 
 
 Surprisingly it got complicated because of variable lengths of the data.
@@ -81,7 +81,7 @@ def table(data, headers):
     return final[:-1]
 {% endhighlight %}
 
-Now it's time to play code.
+Now it’s time to play code.
 
 {% highlight python %}
 data = [

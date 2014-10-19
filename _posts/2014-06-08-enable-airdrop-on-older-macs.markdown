@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Enable AirDrop on Older Macs"
+title:  "Enable AirDrop on older Macs"
 date:   2014-06-08 15:42:00
 ---
 
@@ -10,7 +10,7 @@ If your Mac doesn’t currently support AirDrop, you can enter the following com
 
     $ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool TRUE
 
-You’ll need to restart the Finder, the quickest way is to use the killall command which will restart it:
+You’ll need to restart the Finder, the quickest way is to use the `killall`command which will restart it:
 
     $ killall Finder
 

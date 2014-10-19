@@ -29,7 +29,7 @@ Internally Bloom filters use a bit array, and multiple different hash functions.
 
 ### Example
 
-Lets say for instance we have a bit array of a _100 elements_, and _3 hash functions_.
+Let’s say for instance we have a bit array of a _100 elements_, and _3 hash functions_.
 
 __Add__, when we want to insert the word "Maciej" into the filter:
 
