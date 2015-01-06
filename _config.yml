@@ -1,5 +1,5 @@
-markdown:    redcarpet
-pygments:    true
+markdown:       redcarpet
+highlighter:    true
 
-url:         http://maciejczyzewski.me
-description: "Developer, hacker, and design enthusiast."
+url:            http://maciejczyzewski.me
+description:    "Developer, hacker, and design enthusiast."
