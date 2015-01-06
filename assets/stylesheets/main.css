@@ -635,6 +635,7 @@ ol.stories {
    ========================================================================= */
 
 div.profiles {
+  margin-top: 2em;
   margin-bottom: 1em;
   height: 37px;
 }
