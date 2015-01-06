@@ -4,7 +4,7 @@ title:  "Presentation nano-framework, hyhyhy"
 date:   2014-06-04 22:02:00
 ---
 
-![hyhyhy](https://raw.githubusercontent.com/MaciejCzyzewski/hyhyhy/master/screenshot-1.png)
+![hyhyhy](https://dl.dropboxusercontent.com/u/103345209/Screenshots/Screenshot%202014-12-14%2021.40.38.png)
 
 <div style="text-align: center;">
     <a href="http://maciejczyzewski.github.io/hyhyhy/" target="_blank"><h3>hyhyhy</h3></a>
