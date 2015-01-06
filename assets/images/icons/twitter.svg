@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated.
 You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
 
 
@@ -11,7 +11,7 @@ You may NOT sub-license, resell, rent, redistribute or otherwise transfer the ic
 
 	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
-<path id="twitter-2-icon" d="M50,50v412h412V50H50z M370.942,207.125c3.553,79.059-55.408,167.203-159.768,167.203
+<path style="fill:#ffffff;" id="twitter-2-icon" d="M50,50v412h412V50H50z M370.942,207.125c3.553,79.059-55.408,167.203-159.768,167.203
 
 	c-31.743,0-61.289-9.305-86.163-25.253c29.82,3.515,59.585-4.758,83.217-23.278c-24.596-0.453-45.356-16.703-52.508-39.035
 

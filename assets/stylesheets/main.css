@@ -635,6 +635,45 @@ ol.stories {
    ========================================================================= */
 
 div.profiles {
+  margin-bottom: 1em;
+  height: 37px;
+}
+
+.profiles div {
+  padding: 5px;
+  height: 37px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.profiles a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}
+
+.profiles img {
+  float: left;
+  width: 28px;
+}
+
+.profiles #github {
+  background: #000;
+}
+
+.profiles #twitter {
+  background: #00aced;
+}
+
+.profiles #stackoverflow {
+  background: #f39c12;
+}
+
+.profiles #mail {
+  background: #2ecc71;
+}
+
+/*div.profiles {
   padding: 0;
   list-style: none;
   margin-bottom: 1em;
@@ -671,7 +710,7 @@ div.profiles {
 .profiles #netflam {
   background: url(/assets/images/icons/netflam.png);
   background-size: 100% 100%;
-}
+}*/
 
 /* Markdown
    ========================================================================= */

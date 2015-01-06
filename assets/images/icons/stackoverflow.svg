@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated.
 You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
 
 
@@ -11,7 +11,7 @@ You may NOT sub-license, resell, rent, redistribute or otherwise transfer the ic
 
 	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 
-<path id="stackoverflow-square-icon" d="M50.473,50v412h412V50H50.473z M223.58,186.562l99.791,58.858L310.8,266.73l-99.796-58.862
+<path style="fill:#ffffff;" id="stackoverflow-square-icon" d="M50.473,50v412h412V50H50.473z M223.58,186.562l99.791,58.858L310.8,266.73l-99.796-58.862
 
 	L223.58,186.562z M196.884,243.648l111.881,30.075l-6.421,23.896l-111.888-30.078L196.884,243.648z M185.789,295.383l115.364,10.63
 
