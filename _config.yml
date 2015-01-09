@@ -1,5 +1,5 @@
 markdown:       redcarpet
-highlighter:    true
+highlighter:    pygments
 
 url:            http://maciejczyzewski.me
 description:    "Software engineer, hacker, and design enthusiast."
