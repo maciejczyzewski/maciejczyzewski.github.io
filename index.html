@@ -33,12 +33,24 @@ layout: default
     </div>
 </div>
 
+<hr class="grid" style="border-color: #000"><br>
+
 <ol class="stories grid">
 {% for post in site.posts %}
+    {% unless post.next %}
+        <h3 class="ta">{{ post.date | date: '%Y' }}</h3>
+    {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+            <h3 class="ta">{{ post.date | date: '%Y' }}</h3>
+        {% endif %}
+    {% endunless %}
+
     <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.content | strip_html | truncatewords: 10 }}</p>
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%-d %B" }}</time>
     </li>
 {% endfor %}
 </ol>
