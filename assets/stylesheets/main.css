@@ -624,17 +624,17 @@ ol.stories {
   font-weight: bold;
 }
 
-.stories li a:first-letter {
+/* .stories li a:first-letter {
   padding-left: 0px;
   float: left;
   margin: 0;
-  padding: 0.235em 0.125em 0 0;
-  font-size: 42px;
+  padding: 0.15em 0.125em 0 0;
+  font-size: 44px;
   line-height: 0.75em;
   text-indent: 0;
   color: inherit;
   font-weight: bolder;
-}
+} */
 
 .stories li p {
   padding-top: 28px;
@@ -649,7 +649,7 @@ ol.stories {
   display: block;
   text-align: right;
   line-height: 50px;
-  font-size: 25px;
+  font-size: 1.3333em;
   font-weight: lighter;
 }
 
