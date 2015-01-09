@@ -36,8 +36,9 @@ layout: default
 <ol class="stories grid">
 {% for post in site.posts %}
     <li>
-        <a href="{{ post.url }}" class="left">{{ post.title }}</a>
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="right">{{ post.date | date_to_long_string }}</time>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.content | strip_html | truncatewords: 10 }}</p>
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     </li>
 {% endfor %}
 </ol>

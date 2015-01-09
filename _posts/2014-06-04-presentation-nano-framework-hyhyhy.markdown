@@ -6,13 +6,9 @@ date:   2014-06-04 22:02:00
 
 ![hyhyhy](https://dl.dropboxusercontent.com/u/103345209/Screenshots/Screenshot%202014-12-14%2021.40.38.png)
 
-<div style="text-align: center;">
-    <a href="http://maciejczyzewski.github.io/hyhyhy/" target="_blank"><h3>hyhyhy</h3></a>
-</div>
+It's a tool for easily creating pure and simple HTML5 presentations or websites.
 
 ## Introduction
-
-It's a tool for easily creating pure and simple HTML5 presentations or websites.
 
 Comes with a broad range of features including nested slides, markdown contents and a JavaScript API. It combines everything into a unified whole that you can use.
 
