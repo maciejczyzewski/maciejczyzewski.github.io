@@ -1,5 +1,7 @@
-markdown:       redcarpet
-highlighter:    pygments
+markdown:           redcarpet
+highlighter:        pygments
+lsi:                false
+excerpt_separator:  "\n\n"
 
-url:            http://maciejczyzewski.me
-description:    "Software engineer, hacker, and design enthusiast."
+url:                http://maciejczyzewski.me
+description:        "Software engineer, hacker, and design enthusiast."

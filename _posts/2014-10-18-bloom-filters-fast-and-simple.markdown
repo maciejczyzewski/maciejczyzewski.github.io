@@ -47,7 +47,7 @@ __Query__, now to test whether the word might be in the collection:
 
 ## Implementation
 
-{% highlight python %}
+```python
 #!/usr/bin/env python
 
 from hashlib import sha256
@@ -126,4 +126,4 @@ if __name__ == "__main__":
     print bf.query(1)            # True
     print bf.query(40005)        # True
     print bf.query(123)          # False
-{% endhighlight %}
+```

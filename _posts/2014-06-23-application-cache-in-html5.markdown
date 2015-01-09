@@ -22,11 +22,11 @@ Disadvantages:
 
 To enable the application cache for an app, include the manifest attribute on the document’s `html` tag:
 
-{% highlight html %}
+```html
 <html manifest="example.appcache">
     ...
 </html>
-{% endhighlight %}
+```
 
 A manifest file must be served with the mime-type `text/cache-manifest`. You may need to add a custom file type to your web server or `.htaccess` configuration.
 
@@ -58,7 +58,7 @@ The manifest is a separate file you link to via the manifest attribute on the ht
 
 The `window.applicationCache` object is your programmatic access the browser’s app cache. Its status property is useful for checking the current state of the cache:
 
-{% highlight javascript %}
+```javascript
 var appCache = window.applicationCache;
 
 // appCache.status
@@ -69,4 +69,4 @@ var appCache = window.applicationCache;
 // DOWNLOADING  == 3
 // UPDATEREADY  == 4
 // OBSOLETE     == 5
-{% endhighlight %}
+```

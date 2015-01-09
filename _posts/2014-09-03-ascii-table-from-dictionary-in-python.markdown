@@ -30,7 +30,7 @@ pleased with what I got!
 
 Here is a simple function that generate table, where each row runs the `leftright()` function:
 
-{% highlight python %}
+```python
 def table(data, headers):
     """
     Generate ASCII table
@@ -79,11 +79,11 @@ def table(data, headers):
 
     # Remove last '\n'
     return final[:-1]
-{% endhighlight %}
+```
 
 Now it’s time to play code.
 
-{% highlight python %}
+```python
 data = [
     {'name': 'hyhyhy',     'stars': 195, 'watchers': 12},
     {'name': 'bottomline', 'stars': 17,  'watchers': 3},
@@ -98,7 +98,7 @@ headers = [
 ]
 
 print table(data, headers)
-{% endhighlight %}
+```
 
 Remember! Wikipedia is lying... My table is better.
 
