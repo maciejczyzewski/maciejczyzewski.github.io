@@ -583,7 +583,7 @@ h4:first-child, h5:first-child, h6:first-child {
 }
 
 .masthead a {
-  color: #777;
+  color: #000;
   text-decoration: none;
   padding-right: 0.75em;
 }
