@@ -32,69 +32,69 @@ Here is a simple function that generate table, where each row runs the `leftrigh
 
 ```python
 def table(data, headers):
-    """
-    Generate ASCII table
-    data: list of dicts,
-    headers: e.g. [('name', 'Github project'), ('stars', 'Number of stars')]
-    template:
-        asc_p[0]          %s         asc_s          %s         asc_p[1]
-        asc_h[0] (a) * max_widths[0] asc_t (a) * max_widths[1] asc_h[1]
-        asc_p[0]          %s         asc_s          %s         asc_p[1]
-        asc_p[0]          %s         asc_s          %s         asc_p[1]
-        asc_p[0]          %s         asc_s          %s         asc_p[1]
-        asc_p[0]          %s         asc_s          %s         asc_p[1]
-    table e.g.:
-           | Github project            | Files                    |
-           +---------------------------+--------------------------+
-           | long_repo_but_empty_hyhyh | 234234342354345645645612 |
-           | bottomline                |                       56 |
-           | retter                    |                        5 |
-           | hashbase                  |                       73 |
-    """
+  """
+  Generate ASCII table
+  data: list of dicts,
+  headers: e.g. [('name', 'Github project'), ('stars', 'Number of stars')]
+  template:
+    asc_p[0]          %s         asc_s          %s         asc_p[1]
+    asc_h[0] (a) * max_widths[0] asc_t (a) * max_widths[1] asc_h[1]
+    asc_p[0]          %s         asc_s          %s         asc_p[1]
+    asc_p[0]          %s         asc_s          %s         asc_p[1]
+    asc_p[0]          %s         asc_s          %s         asc_p[1]
+    asc_p[0]          %s         asc_s          %s         asc_p[1]
+  table e.g.:
+       | Github project            | Files                    |
+       +---------------------------+--------------------------+
+       | long_repo_but_empty_hyhyh | 234234342354345645645612 |
+       | bottomline                |                       56 |
+       | retter                    |                        5 |
+       | hashbase                  |                       73 |
+  """
 
-    # Processing
-    max_widths, data_copy, final = {}, [dict(headers)] + list(data), ''
+  # Processing
+  max_widths, data_copy, final = {}, [dict(headers)] + list(data), ''
 
-    a, asc_s, asc_t, asc_p, asc_h = '-', ' | ', '-+-', '| %s |\n', '+-%s-+\n'
+  a, asc_s, asc_t, asc_p, asc_h = '-', ' | ', '-+-', '| %s |\n', '+-%s-+\n'
 
-    # Analyse
-    for col in data_copy[0].keys():
-        max_widths[col] = max([len(str(row[col])) for row in data_copy])
-    cols_order = [tup[0] for tup in headers]
+  # Analyse
+  for col in data_copy[0].keys():
+    max_widths[col] = max([len(str(row[col])) for row in data_copy])
+  cols_order = [tup[0] for tup in headers]
 
-    # Filter
-    def leftright(col, value):
-        if type(value) == int:
-            return str(value).rjust(max_widths[col])
-        else:
-            return value.ljust(max_widths[col])
+  # Filter
+  def leftright(col, value):
+    if type(value) == int:
+      return str(value).rjust(max_widths[col])
+    else:
+      return value.ljust(max_widths[col])
 
-    # Final
-    for row in data_copy:
-        row_str = asc_s.join([leftright(col, row[col]) for col in cols_order])
-        final = final + asc_p % row_str
-        if data_copy.index(row) == 0:
-            line = asc_t.join([a * max_widths[col] for col in cols_order])
-            final = final + asc_h % line
+  # Final
+  for row in data_copy:
+    row_str = asc_s.join([leftright(col, row[col]) for col in cols_order])
+    final = final + asc_p % row_str
+    if data_copy.index(row) == 0:
+      line = asc_t.join([a * max_widths[col] for col in cols_order])
+      final = final + asc_h % line
 
-    # Remove last '\n'
-    return final[:-1]
+  # Remove last '\n'
+  return final[:-1]
 ```
 
 Now it’s time to play code.
 
 ```python
 data = [
-    {'name': 'hyhyhy',     'stars': 195, 'watchers': 12},
-    {'name': 'bottomline', 'stars': 17,  'watchers': 3},
-    {'name': 'retter',     'stars': 2,   'watchers': 2},
-    {'name': 'hashbase',   'stars': 1,   'watchers': 1}
+  {'name': 'hyhyhy',     'stars': 195, 'watchers': 12},
+  {'name': 'bottomline', 'stars': 17,  'watchers': 3},
+  {'name': 'retter',     'stars': 2,   'watchers': 2},
+  {'name': 'hashbase',   'stars': 1,   'watchers': 1}
 ]
 
 headers = [
-    ('name',     'Github project'),
-    ('stars',    'Number of stars'),
-    ('watchers', 'Number of watchers')
+  ('name',     'Github project'),
+  ('stars',    'Number of stars'),
+  ('watchers', 'Number of watchers')
 ]
 
 print table(data, headers)
