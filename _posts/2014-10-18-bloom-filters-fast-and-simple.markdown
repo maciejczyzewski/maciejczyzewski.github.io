@@ -23,7 +23,7 @@ Removal is impossible without introducing false negatives, but there are version
 
 ## Structure
 
-![Diagram](/assets/images/prints/bloom-fig1-11.png)
+![Diagram](/assets/images/prints/bloom-fig1-11.jpeg)
 
 Internally Bloom filters use a bit array, and multiple different hash functions.
 
