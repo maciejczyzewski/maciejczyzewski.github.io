@@ -23,7 +23,7 @@ Removal is impossible without introducing false negatives, but there are version
 
 ## Structure
 
-![Diagram](https://dl.dropboxusercontent.com/u/103345209/Camera%20Uploads/bloom-fig1-11.png)
+![Diagram](/assets/images/prints/bloom-fig1-11.png)
 
 Internally Bloom filters use a bit array, and multiple different hash functions.
 
@@ -61,7 +61,6 @@ class Filter(object):
       array_size (in bytes): 4 * 1024 for a 4KB filter
       hashes (int): for the number of hashes to perform
     """
-
     self.filter = bytearray(array_size)     # The filter itself
     self.bitcount = array_size * 8          # Bits in the filter
     self.hashes = hashes                    # The number of hashes to use

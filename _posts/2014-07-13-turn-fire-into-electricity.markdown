@@ -14,7 +14,7 @@ I recently discovered a very interesting project at Kickstarter. I was wondering
 
 Builders show another use of electricity which is produced during the frying. Someone wondered about the additional lighting during the night camping?
 
-<img src="https://s3.amazonaws.com/ksr/assets/001/957/599/e5c6fdf862076486d1f467e0d28414c9_large.jpg?1399047794" />
+<img src="/assets/images/prints/e9e43345cec24bd43723d6f33e70b6bf_large.jpg" />
 
 The BioLite Basecamp puts out 5W of usable electricity via a standard 5V USB port meaning you can charge everyday useful devices like smartphones, GPS, headlamps, your GoPro, or even tablets.
 

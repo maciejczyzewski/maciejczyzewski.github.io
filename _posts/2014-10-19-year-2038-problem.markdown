@@ -4,7 +4,7 @@ title:  "Year 2038 problem"
 date:   2014-10-19 14:01:00
 ---
 
-![2038](http://upload.wikimedia.org/wikipedia/commons/e/e9/Year_2038_problem.gif)
+![2038](/assets/images/prints/Year_2038_problem.gif)
 
 The __year 2038 problem__ is an issue for computing and data storage situations in which time values are stored or calculated as a _signed 32-bit_ integer.
 
@@ -12,7 +12,7 @@ All the smart kids know that this number is interpreted as the number of seconds
 
 ## Mathematics
 
-<p class="ta">2147483648 = 2^31 is a perfect 31st power.</p>
+<p class="ta"><span class="equation" data-expr="2147483648 = 2^{31}"></span> is a perfect 31st power.</p>
 
 Timestamp will be out of _signed 32-bit_ range...
 
@@ -23,4 +23,4 @@ Timestamp will be out of _signed 32-bit_ range...
 
 ## Analogy
 
-![Y2K](http://upload.wikimedia.org/wikipedia/commons/f/fb/Bug_de_l%27an_2000.jpg)
+![Y2K](/assets/images/prints/Bug_de_l%27an_2000.jpg)

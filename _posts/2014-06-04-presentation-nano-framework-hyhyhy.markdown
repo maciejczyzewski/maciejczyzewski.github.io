@@ -4,7 +4,7 @@ title:  "Presentation nano-framework, hyhyhy"
 date:   2014-06-04 22:02:00
 ---
 
-![hyhyhy](https://dl.dropboxusercontent.com/u/103345209/Screenshots/Screenshot%202014-12-14%2021.40.38.png)
+![hyhyhy](/assets/images/prints/Screenshot%202014-12-14%2021.40.38.png)
 
 It's a tool for easily creating pure and simple HTML5 presentations or websites.
 
