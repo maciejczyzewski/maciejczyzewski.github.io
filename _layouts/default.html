@@ -38,10 +38,11 @@
   <!-- Facebook -->
 {% if page.title == nil %}
   <meta property="og:title" content="$ touch 'Maciej A. Czyzewski'" />
+  <meta property="og:type" content="website" />
 {% else %}
   <meta property="og:title" content="{{ page.title }}" />
-{% endif %}
   <meta property="og:type" content="article" />
+{% endif %}
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:site_name" content="Maciej A. Czyzewski" />
 {% if page.title == nil %}
