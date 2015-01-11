@@ -1,97 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--
-    Magic. Do not touch!
-    (c) 2014 Maciej A. Czyzewski
+  Magic. Do not touch!
+  (c) 2014 Maciej A. Czyzewski
 -->
 <head>
-    <!-- Basic -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Basic -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="robots" content="index, follow, archive" />
-    <meta name="referrer" content="always" />
+  <meta name="robots" content="index, follow, archive" />
+  <meta name="referrer" content="always" />
 
-    <meta name="google-site-verification"
-          content="HBawTMww3xGdm4ZIKokBD8_Bx3YudVqrv1PISdhnthE" />
+  <meta name="google-site-verification"
+        content="HBawTMww3xGdm4ZIKokBD8_Bx3YudVqrv1PISdhnthE" />
 
-    <!-- Content -->
-    <meta name="description" property="description"
-          content="{{ site.description }}" />
-    <meta name="author" content="Maciej A. Czyzewski" />
+  <!-- Content -->
+  <meta name="description" property="description"
+        content="{{ site.description }}" />
+  <meta name="author" content="Maciej A. Czyzewski" />
 
-    <!-- Twitter -->
+  <!-- Twitter -->
 {% if page.title == nil %}
-    <meta name="twitter:title" content="$ touch 'Maciej A. Czyzewski'" />
+  <meta name="twitter:title" content="$ touch 'Maciej A. Czyzewski'" />
 {% else %}
-    <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
 {% endif %}
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@_czyzewski" />
-    <meta name="twitter:creator" content="@_czyzewski" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_czyzewski" />
+  <meta name="twitter:creator" content="@_czyzewski" />
 {% if page.title == nil %}
-    <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
 {% else %}
-    <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
-{% endif %}
-
-    <!-- Facebook -->
-{% if page.title == nil %}
-    <meta property="og:title" content="$ touch 'Maciej A. Czyzewski'" />
-{% else %}
-    <meta property="og:title" content="{{ page.title }}" />
-{% endif %}
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:site_name" content="Maciej A. Czyzewski" />
-{% if page.title == nil %}
-    <meta property="og:description" content="{{ site.description }}" />
-{% else %}
-    <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html }}" />
 {% endif %}
 
-    <!-- Google -->
-    <link rel="author" href="https://plus.google.com/117309494777005011259" />
-    <link rel="publisher" href="https://plus.google.com/117309494777005011259" />
-
+  <!-- Facebook -->
 {% if page.title == nil %}
-    <title>$ touch 'Maciej A. Czyzewski'</title>
+  <meta property="og:title" content="$ touch 'Maciej A. Czyzewski'" />
 {% else %}
-    <title>$ echo '{{ page.title }}' > 'Maciej A. Czyzewski'</title>
+  <meta property="og:title" content="{{ page.title }}" />
+{% endif %}
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:site_name" content="Maciej A. Czyzewski" />
+{% if page.title == nil %}
+  <meta property="og:description" content="{{ site.description }}" />
+{% else %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
 {% endif %}
 
-    <!-- Shortcuts -->
-    <link rel="shortcut icon" href="/assets/images/shortcuts/32.png" />
+  <!-- Google -->
+  <link rel="author" href="https://plus.google.com/117309494777005011259" />
+  <link rel="publisher" href="https://plus.google.com/117309494777005011259" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css"
-          href="//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" />
+{% if page.title == nil %}
+  <title>$ touch 'Maciej A. Czyzewski'</title>
+{% else %}
+  <title>$ echo '{{ page.title }}' > 'Maciej A. Czyzewski'</title>
+{% endif %}
 
-    <!-- Stylesheets -->
-    <link media="all" rel="stylesheet" type="text/css"
-          href="/assets/stylesheets/main.css" />
+  <!-- Shortcuts -->
+  <link rel="shortcut icon" href="/assets/images/shortcuts/32.png" />
 
-    <!-- Javascripts -->
-    <script type="text/javascript" src="/assets/javascripts/main.js"></script>
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" />
+
+  <!-- Jquery -->
+  <script type="text/javascript"
+          src="/assets/includes/jquery/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="/assets/includes/fitvids/fitvids.js"></script>
+
+  <!-- KaTeX -->
+  <script type="text/javascript"
+          src="/assets/includes/katex/katex.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link media="all" rel="stylesheet" type="text/css"
+        href="/assets/stylesheets/main.css" />
+
+  <!-- Javascripts -->
+  <script type="text/javascript" src="/assets/javascripts/main.js"></script>
 </head>
 <body>
-    <div class="masthead grid">
-        <img class="inline left" src="https://secure.gravatar.com/avatar/1a9950c427d83975a5e3da3af849dbff?s=36&amp;d=identicon" alt="MaciejCzyzewski">
-        <div class="inline left">
-            <a href="/">Maciej A. Czyzewski</a>
-        </div>
-        <ul class="inline right">
-            <li><a href="/">Archive</a></li>
-            <li><a href="/about.html">About</a></li>
-        </ul>
+  <header class="grid">
+    <img class="inline left" src="https://secure.gravatar.com/avatar/1a9950c427d83975a5e3da3af849dbff?s=36&amp;d=identicon" alt="MaciejCzyzewski" />
+
+    <div class="inline left">
+      <a href="/">Maciej A. Czyzewski</a>
     </div>
 
+    <ul class="inline right">
+      <li><a href="/">Archive</a></li>
+      <li><a href="https://www.flickr.com/photos/maciejczyzewski/" target="_blank">Photos</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul>
+  </header>
+
+  <main>
     {{ content }}
+  </main>
 
-    <div class="footer grid ta">
-        (c) 2015
-    </div>
+  <footer class="grid">
+    (c) 2015
+  </footer>
 
-    <script type="text/javascript">(function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-55884794-1","auto");ga("send","pageview")</script>
+  <script type="text/javascript">(function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-55884794-1","auto");ga("send","pageview")</script>
 </body>
 </html>
