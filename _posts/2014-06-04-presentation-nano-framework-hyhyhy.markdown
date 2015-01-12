@@ -4,13 +4,15 @@ title:  "Presentation nano-framework, hyhyhy"
 date:   2014-06-04 22:02:00
 ---
 
-![hyhyhy](/assets/images/prints/Screenshot%202014-12-14%2021.40.38.png)
+![Maciej A. Czyzewski](/assets/images/prints/16061957899_773198d3e5_z.jpg)
 
 It's a tool for easily creating pure and simple HTML5 presentations or websites.
 
 ## Introduction
 
 Comes with a broad range of features including nested slides, markdown contents and a JavaScript API. It combines everything into a unified whole that you can use.
+
+![hyhyhy](/assets/images/prints/Screenshot%202014-12-14%2021.40.38.png)
 
 I hope someone does it profit or want to [contribute][hyhyhy-gh].
 
