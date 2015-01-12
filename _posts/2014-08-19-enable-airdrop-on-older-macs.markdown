@@ -4,6 +4,8 @@ title:  "Enable AirDrop on older Macs"
 date:   2014-08-19 15:42:00
 ---
 
+<img src="/assets/images/prints/happy_devices.jpeg" alt="Diagram" width="500px" />
+
 AirDrop is a great feature to send files between Macs quickly and easily without dealing with pesky file sharing apps. Trouble is, it’s only on WiFi and on more recent Macs.
 
 If your Mac doesn’t currently support AirDrop, you can enter the following command to use it, as well as to use it over ethernet:

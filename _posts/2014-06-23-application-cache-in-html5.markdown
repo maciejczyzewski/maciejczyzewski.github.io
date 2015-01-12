@@ -6,6 +6,8 @@ date:   2014-06-23 21:16:00
 
 Often there is no time to retrieve packages again. It’s becoming increasingly important for web-based applications to be accessible offline.
 
+<img src="/assets/images/prints/application_cache.jpeg" alt="Diagram" width="500px" />
+
 > The cache manifest in HTML5 is a software storage feature which provides the ability to access a web application even without a network connection.
 
 Advantages:

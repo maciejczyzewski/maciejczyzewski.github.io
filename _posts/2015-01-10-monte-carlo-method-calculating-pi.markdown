@@ -14,7 +14,7 @@ Now, we try to apply it to calculate an approximate value for π. Let’s start 
 
 The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in circle to the whole field.
 
-<img src="/assets/images/prints/circle_dots2.jpeg" alt="Circle inside square" width="400px" />
+<img src="/assets/images/prints/circle_dots.jpeg" alt="Circle inside square" width="400px" />
 
 Using the relationship between these fields and knowing the formula for the area of the square and the circle, we get:
 
