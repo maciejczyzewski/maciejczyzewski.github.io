@@ -10,7 +10,7 @@ These methods are most suited to calculation by a computer and tend to be used w
 
 ## Calculations
 
-Now, we try to apply it to calculate an approximate value for π. Let's start with the mathematical foundations of the problem.
+Now, we try to apply it to calculate an approximate value for π. Let’s start with the mathematical foundations of the problem.
 
 The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in circle to the whole field.
 

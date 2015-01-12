@@ -56,7 +56,7 @@ The manifest is a separate file you link to via the manifest attribute on the ht
 
 ### Status
 
-The `window.applicationCache` object is your programmatic access the browser’s app cache. Its status property is useful for checking the current state of the cache:
+The `window.applicationCache` object is your programmatic access the browser’s app cache. It’s status property is useful for checking the current state of the cache:
 
 ```javascript
 var appCache = window.applicationCache;

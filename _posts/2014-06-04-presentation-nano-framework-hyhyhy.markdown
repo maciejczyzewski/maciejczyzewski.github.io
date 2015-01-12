@@ -6,7 +6,7 @@ date:   2014-06-04 22:02:00
 
 ![Maciej A. Czyzewski](/assets/images/prints/16061957899_773198d3e5_z.jpg)
 
-It's a tool for easily creating pure and simple HTML5 presentations or websites.
+It’s a tool for easily creating pure and simple HTML5 presentations or websites.
 
 ## Introduction
 
