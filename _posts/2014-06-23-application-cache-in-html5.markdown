@@ -12,7 +12,7 @@ Advantages:
 
 * __Offline browsing__ - users can navigate your full site when they’re offline
 * __Speed__ - resources come straight from disk, no trip to the network
-* __Resilience__ - if your site goes down for "maintenance", your users will get the offline experience
+* __Resilience__ - if your site goes down for “standard”, your users will get the offline experience
 
 Disadvantages:
 

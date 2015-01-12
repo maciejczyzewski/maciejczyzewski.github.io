@@ -8,7 +8,7 @@ date:   2014-10-19 14:01:00
 
 The __year 2038 problem__ is an issue for computing and data storage situations in which time values are stored or calculated as a _signed 32-bit_ integer.
 
-All the smart kids know that this number is interpreted as the number of seconds since _00:00:00 UTC on 1 January 1970_ ("the epoch").
+All the smart kids know that this number is interpreted as the number of seconds since _00:00:00 UTC on 1 January 1970_ (“the epoch”).
 
 ## Mathematics
 

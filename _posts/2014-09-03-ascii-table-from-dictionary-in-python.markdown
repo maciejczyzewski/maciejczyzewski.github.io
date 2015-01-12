@@ -15,7 +15,7 @@ Sometimes I wish to print pretty table of dictionary as an ASCII, like this:
 
 
 Surprisingly it got complicated because of variable lengths of the data.
-I _googled_ for 'standard' ways of doing this and I found suggestions like:
+I _googled_ for “standard” ways of doing this and I found suggestions like:
 
 [http://stackoverflow.com/questions/5909873/python-pretty-printing-ascii-tables][stackoverflow]
 
