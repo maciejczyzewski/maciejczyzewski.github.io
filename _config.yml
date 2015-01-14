@@ -4,7 +4,7 @@ lsi:                false
 excerpt_separator:  "\n\n"
 
 url:                http://maciejczyzewski.me
-name:               $ touch 'Maciej A. Czyzewski'
+name:               Maciej A. Czyzewski on the Web
 description:        "Software engineer, hacker, and design enthusiast."
 
 timezone:           Europe/Oslo
