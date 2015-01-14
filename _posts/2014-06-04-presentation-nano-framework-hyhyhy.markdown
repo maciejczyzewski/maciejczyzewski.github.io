@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Presentation nano-framework, hyhyhy"
-date:   2014-06-04 22:02:00
+date:   2014-06-04 21:02:00
 ---
 
 ![Maciej A. Czyzewski](/assets/images/prints/16061957899_773198d3e5_z.jpg)
