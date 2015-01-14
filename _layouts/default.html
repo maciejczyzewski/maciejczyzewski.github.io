@@ -22,7 +22,7 @@
 
   <!-- Twitter -->
 {% if page.title == nil %}
-  <meta name="twitter:title" content="$ touch 'Maciej A. Czyzewski'" />
+  <meta name="twitter:title" content="{{ site.name }}" />
 {% else %}
   <meta name="twitter:title" content="{{ page.title }}" />
 {% endif %}
@@ -37,7 +37,7 @@
 
   <!-- Facebook -->
 {% if page.title == nil %}
-  <meta property="og:title" content="$ touch 'Maciej A. Czyzewski'" />
+  <meta property="og:title" content="{{ site.name }}" />
   <meta property="og:type" content="website" />
 {% else %}
   <meta property="og:title" content="{{ page.title }}" />
