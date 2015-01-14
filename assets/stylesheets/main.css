@@ -608,6 +608,11 @@ footer {
   margin-top: 2em !important;
   padding: 1em 0;
   text-align: center;
+  line-height: 30px;
+}
+
+footer img {
+  width: 30px;
 }
 
 /* Stories
