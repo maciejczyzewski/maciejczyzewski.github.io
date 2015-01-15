@@ -612,6 +612,10 @@ header a {
   padding-right: 0.75em;
 }
 
+header img {
+  width: 36px;
+}
+
 header .right a {
   padding-right: 0em;
   padding-left: 0.75em;
