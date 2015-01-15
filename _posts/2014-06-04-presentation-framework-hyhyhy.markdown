@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Presentation nano-framework, hyhyhy"
+title:  "Presentation framework, hyhyhy"
 date:   2014-06-04 21:02:00
 ---
 
