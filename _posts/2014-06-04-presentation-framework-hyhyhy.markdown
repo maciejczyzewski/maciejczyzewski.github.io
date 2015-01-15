@@ -33,4 +33,4 @@ Sample available immediately after installation.
 
 The goal was to make package that will speed up work on own presentation. I hope someone does it profit or want to [contribute][hyhyhy-gh].
 
-[hyhyhy-gh]: https://github.com/MaciejCzyzewski/hyhyhy
+[hyhyhy-gh]: https://github.com/maciejczyzewski/hyhyhy
