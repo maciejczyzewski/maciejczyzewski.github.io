@@ -634,6 +634,26 @@ footer img {
   width: 30px;
 }
 
+/* Hero
+   ========================================================================= */
+
+.hero {
+  background: url(/assets/images/prints/49843_paper_mach_md.gif) no-repeat;
+  background-position: center 35px;
+  background-size: 450px;
+}
+
+.hero .profiles {
+  margin-top: 12em;
+}
+
+@media screen and (max-width: 445px) {
+  .hero {
+    background-position: center 70px;
+    background-size: 400px;
+  }
+}
+
 /* Stories
    ========================================================================= */
 
@@ -684,7 +704,7 @@ ol.stories {
   .stories li time {
     margin-top: -15px;
     display: block;
-    text-align: left;
+    text-align: right;
     font-size: 0.8em;
     font-weight: lighter;
     line-height: 30px;
