@@ -19,6 +19,7 @@ Advantages:
 Disadvantages:
 
 * __Outdated__ - packages don’t resent automatically
+* __Storage limit__ - between 5 MB to 10 MB
 
 ### Referencing
 
