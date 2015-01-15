@@ -561,6 +561,25 @@ h4:first-child, h5:first-child, h6:first-child {
 .col-11 { width: 91.66669%; }
 .col-12 { width: 100.0000%; }
 
+@media screen and (max-width: 750px) {
+  .grid {
+    margin: 0 15px;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 { width: 100.0000%; }
+}
+
 /* Masthead
    ========================================================================= */
 
@@ -635,18 +654,6 @@ ol.stories {
   font-weight: bold;
 }
 
-/* .stories li a:first-letter {
-  padding-left: 0px;
-  float: left;
-  margin: 0;
-  padding: 0.15em 0.125em 0 0;
-  font-size: 44px;
-  line-height: 0.75em;
-  text-indent: 0;
-  color: inherit;
-  font-weight: bolder;
-} */
-
 .stories li p {
   padding-top: 28px;
   font-size: 12px;
@@ -662,6 +669,26 @@ ol.stories {
   line-height: 50px;
   font-size: 1.3333em;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 750px) {
+  ol.stories {
+    padding-top: 2em;
+    margin-top: 2em;
+  }
+
+  .stories li {
+    height: auto;
+  }
+
+  .stories li time {
+    margin-top: -15px;
+    display: block;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 30px;
+  }
 }
 
 /* Projects
@@ -715,45 +742,6 @@ div.profiles {
 .profiles #mail {
   background: #2ecc71;
 }
-
-/*div.profiles {
-  padding: 0;
-  list-style: none;
-  margin-bottom: 1em;
-}
-
-.profiles a {
-  display: inline-block;
-  background-position: center;
-  height: 32px;
-  width: 32px;
-}
-
-.profiles a span {
-  text-indent: -9999px;
-  visibility: hidden;
-  display: none;
-}
-
-.profiles #github {
-  background: url(/assets/images/icons/github.svg);
-  background-size: 100% 100%;
-}
-
-.profiles #twitter {
-  background: url(/assets/images/icons/twitter.svg);
-  background-size: 100% 100%;
-}
-
-.profiles #stackoverflow {
-  background: url(/assets/images/icons/stackoverflow.svg);
-  background-size: 100% 100%;
-}
-
-.profiles #netflam {
-  background: url(/assets/images/icons/netflam.png);
-  background-size: 100% 100%;
-}*/
 
 /* Markdown
    ========================================================================= */
