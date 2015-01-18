@@ -4,22 +4,27 @@ title:  "Turn fire into electricity..."
 date:   2014-07-13 18:29:00
 ---
 
-I recently discovered a very interesting project at Kickstarter. I was wondering how to charge my phone while camping. Suddenly. Booom. I found this!
+I recently discovered a very interesting project at __Kickstarter__. I was wondering how to charge my phone while camping. Suddenly. Booom. I found this!
 
-<div style="text-align: center;"><h3>BioLite BaseCamp</h3></div>
-
-<iframe width="480" height="360" src="https://www.kickstarter.com/projects/biolite/biolite-basecamp-stove-turn-fire-into-electricity/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+<iframe width="480" height="360" src="https://www.kickstarter.com/projects/biolite/biolite-basecamp-stove-turn-fire-into-electricity/widget/video.html" frameborder="0" scrolling="no"></iframe>
 
 > We heard you, it’s here: advanced off-grid cooking and charging for groups, powered by wood. Can your stove do that?
 
 Builders show another use of electricity which is produced during the frying. Someone wondered about the additional lighting during the night camping?
 
-<img src="/assets/images/prints/e9e43345cec24bd43723d6f33e70b6bf_large.jpg" />
+## Benefits
 
-The BioLite Basecamp puts out 5W of usable electricity via a standard 5V USB port meaning you can charge everyday useful devices like smartphones, GPS, headlamps, your GoPro, or even tablets.
+The __[BioLite Basecamp][kickstarter-basecamp]__ puts out 5W of usable electricity via a standard 5V USB port meaning you can charge everyday useful devices like smartphones, GPS, headlamps, your GoPro, or even tablets.
 
-I’d love to buy a larger size stove that could charge my laptop... but MacBook chargers start at 60W.
+I’d love to buy a larger size stove that could charge my laptop... but MacBook chargers start at 60W. (during working 10W)
 
-Check out the [Kickstarter project][kickstarter] for more info on how to get the most out of BaseCamp.
+## Others
 
-[kickstarter]: https://www.kickstarter.com/projects/biolite/biolite-basecamp-stove-turn-fire-into-electricity
+__[Kraftwerk][kickstarter-kraftwerk]__, highly innovative portable power plant.
+
+<iframe width="480" height="360" src="https://www.kickstarter.com/projects/265641170/kraftwerk-highly-innovative-portable-power-plant/widget/video.html" frameborder="0" scrolling="no"></iframe>
+
+Based on our unique and award winning microtubular metallic fuel cell technology, kraftwerk directly transforms gas into electricity.
+
+[kickstarter-basecamp]: https://www.kickstarter.com/projects/biolite/biolite-basecamp-stove-turn-fire-into-electricity
+[kickstarter-kraftwerk]: https://www.kickstarter.com/projects/265641170/kraftwerk-highly-innovative-portable-power-plant
