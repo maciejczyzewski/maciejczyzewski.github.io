@@ -32,14 +32,14 @@ Therefore:
 import random
 from math import pi
 
-def withinCircle(x,y):
+def withinCircle(x, y):
   """Checks whether a point is in a circle"""
   if(x**2 + y**2 < 1):
     return True
   else:
     return False
 
-def calculatePi(points = 100000):
+def calculatePi(points=100000):
   """Calculating Pi using random numbers"""
   circleArea = 0 # The dots in a circle
   squareArea = 0 # The dots in a square

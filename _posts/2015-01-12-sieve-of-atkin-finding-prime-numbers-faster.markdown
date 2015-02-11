@@ -6,7 +6,7 @@ date:   2015-01-12 04:03:22
 
 It is an optimized version of the ancient __sieve of Eratosthenes__ which does some preliminary work and then marks off multiples of the square of each prime, rather than multiples of the prime itself.
 
-It was created in 2003 by _A. O. L. Atkin_ and _Daniel J. Bernstein_. [“Prime sieves using binary quadratic forms”](http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf)
+It was created in 2003 by _A. O. L. Atkin_ and _Daniel J. Bernstein_. References can be found in “[Prime sieves using binary quadratic forms](http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf)”
 
 ## Complexity
 
@@ -19,7 +19,7 @@ All numbers with a modulo-sixty remainder:
 - that is divisible by 2, 3, or 5 are not prime because they are divisible by 2, 3, or 5, respectively.
 - 1, 13, 17, 29, 37, 41, 49, or 53 have a modulo-four remainder of 1. These numbers are prime iff the number of solutions to <span class="equation" data-expr="4x^{2} + y^{2} = n"></span> is odd and the number is not a square of another integer.
 - 7, 19, 31, or 43 have a modulo-six remainder of 1. These numbers are prime iff the number of solutions to <span class="equation" data-expr="3x^{2} + y^{2} = n"></span> is odd and the number is not a square of another integer.
-- 11, 23, 47, or 59 have a modulo-twelve remainder of 11. These numbers are prime iff the number solutions to <span class="equation" data-expr="3x^{2} – y^{2} = n"></span> is odd and the number is not a square of another integer.
+- 11, 23, 47, or 59 have a modulo-twelve remainder of 11. These numbers are prime iff the number solutions to <span class="equation" data-expr="3x^{2} - y^{2} = n"></span> is odd and the number is not a square of another integer.
 
 ## Implementation
 

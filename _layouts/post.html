@@ -11,6 +11,12 @@ layout: default
   <div>{{ content }}</div>
 
   <!-- Twitter -->
-  <hr style="border-top-color:#bdc3c7!important;margin-top:2em;"><aside style="max-width:310px;margin: 0 auto;margin-top:1.75em;"><a href="https://twitter.com/share?text=@_czyzewski&url={{ site.url }}{{ page.url }}"><img src="/assets/images/icons/twitter.svg" alt="twitter" style="background:#bdc3c7;width:30px;float:left;"><span style="float:right;text-decoration:none;line-height:32px;color:#bdc3c7;font-weight:300;">discuss this article on twitter</span></a></aside>
+  <div style="border:3px solid #bdc3c7;height:100px;margin-top:25px"><div style="height:60px;background:#fff;margin-left:-3px;margin-right:-3px;margin-top:-15px"><aside style="max-width:310px;margin:0 auto;padding-top:14px;display:block;margin-top:1.75em"><a href="https://twitter.com/share?text=@_czyzewski&url={{ site.url }}{{ page.url }}"><img src="/assets/images/icons/twitter.svg" alt="twitter" style="background:#bdc3c7;width:30px;float:left"><span style="float:right;text-decoration:none;line-height:32px;color:#bdc3c7;font-weight:lighter;border-top:0;border-left:0;border-right:0;border-style:dashed">discuss this article on twitter</span></a></aside></div></div>
+
+  <!-- Navigation -->
+  <div style="margin-top:-64px;height:64px;font-weight:lighter">
+    <a href="{{ page.previous.url }}" style="float:left;text-decoration:none;color:#bdc3c7;padding-left:15px">« previus</a>
+    <a href="{{ page.next.url }}" style="float:right;text-decoration:none;color:#bdc3c7;padding-right:15px">next »</a>
+  </div>
 
 </article>
