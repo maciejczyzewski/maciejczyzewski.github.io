@@ -658,6 +658,41 @@ footer img {
   }
 }
 
+/* Mosaic
+   ========================================================================= */
+
+.mosaic {
+  height: 575px;
+}
+
+.mosaic img {
+  float:left;
+  width: 60%;
+}
+
+.mosaic img:nth-child(3) {
+  width: 40%;
+  margin-top: -253px;
+  height: 378px;
+}
+
+.mosaic img:last-child {
+  width: 40%;
+}
+
+@media screen and (max-width: 750px) {
+  .mosaic {
+    height: 100%;
+    display: table-row-group;
+  }
+
+  .mosaic img {
+    margin-top: initial !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+}
+
 /* Stories
    ========================================================================= */
 

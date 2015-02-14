@@ -12,12 +12,10 @@ If your Mac doesn’t currently support AirDrop, you can enter the following com
 
     $ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool TRUE
 
-You’ll need to restart the Finder, the quickest way is to use the `killall`command which will restart it:
+You’ll need to restart the Finder, the quickest way is to use the `killall` command which will restart it:
 
     $ killall Finder
 
-And it works fine! I wonder why this feature is disabled for older Macs.
-
-To revert the changes, enter:
+And it works fine! I wonder why this feature is disabled for older Macs. To revert the changes, enter:
 
     $ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool FALSE
