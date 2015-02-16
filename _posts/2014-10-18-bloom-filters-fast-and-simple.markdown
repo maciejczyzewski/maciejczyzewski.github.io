@@ -6,7 +6,7 @@ date:   2014-10-18 11:14:00
 
 Everyone is always raving about bloom filters. But what exactly are they, and what are they useful for?
 
-> The Bloom filter is a space efficient, probabilistic data structure – used to test whether an item does not belong to a collection.
+> The Bloom filter is a space-efficient, probabilistic data structure – used to test whether an item does not belong to a collection.
 
 ## Operations
 
@@ -14,12 +14,12 @@ The basic bloom filter supports two operations: __add__ and __query__.
 
 __Query__ is used to check whether a given element is in the set or not. It can only return a boolean value:
 
-* _true_, if element is __probably__ in the set.
-* _false_, if element is __definitely not__ in the set.
+* _true_, if the element is __probably__ in the set.
+* _false_, if the element is __definitely not__ in the set.
 
 __Add__ simply adds an element to the set.
 
-Removal is impossible without introducing false negatives, but there are versions where is possible to remove element e.g. [counting filters](http://en.wikipedia.org/wiki/Bloom_filter#Counting_filters).
+Removal is impossible without introducing false negatives, but there are versions where is possible to remove the element e.g. [counting filters](http://en.wikipedia.org/wiki/Bloom_filter#Counting_filters).
 
 ## Structure
 
@@ -29,7 +29,7 @@ Internally Bloom filters use a bit array, and multiple different hash functions.
 
 ## Example
 
-Let’s say for instance we have a bit array of a _100 elements_, and _3 hash functions_.
+Let’s say for instance we have a bit array of a _100 elements_ and _3 hash functions_.
 
 __Add__, when we want to insert the word “Maciej” into the filter:
 

@@ -12,7 +12,7 @@ These methods are most suited to calculation by a computer and tend to be used w
 
 Now, we try to apply it to calculate an approximate value for π. Let’s start with the mathematical foundations of the problem.
 
-The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in circle to the whole field.
+The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in a circle, to the whole field.
 
 <img src="/assets/images/prints/circle_dots.jpeg" alt="Circle inside square" width="400px" />
 

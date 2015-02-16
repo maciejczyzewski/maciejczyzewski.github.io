@@ -25,7 +25,7 @@ Which were a bit dated and hard to read or full scale modules like:
 - [text_table](http://pypi.python.org/pypi/text_table/) by Swaroop C. H.
 - [asciitable](http://pypi.python.org/pypi/asciitable/) by Tom Aldcroft
 
-Which were an overkill. So I decided to write my own function and am quite
+Which were overkill. So I decided to write my own function and am quite
 pleased with what I got!
 
 Here is a simple function that generate table, where each row runs the `leftright()` function:

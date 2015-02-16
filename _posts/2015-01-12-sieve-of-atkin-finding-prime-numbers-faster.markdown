@@ -6,7 +6,7 @@ date:   2015-01-12 04:03:22
 
 It is an optimized version of the ancient __sieve of Eratosthenes__ which does some preliminary work and then marks off multiples of the square of each prime, rather than multiples of the prime itself.
 
-It was created in 2003 by _A. O. L. Atkin_ and _Daniel J. Bernstein_. References can be found in “[Prime sieves using binary quadratic forms](http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf)”
+It was created in 2003 by _A. O. L. Atkin_ and _Daniel J. Bernstein_. References can be found in “[Prime sieves using binary quadratic forms.](http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf)”
 
 ## Complexity
 
