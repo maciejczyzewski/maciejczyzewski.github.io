@@ -97,7 +97,11 @@
 </head>
 <body>
   <header class="grid">
-    <img class="inline left" src="/assets/images/shortcuts/114.png" alt="maciejczyzewski" />
+    {% if page.url == "/index.html" %}
+      <img class="inline left" src="/assets/images/prints/head.jpeg" alt="maciejczyzewski" style="height:114px;width:114px;margin-bottom: -52px;float:none!important;" />
+    {% else %}
+      <img class="inline left" src="/assets/images/shortcuts/114.jpeg" alt="maciejczyzewski" />
+    {% endif %}
 
     <div class="inline left">
       <a href="/">Maciej A. Czyzewski</a>
