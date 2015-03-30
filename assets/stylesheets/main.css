@@ -621,6 +621,16 @@ header .right a {
   padding-left: 0.75em;
 }
 
+@media screen and (max-width: 550px) {
+  header img {
+    display: none !important;
+  }
+
+  header .inline.left {
+    margin-left: 0px;
+  }
+}
+
 /* Footer
    ========================================================================= */
 
@@ -649,6 +659,7 @@ footer img {
 
 .hero .profiles {
   margin-top: 13.5em;
+  height: 100%;
 }
 
 @media screen and (max-width: 445px) {
@@ -660,6 +671,41 @@ footer img {
 
 /* Labels
    ========================================================================= */
+
+div.labels {
+  display: table;
+  margin: 0 auto;
+  height: 27px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+
+.labels div {
+  display: inline;
+  float: left;
+  margin-right: 16px;
+}
+
+.labels span {
+  width: 16px;
+  height: 16px;
+  background: purple;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  margin-right: 16px;
+  margin-top: 5px;
+}
+
+.labels .none span {
+  background: white;
+  border: 2px solid;
+}
+
+.labels .red span { background: red; }
+.labels .blue span { background: blue; }
+.labels .green span { background: green; }
+.labels .purple span { background: purple; }
 
 .stories li.label {
   color: white;
@@ -680,6 +726,27 @@ footer img {
 .label.blue { background: blue; }
 .label.green { background: green; }
 .label.purple { background: purple; }
+
+@media screen and (max-width: 750px) {
+  .stories li.label {
+    padding-bottom: 10px;
+  }
+
+  .labels div {
+    width: 40%;
+    float: left;
+    margin-left: 7.5%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .labels div {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+}
 
 /* Mosaic
    ========================================================================= */
@@ -826,11 +893,6 @@ ol.stories {
 }
 
 @media screen and (max-width: 750px) {
-  ol.stories {
-    padding-top: 2em;
-    margin-top: 2em;
-  }
-
   .stories li {
     height: auto;
   }
@@ -886,19 +948,33 @@ div.profiles {
 }
 
 .profiles #github {
+  margin-left: -10px;
   background: black;
 }
 
 .profiles #twitter {
+  margin-left: 6.66px;
   background: dodgerblue;
 }
 
 .profiles #stackoverflow {
+  margin-left: 6.66px;
   background: orange;
 }
 
 .profiles #mail {
+  margin-right: -10px;
   background: gray;
+}
+
+@media screen and (max-width: 750px) {
+  .profiles #github, .profiles #twitter,
+  .profiles #stackoverflow, .profiles #mail { margin: 0; margin-bottom: 5px; }
+
+  div.profiles {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 /* Markdown
