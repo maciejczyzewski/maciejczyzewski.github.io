@@ -741,6 +741,13 @@ footer img {
   margin-top: 1.75em
 }
 
+.comments aside a {
+  height: 100px;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+
 .comments img {
   background: #bdc3c7;
   width: 30px;
