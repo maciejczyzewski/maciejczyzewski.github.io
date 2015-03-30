@@ -677,7 +677,9 @@ footer img {
 }
 
 .label.red { background: red; }
+.label.blue { background: blue; }
 .label.green { background: green; }
+.label.purple { background: purple; }
 
 /* Mosaic
    ========================================================================= */
@@ -889,7 +891,7 @@ div.profiles {
 }
 
 .profiles #mail {
-  background: tomato;
+  background: gray;
 }
 
 /* Markdown
