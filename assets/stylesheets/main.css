@@ -881,7 +881,7 @@ div.profiles {
 }
 
 .profiles #twitter {
-  background: skyblue;
+  background: dodgerblue;
 }
 
 .profiles #stackoverflow {
@@ -889,7 +889,7 @@ div.profiles {
 }
 
 .profiles #mail {
-  background: slategray;
+  background: tomato;
 }
 
 /* Markdown

@@ -2,6 +2,7 @@
 layout: post
 title:  "Monte Carlo method, calculating π"
 date:   2015-01-10 7:05:02
+
 label:  red
 ---
 

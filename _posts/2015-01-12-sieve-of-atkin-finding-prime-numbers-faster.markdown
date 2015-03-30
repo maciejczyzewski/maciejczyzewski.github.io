@@ -2,6 +2,7 @@
 layout: post
 title:  "Sieve of Atkin, finding prime numbers faster"
 date:   2015-01-12 04:03:22
+
 label:  red
 ---
 
