@@ -855,7 +855,7 @@ div.labels {
   padding-right: 15px
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .comments nav {
     display: none;
   }
