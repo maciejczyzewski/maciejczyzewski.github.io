@@ -855,6 +855,12 @@ div.labels {
   padding-right: 15px
 }
 
+@media screen and (max-width: 550px) {
+  .comments nav {
+    display: none;
+  }
+}
+
 /* Stories
    ========================================================================= */
 
