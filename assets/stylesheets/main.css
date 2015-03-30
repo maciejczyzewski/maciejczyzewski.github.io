@@ -658,6 +658,27 @@ footer img {
   }
 }
 
+/* Labels
+   ========================================================================= */
+
+.stories li.label {
+  color: white;
+  padding-top: 0px;
+  margin: -10px;
+  padding: 10px;
+  padding-bottom: 50px;
+  width: inherit;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.stories li.label p, .stories li.label a {
+  color: white;
+}
+
+.label.red { background: red; }
+.label.green { background: green; }
+
 /* Mosaic
    ========================================================================= */
 
@@ -704,7 +725,7 @@ footer img {
 
 .comments > div {
   height: 60px;
-  background: #fff;
+  background: white;
   margin-left: -3px;
   margin-right: -3px;
   margin-top: -15px
@@ -845,7 +866,7 @@ div.profiles {
 
 .profiles a {
   display: block;
-  color: #fff;
+  color: white;
   text-decoration: none;
   width: 100%;
 }
@@ -856,19 +877,19 @@ div.profiles {
 }
 
 .profiles #github {
-  background: #000;
+  background: black;
 }
 
 .profiles #twitter {
-  background: #00aced;
+  background: skyblue;
 }
 
 .profiles #stackoverflow {
-  background: #f39c12;
+  background: orange;
 }
 
 .profiles #mail {
-  background: #2ecc71;
+  background: slategray;
 }
 
 /* Markdown

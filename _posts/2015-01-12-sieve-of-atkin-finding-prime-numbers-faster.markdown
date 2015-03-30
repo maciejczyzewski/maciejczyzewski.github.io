@@ -2,6 +2,7 @@
 layout: post
 title:  "Sieve of Atkin, finding prime numbers faster"
 date:   2015-01-12 04:03:22
+label:  red
 ---
 
 It is an optimized version of the ancient __sieve of Eratosthenes__ which does some preliminary work and then marks off multiples of the square of each prime, rather than multiples of the prime itself.

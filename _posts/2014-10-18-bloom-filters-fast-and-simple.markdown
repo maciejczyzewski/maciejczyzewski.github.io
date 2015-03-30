@@ -2,6 +2,7 @@
 layout: post
 title:  "Bloom filters, fast and simple"
 date:   2014-10-18 11:14:00
+label:  red
 ---
 
 Everyone is always raving about bloom filters. But what exactly are they, and what are they useful for?
