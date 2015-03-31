@@ -17,17 +17,17 @@ So below I present my simple solution, using macros.
 
 /* Debugger */
 
-#define note(S, ...) { fprintf(stderr,                                   \
+#define note(S, ...) fprintf(stderr,                                     \
   "\x1b[1m(%s:%d, %s)\x1b[0m\n  \x1b[1m\x1b[90mnote:\x1b[0m " S "\n",    \
-  __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__); }
+  __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__)
 
-#define warn(S, ...) { fprintf(stderr,                                   \
+#define warn(S, ...) fprintf(stderr,                                     \
   "\x1b[1m(%s:%d, %s)\x1b[0m\n  \x1b[1m\x1b[33mwarning:\x1b[0m " S "\n", \
-  __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__); }
+  __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__)
 
-#define errn(S, ...) { fprintf(stderr,                                   \
-    "\x1b[1m(%s:%d, %s)\x1b[0m\n  \x1b[1m\x1b[31merror:\x1b[0m " S "\n", \
-    __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__); exit(1); }         \
+#define errn(S, ...) do { fprintf(stderr,                                \
+  "\x1b[1m(%s:%d, %s)\x1b[0m\n  \x1b[1m\x1b[31merror:\x1b[0m " S "\n",   \
+  __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__); exit(1); } while (0) \
 ```
 
 ## Testing
@@ -54,4 +54,4 @@ int main(int argc, char const *argv[])
 
 ## Thanks
 
-__Bill & William Lynch__ - Improved code, found a bug.
+__Bill Lynch__ - Improved code, found a bug.
