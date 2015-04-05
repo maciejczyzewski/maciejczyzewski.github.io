@@ -64,8 +64,9 @@
   <title>{{ page.title }} - Maciej A. Czyzewski</title>
 {% endif %}
 
-  <!-- Atom -->
+  <!-- Atom & RSS -->
   <link href='/atom.xml' rel='alternate' type='application/atom+xml'>
+  <link href='/rss.xml' rel='alternate' type='application/rss+xml'>
 
   <!-- Shortcuts -->
   <link rel="shortcut icon" href="/assets/images/shortcuts/32.png" />
@@ -124,9 +125,16 @@
 
   <footer class="grid">
     <span class="left">(c) 2015</span>
-    <a href="/atom.xml" class="right">
+
+    <!-- <a href="/atom.xml" class="right">
       <img src="/assets/images/icons/atom.svg" alt="Atom Feed" />
-    </a>
+    </a> -->
+
+    <span class="right" style="text-transform:uppercase;">
+      <a href="/atom.xml" style="color:black;text-decoration:none;">Atom</a>
+      /
+      <a href="/rss.xml" style="color:black;text-decoration:none;">RSS</a>
+    </span>
   </footer>
 
   <script type="text/javascript">(function(e,t,n,r,i,s,o){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;s=t.createElement(n),o=t.getElementsByTagName(n)[0];s.async=1;s.src=r;o.parentNode.insertBefore(s,o)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-55884794-1","auto");ga("send","pageview")</script>
