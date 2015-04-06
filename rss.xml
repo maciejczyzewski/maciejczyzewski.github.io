@@ -21,7 +21,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description><![CDATA[ {{ post.content }} ]]></description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}?utm_source=RSS&amp;utm_medium=RSS&amp;utm_campaign={{ post.title | replace: ',','' | replace: ' ', '' | xml_escape }}</link>
+        <link>{{ site.url }}{{ post.url }}?utm_source=Feed&amp;utm_medium=RSS</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
     {% endfor %}
