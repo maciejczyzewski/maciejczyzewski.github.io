@@ -5,6 +5,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text" xml:lang="en">{{ site.name }}</title>
+  <subtitle>{{ site.description }}</subtitle>
 
   <link href="{{ site.url }}/"/>
   <link type="application/atom+xml" href="{{ site.url }}/atom.xml" rel="self"/>
