@@ -6,7 +6,7 @@ date:   2015-05-05 16:06:55
 label:  green
 ---
 
-When I was training with my brother openings and different variations that are found at the beginning of the game, I discovered the opening, which seems to me interesting. However, I was surprised that no one had ever named or analyzed it, especially since my great-grandfather knew it.
+When I was training with my brother openings and different variations that are found at the beginning of the game, I discovered the opening, which seems to me to be interesting. However, I was surprised that no one had ever named or analyzed it, especially since my great-grandfather knew it.
 
 > I must admit that I am an amateur chess player, however I train hard for my first tournament with FIDE players. Sometimes I beat players with the ranking over 2000. So I’m on the right way to success.
 
