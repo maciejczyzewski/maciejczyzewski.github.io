@@ -1006,6 +1006,13 @@ h2 {
   margin-bottom: 0.0000em;
 }
 
+h3 {
+  font-size: 1.00em;
+  line-height: 1.4000em;
+  margin-top: 1.4000em;
+  margin-bottom: 0.0000em;
+}
+
 blockquote {
   border-left: 3px solid #bdc3c7;
   padding-left: 10px;
