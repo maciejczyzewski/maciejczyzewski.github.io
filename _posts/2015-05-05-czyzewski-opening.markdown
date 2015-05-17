@@ -49,7 +49,7 @@ A month ago I found a very old notes and notebooks of my great-grandfather, the 
 
 On one side, I discovered a strange entitled page. It was called “Delayed Queen’s Fianchetto Opening” (org. spozniony laufer przy otwarciu). Which was describing this chess opening, what got me thinking about this strange position.
 
-I will try to translate a notes into English and update this article.
+I will try to translate a notes into English and update this article, and create separate paper devoted entirely to this opening.
 
 ## Usefulness
 
