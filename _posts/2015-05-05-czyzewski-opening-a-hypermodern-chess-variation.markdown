@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Czyzewski Opening, a hypermodernist chess variation"
+title:  "Czyzewski Opening, a hypermodern chess variation"
 date:   2015-05-05 16:06:55
 
 label:  green
