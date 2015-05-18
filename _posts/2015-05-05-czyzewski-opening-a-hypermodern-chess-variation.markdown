@@ -31,6 +31,26 @@ The white pawn is safe, it’s better move than _b4_, where player simply loses 
 
 ## Continuations
 
+_... Nf6 3. Nc3 Bc5 4. Nf3 d6 5. Be2 Nc6 6. d3 a6_
+
+_... Nc6 3. Nc3 Nf6 4. Nf3 Bc5 5. Be2 d6 6. d3 a6_
+
+> Well attacked center, the most common variant. It can be reached in several ways. Both parties aspire to this position.
+
+<iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="434" src="http://www.chess.com/emboard?id=2541740"></iframe>
+
+_... Nf6 3. Nc3 Bb4 4. Nf3 d6 5. Bd3 Nbd7 6. a3_
+
+> Exerts pressure on the black bishop. If he don’t beat the knight, he will lose his small advantage.
+
+<iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="434" src="http://www.chess.com/emboard?id=2541736"></iframe>
+
+## Games
+
+Only few games are known, that use this opening.
+
+<iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="475" src="http://www.chess.com/emboard?id=2540036"></iframe>
+
 When black attacks the white pawn on _e4_.
 
 <iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="475" src="http://www.chess.com/emboard?id=2540028"></iframe>
@@ -38,10 +58,6 @@ When black attacks the white pawn on _e4_.
 When black tries to block the _d4_ square.
 
 <iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="475" src="http://www.chess.com/emboard?id=2540014"></iframe>
-
-Only few games are known, that use this opening.
-
-<iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="475" src="http://www.chess.com/emboard?id=2540036"></iframe>
 
 ## History
 
