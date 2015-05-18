@@ -41,9 +41,15 @@ _... Nc6 3. Nc3 Nf6 4. Nf3 Bc5 5. Be2 d6 6. d3 a6_
 
 _... Nf6 3. Nc3 Bb4 4. Nf3 d6 5. Bd3 Nbd7 6. a3_
 
-> Exerts pressure on the black bishop. If he don’t beat the knight, he will lose his small advantage.
+> Exerts pressure on the black bishop. If he don’t beat the knight, he will lose his small advantage. White must strengthen his chain of pawns.
 
 <iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="434" src="http://www.chess.com/emboard?id=2541736"></iframe>
+
+_... Nc6 3. Nc3 Nf6 4. Nf3 d5 5. exd5 Nxd5 6. Bb2 Bf5 7. Bb5_
+
+> Dangerous gambit. This position is extremely demanding.
+
+<iframe border="0" frameborder="0" allowtransparency="true" width="574" style="margin-left:90px;margin-top:25px" height="434" src="http://www.chess.com/emboard?id=2541876"></iframe>
 
 ## Games
 
