@@ -1025,7 +1025,7 @@ Mapping the result to bitmap shows how evenly the data is distributed.
 
 <img src="/assets/images/prints/NCG.bmp" alt="NCG" width="400px" />
 
-As seen above, generator does not form any pattern or lines. If you want to compare it with others, click [here](http://programmers.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed).
+As seen above, generator does not form any pattern or lines. If you want to compare it with others, click [here](http://www.reedbeta.com/blog/2013/01/12/quick-and-easy-gpu-random-numbers-in-d3d11/).
 
 ### Attack
 
