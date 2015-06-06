@@ -28,6 +28,8 @@ Which were a bit dated and hard to read or full scale modules like:
 Which were overkill. So I decided to write my own function and am quite
 pleased with what I got!
 
+## Implementation
+
 Here is a simple function that generate table, where each row runs the `leftright()` function:
 
 ```python
@@ -80,6 +82,8 @@ def table(data, headers):
   # Remove last '\n'
   return final[:-1]
 ```
+
+## Testing
 
 Now it’s time to play code.
 
