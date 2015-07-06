@@ -12,6 +12,7 @@ Sometimes I wish to print pretty table of dictionary as an ASCII, like this:
                | bottomline     |              17 |                  3 |
                | retter         |               2 |                  2 |
                | hashbase       |               1 |                  1 |
+               +----------------+-----------------+--------------------+
 
 
 Surprisingly it got complicated because of variable lengths of the data.
@@ -45,6 +46,7 @@ def table(data, headers):
     asc_p[0]          %s         asc_s          %s         asc_p[1]
     asc_p[0]          %s         asc_s          %s         asc_p[1]
     asc_p[0]          %s         asc_s          %s         asc_p[1]
+    asc_h[0] (a) * max_widths[0] asc_t (a) * max_widths[1] asc_h[1]
   table e.g.:
        | Github project            | Files                    |
        +---------------------------+--------------------------+
@@ -52,6 +54,7 @@ def table(data, headers):
        | bottomline                |                       56 |
        | retter                    |                        5 |
        | hashbase                  |                       73 |
+       +---------------------------+--------------------------+
   """
 
   # Processing
@@ -72,10 +75,11 @@ def table(data, headers):
       return value.ljust(max_widths[col])
 
   # Final
-  for row in data_copy:
+  for idx, row in enumerate(data_copy):   
     row_str = asc_s.join([leftright(col, row[col]) for col in cols_order])
     final = final + asc_p % row_str
-    if data_copy.index(row) == 0:
+    if (data_copy.index(row) == 0 or  
+        data_copy.index(row) == (len(data_copy) - 1)): # Header & Footer   
       line = asc_t.join([a * max_widths[col] for col in cols_order])
       final = final + asc_h % line
 
@@ -107,5 +111,9 @@ print table(data, headers)
 Remember! Wikipedia is lying... My table is better.
 
 > A table is a form of furniture with a flat horizontal upper surface used to support objects of interest, for storage, show, and/or manipulation.
+
+## Thanks
+
+__Luke Vincent__ - Improved code, repaired mistakes.
 
 [stackoverflow]: http://stackoverflow.com/questions/5909873/python-pretty-printing-ascii-tables
