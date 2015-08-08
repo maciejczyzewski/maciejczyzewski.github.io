@@ -35,7 +35,8 @@ $ brew link libtool
 I choose [youtube-dl](https://github.com/rg3/youtube-dl) for downloading videos and [ffmpeg](https://github.com/FFmpeg/FFmpeg), [lame](http://lame.sourceforge.net) as audio liblaries. To install them we can simply run homebrew.  
 
 ```bash
-$ brew install youtube-dl ffmpeg lame
+$ brew install ffmpeg --with-faac
+$ brew install youtube-dl lame
 ```
 
 ## API-s
