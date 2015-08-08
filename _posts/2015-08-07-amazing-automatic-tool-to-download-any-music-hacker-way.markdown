@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Find and download music from legal sources, hackers way"
+title:  "Amazing automatic tool to download any music, hacker way"
 date:   2015-08-07 15:20:50
 
 label:  green
