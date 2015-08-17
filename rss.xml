@@ -8,6 +8,14 @@ layout: null
     <title>{{ site.name }}</title>
     <description>{{ site.description }}</description>
 
+    <image>
+      <url>
+        http://maciejczyzewski.me/assets/images/shortcuts/144.png
+      </url>
+      <title>{{ site.name }}</title>
+      <link>{{ site.url }}</link>
+    </image>
+
     <managingEditor>maciejanthonyczyzewski@gmail.com (Maciej A. Czyzewski)</managingEditor>
     <copyright>Copyright © {{ site.time | date: "%Y" }} Maciej A. Czyzewski. All rights reserved.</copyright>
 

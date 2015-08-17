@@ -7,6 +7,10 @@ layout: null
   <title type="text" xml:lang="en">{{ site.name }}</title>
   <subtitle>{{ site.description }}</subtitle>
 
+  <icon>
+    http://maciejczyzewski.me/assets/images/shortcuts/144.png
+  </icon>
+
   <link href="{{ site.url }}/"/>
   <link type="application/atom+xml" href="{{ site.url }}/atom.xml" rel="self"/>
 
