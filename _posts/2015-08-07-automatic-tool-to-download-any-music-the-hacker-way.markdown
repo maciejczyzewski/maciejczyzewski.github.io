@@ -1,27 +1,18 @@
 ---
 layout: post
-title:  "Amazing automatic tool to download any music, hacker way"
+title:  "Automatic tool to download any music, the hacker way"
 date:   2015-08-07 15:20:50
 
 label:  green
 ---
 
-> Below is an article describing my tool - named __redhands__. You can go to the [source code](https://github.com/maciejczyzewski/redhands) and find all the missing information. (or contribute)
-             
-<div style="float: right">
-<a class="github-button" href="https://github.com/maciejczyzewski/redhands" data-icon="octicon-star" data-style="mega" data-count-href="/maciejczyzewski/redhands/stargazers" data-count-api="/repos/maciejczyzewski/redhands#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star maciejczyzewski/redhands on GitHub">Star</a>
-<a class="github-button" href="https://github.com/maciejczyzewski/redhands/issues" data-icon="octicon-issue-opened" data-style="mega" data-count-api="/repos/maciejczyzewski/redhands#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue maciejczyzewski/redhands on GitHub">Issue</a>
-<a class="github-button" href="https://github.com/maciejczyzewski/redhands/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download maciejczyzewski/redhands on GitHub">Download</a>
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-</div>
-
 Have you ever dreamed about a tool that finds given song in the Internet and download it?
 
 I’ll show how to make a tool that automatically searches different sources and finds the soundtrack.
 
-But often their quality is poor and it is difficult to find all album songs because of the small number of views. Our mission is to find, devise, improve, clean, tag, noise-cancel, and download. 
+But often their quality is poor and it is difficult to find all album songs because of the small number of views. Our mission is to find, devise, improve, clean, tag, noise-cancel, and download.
 
-<u>Below I will show you how to do that using python and few libraries.</u>
+> Below is an article describing my tool - named __redhands__. You can go to the [source code](https://github.com/maciejczyzewski/redhands) and find all the missing information. (or contribute)
 
 ## Preparation
 
