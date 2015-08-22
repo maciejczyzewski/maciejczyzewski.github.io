@@ -514,6 +514,7 @@ h4:first-child, h5:first-child, h6:first-child {
 .grid {
   max-width: 750px;
   margin: 0 auto;
+  margin-bottom: -30px;
 }
 
 /**
@@ -1012,6 +1013,13 @@ h3 {
   margin-top: 1.4000em;
   margin-bottom: 0.0000em;
 }
+
+/* h4 {
+  font-size: 0.70em;
+  line-height: 1.4500em;
+  margin-top: 1.4250em;
+  margin-bottom: 0.0000em;
+} */
 
 blockquote {
   border-left: 3px solid #bdc3c7;
