@@ -12,7 +12,7 @@ I’ll show how to make a tool that automatically searches different sources and
 
 But often their quality is poor and it is difficult to find all album songs because of the small number of views. Our mission is to find, devise, improve, clean, tag, noise-cancel, and download.
 
-> Below is an article describing my tool - named __redhands__. You can go to the [source code](https://github.com/maciejczyzewski/redhands) and find all the missing information. (or contribute)
+> Below is an article describing my tool - named __redhands__. You can go to the [source code](https://github.com/maciejczyzewski/--/tree/master/redhands) and find all the missing information. (or contribute)
 
 ## Preparation
 
@@ -23,7 +23,7 @@ $ brew install libtool --universal
 $ brew link libtool
 ```
 
-I choose [youtube-dl](https://github.com/rg3/youtube-dl) for downloading videos and [ffmpeg](https://github.com/FFmpeg/FFmpeg), [lame](http://lame.sourceforge.net) as audio liblaries. To install them we can simply run homebrew.  
+I choose [youtube-dl](https://github.com/rg3/youtube-dl) for downloading videos and [ffmpeg](https://github.com/FFmpeg/FFmpeg), [lame](http://lame.sourceforge.net) as audio liblaries. To install them we can simply run homebrew.
 
 ```bash
 $ brew install ffmpeg --with-faac
@@ -177,7 +177,7 @@ def classifier_audio(item):
     c = set(a) & set(b)
     return difflib.SequenceMatcher(
         None, a, sorted(c, key=lambda k: a.index(k))).ratio()
-        
+
   for pattern in patterns:
     for track in get(pattern, item):
       points = 0.1 * (len(item['trackName'].lower().split()) -
@@ -307,4 +307,4 @@ def set_ID3(item, filename):
 
 ## Appendix
 
-If you are interested in full source code, you can download it from [here](https://github.com/maciejczyzewski/redhands). The whole code is written in _python_.
+If you are interested in full source code, you can download it from [here](https://github.com/maciejczyzewski/--/tree/master/redhands). The whole code is written in _python_.
