@@ -514,6 +514,9 @@ h4:first-child, h5:first-child, h6:first-child {
 .grid {
   max-width: 750px;
   margin: 0 auto;
+}
+
+article.grid {
   margin-bottom: -30px;
 }
 
