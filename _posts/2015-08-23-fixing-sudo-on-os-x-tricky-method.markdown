@@ -4,6 +4,8 @@ title:  "Fixing sudo on OS X, tricky method"
 date:   2015-08-23 18:42:22
 ---
 
+![Sudo](https://imgs.xkcd.com/comics/sandwich.png)
+
 If your _sudo_ does not work anymore and displays something like:
 
     sudo: can't open /private/etc/sudoers: Permission denied
@@ -27,9 +29,5 @@ Last step is fixing the root “/” directory permissions:
 
     $ chmod go+rx-w /
 
-> Yeah, it’s good time to repair your sudoers file using _visudo_...
-
-## Bonus
-
-![Sudo](https://imgs.xkcd.com/comics/sandwich.png)
+Yeah, it’s good time to repair your sudoers file using _visudo_...
 
