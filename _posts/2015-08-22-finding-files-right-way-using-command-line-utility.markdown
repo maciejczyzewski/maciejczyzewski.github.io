@@ -25,19 +25,19 @@ To find all files on a computer named “mysecretfile.py”, just type:
 
 > It’s possible that you will see _Permission denied_, you should then call this command as root...
 
-    find / -name 'mysecretfile.py'
+    $ find / -name 'mysecretfile.py'
 
 Command below will show all files in your home directory modified or created today, by default, find counts days from midnight, so an age of 0 means today, -1 means yestarday, -30 means month ago, etc.
 
-    find ~ -type f -mtime 0
+    $ find ~ -type f -mtime 0
 
 You may have used the _-iname_ option with find before, but it can do lots more. These options can be combined, so if that elusive download was an python file, you could narrow the search with:
 
-    find ~ -type f -mtime 0 -iname '*.py'
+    $ find ~ -type f -mtime 0 -iname '*.py'
 
 To find files and directories that are not owned by you, use:
 
-    find ~ ! -user ${USER}
+    $ find ~ ! -user ${USER}
 
 ## More
 
