@@ -24,6 +24,7 @@ It looks naturally so can confuse animals and camouflage in the landscape.
 
 Learn more interesting things, here:
 
+- [“Green Brain” to create an autonomous flying robot with a honey bee brain](http://www.shef.ac.uk/news/nr/green-brain-honey-bee-model-sheffield-university-1.212235)
 - [Bionic Bird: the Furtive Drone](https://www.indiegogo.com/projects/bionic-bird-the-furtive-drone)
-- [“Green Brain” project to create an autonomous flying robot with a honey bee brain](http://www.shef.ac.uk/news/nr/green-brain-honey-bee-model-sheffield-university-1.212235)
+
 
