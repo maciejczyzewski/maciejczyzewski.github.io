@@ -11,17 +11,53 @@ layout: default
 
 <hr class="grid" style="border-color: #000"><br>
 
+<style>
+.NA { color: #555;text-align: center;margin-bottom: 25px;margin-top: -5px; }
+.NM {     width: 820px; margin-left: -35px; }
+.NN { height: 150px;     display: table;
+    margin: 0 auto; }
+.NN img { height: 150px; float: left; }
+@media screen and (max-width: 750px) { 
+  .NM {     width: 820px; margin-left: -55px; }
+
+}
+</style>
+
 <ol class="stories grid">
 {% for post in site.posts %}
-  {% unless post.next %}
+
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture cyear %}{{ site.time | date: '%Y' }}{% endcapture %}
+  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+  {% if year != nyear %}
+    {% if year != cyear %}<br>{% endif %}
     <li><h3 class="ta">{{ post.date | date: '%Y' }}</h3></li>
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-      <li><h3 class="ta">{{ post.date | date: '%Y' }}</h3></li>
+    {% if year == '2015' %}
+      <p class="NA">Exploring cryptography... and how operating system works. <br> Learning Shell and markup languages as HTML5 or Yaml.</p>
+      <div class="NM">
+        <div class="NN">
+          <img src="https://lh3.googleusercontent.com/BGHx0Uz9Q0Agjr-0nrF8L_BySRZv-tLOahsJ1GYktEingiIXMConRXL1TcgWcSCqj0KzYyiO8jJmuW_HJ-afz_soFHHTCg4omHZrvSP-QcCV0p_9I37DddD2WyA4dGdusbDITnc2HBhxD4k-rQHndRNN_uTwsC1Y-WCFSvms2Bo2L7YMr4dwYGakwRuhLLRBzUjjAHJB9m7bQo9rj0ah92Y7IPQEeqAQsveKClQvSRbVkxUY1Ycd_NcQNvgqIMdD16fFq7npicSitsLTeaarwjoX4wd2MFiZ7SmjD4v9DgN85MiWdwUms00EOiWqkVh3_h6_PWfk2WHCmv3Yg9YN1xcwLPBqGxmFa6HeRB_-qkkp4CrGIlN7QrOyXlN2jDdbXoUJ_YO2UAwgqWaz6_L1DL1eo9JnL4KaHWk3dA8Cmm_yhqUNNQbKqcH8Firqde_Byc3fHXhGFJd6U1o_UalpAXocuynS6i1O4xg5VnDFgFg9dUcrHMe4WIlNzMDrphcdsj_6oJMMb8gdinqV6AQAuDjLYb7V90aMekn-amuJ_Bc=w1920-h1080-no" />
+          <img src="https://lh3.googleusercontent.com/Wb-sTvd-q-9AY2WOCoxcwNbF-Sl0Qzpmixp0OYFX_oLFqggCGmjRY--Dko0fRL7x78qVAHaxojchriZbwjmOa079cpyJ5YdBqCMbZgW33qVUjMhKo4WyuaiLSqJF6DZPDmbxmDwiihjUl4yCmy2mEnOFBXndlMaC3-La1ASzX1srCtqEQHSD3OC2pbEfA2f14ucG2b3533dBcyWxpkRJcdEhWTuxCEppUcm5JKAqTRT0KEnhZtKYKi8jhE1h2YgxvJB-dhhUzpjab7nj6jnx_nTVZN9JMu0OrAzVYYvBsxE_tuW-s9k-7NMOIpAqzMU_eWS7JH2Qh7bq8So2LoC-jLrElKRicaW8w61mVAXTzOLf-Vsr_Z4m4SJXRCmPtkgD9l48non679rAk9TGpOL5Buj9qRsKR-KauSCG1PLv4SFQlln-AiSomMNh6u8QkzIIHNuprqRatdoO2PvKiUxH5T_KeVcDXFMv8O9M5wdjsBAJTcEJep7ALSa9W0f0w_5au2aWaPE8yAY2reeFwwuB_obCr8ozrW77G2ILbkqVBME=w1092-h1456-no" />
+          <img src="https://lh3.googleusercontent.com/ykkRbSc_e-v5iMTXGP5WwR7i8mslEwydEENzM79-5rpXyVw0gn6TDqLjQprJYt5s-MQ--vYR87rSUyn26n-0T90urJFolE_T39bCZJY3TVV_wbBK2E2vLRE62hymrpM2xHWj359wOqvsN-Xj8t31VNe3N4IhLZMRwZnXXNNBBgjDyYSFVFVZlX0_J4_k6Gfu2YGOo4Hn2nyS1OJC4ObCShN92Te_4_tjq6ZANquIi5wV3PSQ1QXMCBFLTISHYyqQWRELjQixgXyaSghU5chQQSSmqUV-NEUXFxigbd9IMinpQ_J-8zAlU0VFVQCjZSQT_qhLLAVvlfd_y_Ghsn2IMjkh3wVeJuvP5a2tWCNOIiv5Vvplg6-IewUi3oY919_UTFb90I2F10ZIy0NsFo4fTO4-aiK7iTc0t1YXH8ndAbR-Of9wjWizUJmiinvXCy9-QDtzIKexz_pLJ5rFNH5IqnEQl2bx6PcEyQkBX8vnnQCKldBPUNB2i6kSR9mk8U1_YvM2V2lUifN3beXQ8xdRXpYeGs69htRRvJftbZyYORE=w427-h320-no" />
+          <img src="https://lh3.googleusercontent.com/YnJnl1Hqowg2F3E93EDUJX4jiD6zcztYJ3oJckk7v8Tu-oII41HM1fFjqdrxtY5y6Lna9Q72Xy8lTIMJ5GRDsflRiB2qSlMGYTuFB4zB00LaoHXhip02PosBNjkIzLVw43lCceSmf--nP1_pnQbPSHW4PNXBJXwXViDd17u5upZ1qUeZan7j89077KwaBr9rdAKO9OmQueC0HJ_mZy2WRP0y4fqQSNUSb96HYrzo-nnlU5b-vz0As49ZMsxrbBFreS-XPzaH250EirJMIeh1os6JCtQPgFmZ7-8uItG76C4xrCOHie6hmFQYv-Uh5RwpZyK7ruD-d-XtL757g_ihbtNo2bf-5dJhHo-jygCnRQAvNWdlL_YSbtW_VYv-LGuQkWOnQK78h6y2-F0Qkcnr3WkGv-dLYoMKRFt01RtE1yE-583V1dp6_fKXnSJrCqaTvyntuSZ3VKEgjUKEGFhcsJm9ZNy83QMFVekYBHQgB7Qar1KzhLRCDgU7Zd7YM3yKQyECcjEEma4RNVjbdYid2oOvvu9dRydJt2iRHifSOXs=w508-h900-no" />
+          <img src="https://lh3.googleusercontent.com/e27t1QGLOwD8FRlXSjS5K5unbU30Zu5Smj0nUTAkXymKVAXuKKo3dPSyYGMZyiVbhEevzg0fPgfZYp3oE1h3h7C_g1YecJihtOPfE2oZMdwWjKIOBOOfcfYyG8NJWVaOjhm0pwp0eEc6Q11VRgxTV7rbEUSoBSzq8qT3OWiCXvnFHrOOzU5uCHpn1CUQNqXKYP_zuIpjT6f5_m2w5iqthwz9MlEBLgJi4OmkuAhCQMMG_P0VSUUhW14Yld0ipIdYb4fSIX96bHDPhmu4jKrZXpvUdKnDwj_eeyydzeCOOLWLAIUe0pgKszNSZApDJ2vndlGOEWzlpvB5a6rF9gEAdOnL0Rwuyq-rJxRJPjJwmstkm6pZX6N_1s9NwE06O1yx0wtF1Gs4Kchm4V4p6lokwatprtNEFiFeeuzCz2VwB2e0IUhhozl7C9neT1sluhl6mYNMLIFp_zLr7t3KQqYi-rxlDk4L4wuvUGD5jHyJU_mq3-UBvnqo-xQDNgKbTnOXObux1I1gIzIp4P3f79IhO9z7QozhlGu5YIjiHlKrnio=w548-h972-no" />
+        </div>
+      </div>
+      <br>
     {% endif %}
-  {% endunless %}
+    {% if year == '2014' %}
+      <p class="NA">Learning programming languages such as Javascript, Python, Ruby & ANSI C. Becoming familiar with basic concepts, data structures and algorithms. My first open source project called <a href="https://github.com/maciejczyzewski/hyhyhy">hyhyhy</a>, start using OS X.</p>
+      <div class="NM">
+        <div class="NN">
+          <img src="https://lh3.googleusercontent.com/SI6TP-AAEfOP8kZivoxEkikr1CQF-8xhB4aeSVyfYDZMeQGRD5h7lTdx2NfADjZ95Zkq2ab-9XUnXvmYSXycS44D2frbrIlQSEunjKvt34cIh2eUdnl79o6EmX7N7aajpHJh1R5k0mHoBIGE-I5iha4H3CI8PT2uzD6Qh66ULRijYbvufsDB368_59zM0BYirvu6USL8psD1q-3XCAwJjkEqhb5lgbBe7c2e7N7TCnJhsihdFnwvXUmWM_MPSP0bL7-8X5eGFVOjDk4M1b303k9m4GdrwAj7_beZFHrNVo16w_Uj9GLoeEw-dg3YsI8g8DP65HabUD1yfCpGIZqcV89K0_5etDGlMOzM3UIqit8Xv54OTxlTrmsGK9OD48bwsrQeChKUtr9ox3fLixhRabsvFncCaFnz3LCIUUjxUQH1Q-FZw04yGTfc1wSoXUpomeMgdRn47X4R7oUJiwalAjI4ihUDqvbdPg1P0r9ZU-CnnOQHnWpAAbmpkp7f4julASkVn9Uq-1hKGSpC65P0Bsyjjy7b3wuTlmKdN5MDLhk=w1942-h1456-no" />
+          <img src="https://lh3.googleusercontent.com/MwQimROMFDBuE_OPf5YXW_VaGsfD1xYgSH_YLO-KDFUIgfWWwnzpy2J1n5xMG8K79BlE3qA2cA28Th5YSonUjJpCTGOrHCBnxtjsvaS-EsYwBSfpJTM9sqQknUcC4APqizUuiT398LhfPjAq4JmpQ8HuPSkoBhZfi4RR0beEZiE83icX4L77BRkYJ7wvy8U8fF3iltKlOZebbBfWuhFr46x58T2qRsSrpjGB_3Kwtgt7i685DHpSecLzP-54IaiBiES_sgW4K13PDtwavpi7PcJ8fcNRmhD0LzHjF_7anbVJEcnHj7Ci5DEJJ59bqea-y8_l_HWyhGDMQALQaklioY2MoPIUJCOtdd-kF0bccgDb1c_Pg1NFE_IQC9hxQzXE4_seGC928GjCf2XdsGoepFwF_E9lIBPFhQBlEzWSs04bxBnGKb-pGWLBWIWuwHNnojtUYWtMwj0BAHUT0c317pBs61Y1ayvFyI1iWv7SHoOmzlh1fe8ghf6pSgiLbGcoTi2NgZE4DgE4JI4eDG-m0Q93vXEDCLAfqMoYj6FbbDQ=w1092-h1456-no" />
+          <img src="https://lh3.googleusercontent.com/AGwPqbbXLm2gLgTucti_pwHRL28l71oavNsTGkqXPnzidxI9m1NLORcIitYZ9ALfll8g2FSs_saDauP4aF2nCkXVhQ-wX4SbeYmAuzW8RmOA-WB5T7kFyPh9E4-WEHgZkXB4eCV-diJzW1fFqppOQFgHWaITtgXstqgBYmr1wGmT16Vrvv_KcZbfePC2VjNCGjRucnBifBxu2jHzwPEde_c4qBCcN8wKQprBbGPL1y1t6D3pyJhbYrdnx508iA_OJfCqO-bWsDFk3HtquxD8DqFCNsoks3PeCKu2VFN_x854e85KkC4p3Zstd5F6Adh00e3r5Xn0uu5zLY3fPnsfK4hrSrIxvgPLPEN7iD00EoQqYFmF0e3gVB-XQyc5Lvbws6fUFgILjlG8UXCgI8uo8E3t7s4w1XeYv_kjhh7d1F8ZN3KMyBFaLwXidBJ6eI3lKwq_abFNyXRVaQO2IiPJD3_lhJMhkt_UbTtYv48eZ5o5BNUKehm0-Yz46Cp9VKTAz7611pnFm8rVPZ1ol4ER_6zZPgfzSZIhd_2uiSGFaTg=w1280-h719-no" />
+          <img src="https://lh3.googleusercontent.com/Q7_ynvESbeRThKjCUluedHtK2xNu4vHAhbP2UNwtbeZn2bYgZDbpWeJ4ECZb_aFnE94-dFeyC8ZeD2B4GehB0ggallKXyIb3cAbkVtZlYTUxcJ7tMKQWfTMm3q1-vUOGAM5h8L8yXkpRbl2eaP2AJhOmaobHenNA7n_DZ0b26RdVi2HxE3U3qexv_ZzmDld2I7FJzlo0Cqhm_vl3axxDRQEsf8Lk9qc_rPA7ZGmcgUnI6jfxb5Fspo3V3XHPn2fVgFeQGMMQj7fNC1-6s69d8w-WnalrEvDpmWPXHwegg7tUsmaY10f-lmHcJpSmaADcYp5PJ3DNzqVIc4IEY0pKX0VyOopAWYMIzj3fhc0AvYEkvIUphsCi1_tCH7T5SVa6r92bL_NzreFPiAhcti8Olv8V_qBKr38yaRXB1sSGWeGFg85MKAE7VVONJKdIZ4NPVepdjSUFZH03J_d799TsQkShRIUF4PabBTNfv4VLgG24WffQGqZyEd5u4sQJw6tmgQrrm8hs8Y0ORFzngPTQ7pIDWeJVkeUPbyKBtplki2c=w2048-h1304-no" />
+        </div>
+      </div>
+      <br>
+    {% endif %}
+  {% endif %}
 
   <li {% if post.label %} class="label {{ post.label }}" {% endif %}>
     <a href="{{ post.url }}">{{ post.title }}</a>

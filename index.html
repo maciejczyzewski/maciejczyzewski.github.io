@@ -25,7 +25,7 @@ layout: default
       </a>
     </div>
     <div class="col-3" id="mail">
-      <a href="mailto:maciejanthonyczyzewski@gmail.com">
+      <a href="mailto:mail@maciejczyzewski.me">
         <img src="/assets/images/icons/mail.svg" alt="mail" />
         <span>mail</span>
       </a>
@@ -38,12 +38,12 @@ layout: default
 <ol class="stories grid">
 {% for post in site.posts %}
   {% unless post.next %}
-    <li><h3 class="ta">{{ post.date | date: '%Y' }}</h3></li>
+    <br>
   {% else %}
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-      <li><h3 class="ta">{{ post.date | date: '%Y' }}</h3></li>
+      {% break %}
     {% endif %}
   {% endunless %}
 
