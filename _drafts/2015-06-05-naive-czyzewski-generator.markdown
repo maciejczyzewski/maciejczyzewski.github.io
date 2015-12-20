@@ -3,7 +3,7 @@ layout: post
 title:  "Naive Czyzewski Generator, a different approach"
 date:   2015-06-05 16:50:50
 
-label:  green
+label:  draft
 ---
 
 > Below is an article describing my generator. You can go to the [paper](/assets/files/NCG.pdf) or [source code](/assets/files/NCG.zip) as well. There you should find all the missing information.

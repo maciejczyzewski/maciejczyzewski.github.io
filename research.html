@@ -4,13 +4,36 @@ title : About
 ---
 
 <div class="grid">
+  <h2>Papers</h2>
+
+  <p>Science development is important nowadays, therefore I am writing papers on subjects such as computer science or cryptography.</p>
+
+  <style>
+    ul.papers span {
+      float: right;
+    }
+
+    ul.papers span a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+
+  <ul class="papers">
+    <li>
+      (June 5, 2015) <span><a href="http://maciejczyzewski.me/ncg/paper.pdf">Naive Czyzewski Generator, a different approach</a></span>
+      <p>This document describes the NCG pseudo-random function family that <u>passes all the Dieharder and TestU01 tests</u>, it also provides examples, comments and analysis.</p>
+    </li>
+  </ul>
+
   <h2>Projects</h2>
 
   <p>Below is a short list of projects I have created or worked on. You can find many more recent projects on <a href="https://github.com/maciejczyzewski">GitHub</a>.</p>
 
   <ol class="projects">
     <li>
-      <h2><a href="https://github.com/maciejczyzewski/retter">retter</a></h2>
+      <h2><a href="http://maciejczyzewski.me/retter/">retter</a></h2>
       <p>A collection of hash functions, ciphers, tools, libraries, and materials related to cryptography.</p>
     </li>
     <li>
@@ -34,4 +57,23 @@ title : About
       <p>A fast, efficient on-disk/in-memory database with many different kind of data structures.</p>
     </li>
   </ol>
+
+  <style>
+    .WA { display: table; margin: 0 auto; }
+    .WA img { float: left; margin-left: 10px; margin-right: 10px; }
+  </style>
+
+  <h2>Organizations & Groups</h2>
+  <br>
+  <div class="WA">
+    <a href="https://github.com/netflam">
+      <img src="https://avatars0.githubusercontent.com/u/5348493?v=3" width="100px" alt="netflam" />
+    </a>
+    <a href="http://iacr.org/">
+      <img src="http://iacr.org/images/iacrlogo.png" width="100px" alt="iacr" />
+    </a>
+    {% comment %} <a href="fisk, programming language"> {% endcomment %}
+    {% comment %}   <img src="https://avatars2.githubusercontent.com/u/13730388?v=3" width="100px" alt="fisk" /> {% endcomment %}
+    {% comment %} </a> {% endcomment %}
+  </div>
 </div>

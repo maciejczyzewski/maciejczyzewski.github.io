@@ -16,7 +16,7 @@ layout: null
       <link>{{ site.url }}</link>
     </image>
 
-    <managingEditor>maciejanthonyczyzewski@gmail.com (Maciej A. Czyzewski)</managingEditor>
+    <managingEditor>mail@maciejczyzewski.me (Maciej A. Czyzewski)</managingEditor>
     <copyright>Copyright © {{ site.time | date: "%Y" }} Maciej A. Czyzewski. All rights reserved.</copyright>
 
     <link>{{ site.url }}</link>

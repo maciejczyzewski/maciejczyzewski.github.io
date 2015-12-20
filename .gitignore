@@ -1,2 +1,4 @@
 _site
+_drafts
+.jekyll-metadata
 notes.md

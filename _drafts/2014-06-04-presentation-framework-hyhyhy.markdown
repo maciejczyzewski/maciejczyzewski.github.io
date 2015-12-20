@@ -3,7 +3,7 @@ layout: post
 title:  "Presentation framework, hyhyhy"
 date:   2014-06-04 21:02:00
 
-label:  green
+label:  draft
 ---
 
 > _A Ruby library for creating and outputting professional, business-looking (HTML5) presentations that can be viewed inside the browser!_

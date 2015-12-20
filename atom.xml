@@ -17,7 +17,7 @@ layout: null
   <id>{{ site.url }}/</id>
   <author>
     <name>Maciej A. Czyzewski</name>
-    <email>maciejanthonyczyzewski@gmail.com</email>
+    <email>mail@maciejczyzewski.me</email>
   </author>
   <rights type="text">Copyright © {{ site.time | date: "%Y" }} Maciej A. Czyzewski. All rights reserved.</rights>
 
