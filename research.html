@@ -16,7 +16,8 @@ title : About
     }
 
     ul.papers p {
-      margin-bottom: 0px
+      margin-bottom: 0px;
+      display: inline-table;
     }
 
     ul.papers span {
@@ -35,6 +36,10 @@ title : About
   </style>
 
   <ul class="papers">
+    <li>
+      (December 24, 2015) <span><a href="http://maciejczyzewski.me/assets/files/czyzewski-variation.pdf">Czyzewski Variation, forgotten hypermodern chess opening</a></span>
+      <p>The idea came as a result of finding old notes from 1883 of my great-grandfather, who has been analyzing two different positions with curious concept - "Delayed Fianchetto Opening". Practice has shown that it is a <u>great position for playing Blitz and Bullets</u> games.</p>
+    </li>
     <li>
       (June 5, 2015) <span><a href="http://maciejczyzewski.me/ncg/paper.pdf">Naive Czyzewski Generator, a different approach</a></span>
       <p>This document describes the NCG pseudo-random function family that <u>passes all the Dieharder and TestU01 tests</u>, it also provides examples, comments and analysis.</p>
@@ -62,10 +67,10 @@ title : About
       <h2><a href="https://github.com/netflam/netflam">netflam</a></h2>
       <p>A community where people can discuss, share interesting links, questions and timely events.</p>
     </li>
-    <li>
-      <h2><a href="https://github.com/maciejczyzewski/redhands">redhands</a></h2>
-      <p>A tool for downloading audio/sound/music from Internet.</p>
-    </li>
+    {% comment %} <li> {% endcomment %}
+    {% comment %}   <h2><a href="https://github.com/maciejczyzewski/redhands">redhands</a></h2> {% endcomment %}
+    {% comment %}   <p>A tool for downloading audio/sound/music from Internet.</p> {% endcomment %}
+    {% comment %} </li> {% endcomment %}
     <li>
       <h2><a href="https://github.com/maciejczyzewski/hashbase">hashbase</a></h2>
       <p>A fast, efficient on-disk/in-memory database with many different kind of data structures.</p>
