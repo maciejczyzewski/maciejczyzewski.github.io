@@ -656,13 +656,13 @@ footer img {
    ========================================================================= */
 
 .hero {
-  background: url(/assets/images/prints/49843_paper_mach_md.gif) no-repeat;
-  background-position: center 55px;
-  background-size: 450px;
+  background: url(/assets/images/prints/ship_cover_maciejczyzewski.jpeg) no-repeat;
+  background-position: center -75px;
+  background-size: 700px;
 }
 
 .hero .profiles {
-  margin-top: 13.5em;
+  margin-top: 17.5em;
   height: 100%;
 }
 
