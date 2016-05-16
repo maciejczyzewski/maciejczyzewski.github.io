@@ -13,15 +13,17 @@ title : About
       background: #eee;
       padding: 15px;
       list-style-type: decimal-leading-zero;
+        font-size: 16px;
     }
 
     ul.papers p {
       margin-bottom: 0px;
       display: inline-table;
+        font-size: 14px;
     }
 
     ul.papers span {
-      float: right;
+          display: block;
     }
 
     ul.papers span a {
@@ -33,16 +35,25 @@ title : About
     ol.projects {
       list-style-type: square;
     }
+
+    ul.papers { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul.papers li {
+    flex: 0 0 auto;
+}
   </style>
 
   <ul class="papers">
     <li>
       (December 24, 2015) <span><a href="http://maciejczyzewski.me/assets/files/czyzewski-variation.pdf">Czyzewski Variation, forgotten hypermodern chess opening</a></span>
-      <p>The idea came as a result of finding old notes from 1883 of my great-grandfather, who has been analyzing two different positions with curious concept - "Delayed Fianchetto Opening". Practice has shown that it is a <u>great position for playing Blitz and Bullets</u> games.</p>
+      <p>This document describes forgotten <u>chess variation</u>, it also provides examples, comments and analysis. The idea came as a result of finding old notes from 1883 of my great-grandfather, who has been analyzing two different positions with curious concept - "Delayed Fianchetto Opening". Practice has shown that it is a <i>great position for playing Blitz and Bullets</i> games.</p>
     </li>
     <li>
-      (June 5, 2015) <span><a href="http://maciejczyzewski.me/ncg/paper.pdf">Naive Czyzewski Generator, a different approach</a></span>
-      <p>This document describes the NCG pseudo-random function family that <u>passes all the Dieharder and TestU01 tests</u>, it also provides examples, comments and analysis.</p>
+      (May 15, 2016) <span><a href="http://maciejczyzewski.me/assets/files/chaos-machine.pdf">Chaos Machine: Different Approach to the Application and Significance of Numbers</a></span>
+      <p>In this paper we describe a theoretical model of <u>chaos machine</u>, which combines the benefits of hash function and pseudo-random function, forming flexible one-way <u>push-pull interface</u>. It presents the idea to create a universal tool (design pattern) with modular design and customizable parameters, where <i>randomness</i> and <i>sensitiveness</i> is needed. Therefore, appropriate construction determines case of application and selection of parameters provides preferred properties and security level.  Machine can be used to implement many cryptographic primitives, including cryptographic hashes, message authentication codes and pseudo-random number generators.</p>
     </li>
   </ul>
 
