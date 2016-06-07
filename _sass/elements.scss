@@ -1,0 +1,229 @@
+/* Navigation (Article)
+/* ========================================================================== */
+
+nav {
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid $silver;
+  padding: 1em 0;
+  justify-content: center;
+  display: flex;
+  margin-top: 2em;
+
+  &:before {
+    position: absolute;
+    top: 0; left: 50%;
+    height: 100%;
+    border-left: 4px solid $silver;
+    content: "";
+  }
+
+  p {
+    margin: 0; padding: 0; padding-bottom: 0;
+    font-size: 20px; font-weight: 700;
+    line-height: 1.3em
+  }
+
+  a {
+    position: relative; float: left;
+    width: 50%;
+    padding: 15px 10px;
+
+    &:first-child {
+      text-align: left;
+      flex: 50
+    }
+
+    &:last-child {
+      text-align: right;
+      flex: 50
+    }
+  }
+}
+
+/* Projects
+/* ========================================================================== */
+
+projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 2em;
+}
+
+projects div {
+  flex: 1 30%;
+  width: 30%;
+  margin: auto;
+  padding: 1em;
+}
+
+projects a {
+  text-decoration: none;
+  color: $black;
+}
+
+/* Papers
+/* ========================================================================== */
+
+ul.papers li {
+  padding: 15px;
+  list-style-type: decimal-leading-zero;
+  font-size: 16px;
+  flex: 0 0 auto
+}
+
+ul.papers p {
+  margin-bottom: 0;
+  display: inline-table;
+  font-size: 14px
+}
+
+ul.papers span {
+  display: block
+}
+
+ul.papers span a {
+  color: $black;
+  font-weight: 700;
+  text-decoration: none
+}
+
+ol.projects {
+  list-style-type: square
+}
+
+ul.papers {
+  display: flex;
+  flex-direction: column-reverse
+}
+
+/* Stories
+/* ========================================================================== */
+
+ol.stories {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.stories li {
+  width: 100%; height: 4em;
+  padding: 10px 0;
+  line-height: 28px
+}
+
+.stories li time {
+  display: block;
+  margin-top: -62.5px;
+  font-size: 1.3333em; font-weight: lighter;
+  text-align: right;
+  line-height: 50px;
+}
+
+.stories li h3 { text-align: left }
+
+.stories li p {
+  margin-top: -36px;
+  padding-top: 28px;
+  color: $navy;
+  font-size: 12px;
+  font-style: italic
+}
+
+.stories li a {
+  display: block;
+  color: $black;
+  font-weight: 700;
+  text-decoration: none
+}
+
+@media screen and (max-width:700px) { 
+  .stories li { height: auto }
+
+  .stories li time {
+    display: block;
+    margin-top: -35px;
+    font-size: .8em; font-weight: lighter;
+    text-align: right;
+    line-height: 30px
+  }
+
+  .stories li p {
+    margin-top: -25px;
+    line-height: 15px
+  }
+
+  .stories li.story p { line-height: inherit }
+}
+
+.stories li.story {
+  height: auto;
+  margin-bottom: 1em
+}
+
+.stories li.story a {
+  display: inline-table;
+  color: initial;
+  font-weight: 400;
+  text-decoration: underline
+}
+
+.stories li.story p {
+  margin-bottom: 0;
+  color: $black;
+  font-size: 14px;
+  font-style: normal;
+  text-align: left
+}
+
+div.labels {
+  display: flex;
+  font-size: 14px;
+  flex-flow: row wrap;
+}
+
+.labels div,
+.labels span {
+  display: inline; float: left;
+  margin-right: 16px
+}
+
+.labels span {
+  display: block;
+  width: 16px; height: 16px;
+  margin-top: 5px;
+  vertical-align: middle
+}
+
+.labels span.bg-white {
+  border: 2px solid $black;
+}
+
+.stories li.label {
+  margin: 0 -10px 5px;
+  padding: 10px;
+  color: $white;
+  box-sizing: content-box;
+  height: 2.95em;
+}
+
+.stories li.label a,
+.stories li.label p { color: $white }
+
+/* exp */
+.label.draft { background: repeating-linear-gradient(45deg,gray,gray 10px,#000 10px,#000 20px) }
+
+/* Groups
+/* ========================================================================== */
+
+.groups {     
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.groups img {
+  float: left;
+  margin-right: 1em;
+}

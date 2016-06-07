@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Evolution of drones, bionic birds & bees"
 date:   2015-08-24 11:19:57
 
-label:  purple
+label:  bg-purple
 ---
 
 Seeing a flying drone cease to amaze me, but recently I began to see interesting objects ever stranger shapes and sizes. Drones are getting quieter and smaller...
@@ -24,7 +24,5 @@ It looks naturally so can confuse animals and camouflage in the landscape.
 
 Learn more interesting things, here:
 
-- [“Green Brain” to create an autonomous flying robot with a honey bee brain](http://www.shef.ac.uk/news/nr/green-brain-honey-bee-model-sheffield-university-1.212235)
+- ["Green Brain" to create an autonomous flying robot with a honey bee brain](http://www.shef.ac.uk/news/nr/green-brain-honey-bee-model-sheffield-university-1.212235)
 - [Bionic Bird: the Furtive Drone](https://www.indiegogo.com/projects/bionic-bird-the-furtive-drone)
-
-

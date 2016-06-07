@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# 2016-06-07T22:45:30+02:00
+
+CACHE:
+/CNAME
+/Gemfile
+/Gemfile.lock
+/assets/files/chaos-machine.pdf
+/assets/files/czyzewski-variation.pdf
+/assets/images/czyzewski.png
+/assets/images/nuke.gif
+/favicon.ico
+/robots.txt
+
+
+NETWORK:
+*

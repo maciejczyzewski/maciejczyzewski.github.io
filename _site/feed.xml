@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://maciejczyzewski.me/feed.xml" rel="self" type="application/atom+xml" /><link href="http://maciejczyzewski.me/" rel="alternate" type="text/html" /><updated>2016-06-07T22:45:30+02:00</updated><id>http://maciejczyzewski.me/</id><title>Maciej A. Czyzewski on the Web</title><subtitle>Software engineer, hacker, and design enthusiast.</subtitle><entry><title>Materials to study math &amp;amp; computer science</title><link href="http://maciejczyzewski.me/2016/05/28/materials-to-study-math-and-computer-science.html" rel="alternate" type="text/html" title="Materials to study math &amp; computer science" /><published>2016-05-28T13:21:00+02:00</published><updated>2016-05-28T13:21:00+02:00</updated><id>http://maciejczyzewski.me/2016/05/28/materials-to-study-math-and-computer-science</id><content type="html" xml:base="http://maciejczyzewski.me/2016/05/28/materials-to-study-math-and-computer-science.html">&lt;p&gt;Below is a list of books and materials, which deems for me as essential. &lt;br /&gt;
+If you want more resources, I recommend this list - &lt;a href=&quot;https://github.com/vhf/free-programming-books&quot;&gt;free programming books&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;mathematics&quot;&gt;Mathematics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Geometry Unbound&lt;/strong&gt;
+&lt;em&gt;Kiran S. Kedlaya&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://kskedlaya.org/geometryunbound/gu-060118.pdf&quot;&gt;http://kskedlaya.org/geometryunbound/gu-060118.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Math 221/222: Honors Calculus&lt;/strong&gt;
+&lt;em&gt;Frank Jones&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.owlnet.rice.edu/~fjones/&quot;&gt;http://www.owlnet.rice.edu/~fjones/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Differential Equations, Dynamical Systems, and An Introduction to Chaos&lt;/strong&gt; &lt;br /&gt;
+&lt;em&gt;Morris W. Hirsch, Stephen Smale, and Robert L. Devaney&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.math.upatras.gr/~bountis/files/def-eq.pdf&quot;&gt;https://www.math.upatras.gr/~bountis/files/def-eq.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discrete Structures for Computer Science: Counting, Recursion, and Probability&lt;/strong&gt;
+&lt;em&gt;Michiel Smid&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://cglab.ca/~michiel/DiscreteStructures/&quot;&gt;http://cglab.ca/~michiel/DiscreteStructures/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Math/Physics Channel&lt;/strong&gt;
+&lt;em&gt;Frederic P. Schuller&lt;/em&gt;
+&lt;a href=&quot;https://www.youtube.com/channel/UC6SaWe7xeOp31Vo8cQG1oXw&quot;&gt;https://www.youtube.com/channel/UC6SaWe7xeOp31Vo8cQG1oXw&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;physics&quot;&gt;Physics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Physics 161: Introduction to Chaos&lt;/strong&gt;
+&lt;em&gt;Michael Cross&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.cmp.caltech.edu/~mcc/Chaos_Course/Outline.html&quot;&gt;http://www.cmp.caltech.edu/~mcc/Chaos_Course/Outline.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hybrid Dynamical Systems: Control Theory&lt;/strong&gt;
+&lt;em&gt;Rafal Goebel, Ricardo G. Sanfelice, and Andrew R. Teel&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://hybrid.soe.ucsc.edu/sites/default/files/preprints/34.pdf&quot;&gt;https://hybrid.soe.ucsc.edu/sites/default/files/preprints/34.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hybrid Dynamical Systems: An Introduction to Control and Verification&lt;/strong&gt;
+&lt;em&gt;Panos J. Antsaklis&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www3.nd.edu/~lemmon/projects/NSF-12-520/pubs/2014/HDS.pdf&quot;&gt;https://www3.nd.edu/~lemmon/projects/NSF-12-520/pubs/2014/HDS.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;computer-science&quot;&gt;Computer Science&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Matters Computational: Ideas, Algorithms, Source Code&lt;/strong&gt;
+&lt;em&gt;Jorg Arndt&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.jjj.de/fxt/fxtbook.pdf&quot;&gt;http://www.jjj.de/fxt/fxtbook.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Operating Systems and Middleware: Supporting Controlled Interaction&lt;/strong&gt;
+&lt;em&gt;Max Hailperin&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://gustavus.edu/mcs/max/os-book/&quot;&gt;https://gustavus.edu/mcs/max/os-book/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Operating Systems: Three Easy Pieces&lt;/strong&gt;
+&lt;em&gt;Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://pages.cs.wisc.edu/~remzi/OSTEP/&quot;&gt;http://pages.cs.wisc.edu/~remzi/OSTEP/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to Design Programs&lt;/strong&gt; &lt;br /&gt;
+&lt;em&gt;Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, and Shriram Krishnamurthi&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.htdp.org/&quot;&gt;http://www.htdp.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Combinatorial Algorithms&lt;/strong&gt;
+&lt;em&gt;Werner Rheinboldt&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.math.upenn.edu/~wilf/website/CombinatorialAlgorithms.pdf&quot;&gt;https://www.math.upenn.edu/~wilf/website/CombinatorialAlgorithms.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classes and Teaching: Data Structures &amp;amp; Algorithms&lt;/strong&gt;
+&lt;em&gt;Erik Demaine&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://erikdemaine.org/classes/&quot;&gt;http://erikdemaine.org/classes/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Elementary Algorithms&lt;/strong&gt;
+&lt;em&gt;Larry Liu Xinyu&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://sites.google.com/site/algoxy/home&quot;&gt;https://sites.google.com/site/algoxy/home&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux Fundamentals&lt;/strong&gt;
+&lt;em&gt;Paul Cobbaut&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://linux-training.be/linuxfun.pdf&quot;&gt;http://linux-training.be/linuxfun.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction to Linux&lt;/strong&gt;
+&lt;em&gt;Machtelt Garrels&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.tldp.org/LDP/intro-linux/intro-linux.pdf&quot;&gt;http://www.tldp.org/LDP/intro-linux/intro-linux.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dive into HTML5&lt;/strong&gt;
+&lt;em&gt;Mark Pilgrim&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://diveintohtml5.info/index.html&quot;&gt;http://diveintohtml5.info/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptography&quot;&gt;Cryptography&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Handbook of Applied Cryptography&lt;/strong&gt; 
+&lt;em&gt;Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;http://cacr.uwaterloo.ca/hac/&quot;&gt;http://cacr.uwaterloo.ca/hac/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CRYPTO101&lt;/strong&gt;
+&lt;em&gt;Laurens Van Houtven&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://www.crypto101.io/&quot;&gt;https://www.crypto101.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the Period Length of Pseudorandom Number Sequences&lt;/strong&gt;
+&lt;em&gt;Amy Glen&lt;/em&gt; &lt;br /&gt;
+&lt;a href=&quot;https://amyglen.files.wordpress.com/2011/12/thesis2002.pdf&quot;&gt;https://amyglen.files.wordpress.com/2011/12/thesis2002.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- http://zon8.physd.amu.edu.pl/~tanas/krypt09.pdf --&gt;
+&lt;!-- https://eprint.iacr.org/complete/ --&gt;</content><summary>Below is a list of books and materials, which deems for me as essential. 
+If you want more resources, I recommend this list - free programming books.</summary></entry><entry><title>Fixing broken USB dongles/adapters (El Capitan)</title><link href="http://maciejczyzewski.me/2016/05/17/fixing-broken-usb-dongles-adapters-el-capitan.html" rel="alternate" type="text/html" title="Fixing broken USB dongles/adapters (El Capitan)" /><published>2016-05-17T14:01:00+02:00</published><updated>2016-05-17T14:01:00+02:00</updated><id>http://maciejczyzewski.me/2016/05/17/fixing-broken-usb-dongles-adapters-el-capitan</id><content type="html" xml:base="http://maciejczyzewski.me/2016/05/17/fixing-broken-usb-dongles-adapters-el-capitan.html">&lt;p&gt;After migration to new system &lt;em&gt;10.11&lt;/em&gt;, in my console (log history) I had:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;WirelessUtility[1977:13014] [Line 198] OidQueryInformation ==&amp;gt; NoDriver
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Similar situation to: &lt;a href=&quot;https://discussions.apple.com/thread/7254856?tstart=0&quot;&gt;Dongles not working in OS X (El Capitan)?&lt;/a&gt; or &lt;a href=&quot;http://www.insanelymac.com/forum/topic/299948-usb-wifi-updated-ralinkmediatek-rt2870-rt2770-rt3x7x-rt537x-rt5572/page-9&quot;&gt;Broken Wireless Adapters&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All because &lt;em&gt;El Captain&lt;/em&gt; brings new and better security methods which are causing this problem. By typing &lt;code class=&quot;highlighter-rouge&quot;&gt;kextstat -sort | grep -v &#39;com.apple&#39;&lt;/code&gt; you can check all &lt;em&gt;non-apple/external&lt;/em&gt; active &amp;amp; supported kernel components.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;p&gt;There is possibility to disable &lt;a href=&quot;https://en.wikipedia.org/wiki/System_Integrity_Protection&quot;&gt;System Integrity Protection&lt;/a&gt; by typing &lt;code class=&quot;highlighter-rouge&quot;&gt;csrutil disable&lt;/code&gt;, but it seems dangerous. Below, I propose less intrusive method.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disable the &lt;em&gt;kext&lt;/em&gt; signing security setting:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo nvram boot-args=&quot;kext-dev-mode=1&quot;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Install drivers/utilities for your dongle/adapter…&lt;/em&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;In my case, I was installing drivers for my &lt;a href=&quot;https://www.asus.com/us/Networking/USBAC51/&quot;&gt;ASUS USB-AC51&lt;/a&gt; Wi-Fi adapter.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Re-enable it again:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo nvram -d boot-args
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Reboot your computer and check if it works. In my case, after &lt;code class=&quot;highlighter-rouge&quot;&gt;networksetup -listallhardwareports&lt;/code&gt; I had seen my new interface ;-)&lt;/p&gt;</content><summary>After migration to new system 10.11, in my console (log history) I had:</summary></entry><entry><title>History built-in, often forgotten command</title><link href="http://maciejczyzewski.me/2015/08/24/history-builtin-often-forgotten-command.html" rel="alternate" type="text/html" title="History built-in, often forgotten command" /><published>2015-08-24T15:00:22+02:00</published><updated>2015-08-24T15:00:22+02:00</updated><id>http://maciejczyzewski.me/2015/08/24/history-builtin-often-forgotten-command</id><content type="html" xml:base="http://maciejczyzewski.me/2015/08/24/history-builtin-often-forgotten-command.html">&lt;p&gt;All modern shells have some mechanism of working with the history of commands.&lt;/p&gt;
+
+&lt;p&gt;It is operated on history file and memory buffer with recent commands. History file is stored in a regular flat file. (generally .bash_history, .sh_history or .zsh_history)&lt;/p&gt;
+
+&lt;p&gt;To check which file are you using now, simply write in your terminal prompt:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ echo $HISTFILE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To find all such files type the command below:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ls -f ~ | grep &quot;_history&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+
+&lt;p&gt;Control of the behavior of the command history is provided jointly by bash and the readline library. In addition to classic variable &lt;em&gt;$HISTFILE&lt;/em&gt; bash provides four other variables that control what information is written to history: &lt;em&gt;$HISTTIMEFORMAT&lt;/em&gt;, &lt;em&gt;$HISTSIZE&lt;/em&gt;, &lt;em&gt;$HISTCONTROL&lt;/em&gt; and &lt;em&gt;$HISTIGNORE&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
+
+&lt;p&gt;To see which commands you type most often and convert some of them into aliases you can use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cut -f2 -d&quot;;&quot; $HISTFILE | sort | uniq -c | sort -nr | head -10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yeah, for me the most popular are &lt;em&gt;ls&lt;/em&gt; and &lt;em&gt;cd&lt;/em&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Entering the &lt;em&gt;history&lt;/em&gt; command without any switches displays the full history list with line numbers:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ history
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This list can be of course searched with &lt;em&gt;grep&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ history | grep &quot;cd&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can cut the search to the the last 100 commands entered:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ history 100
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;That’s all you should know! Happy hacking…&lt;/em&gt;&lt;/p&gt;</content><summary>All modern shells have some mechanism of working with the history of commands.</summary></entry><entry><title>Evolution of drones, bionic birds &amp;amp; bees</title><link href="http://maciejczyzewski.me/2015/08/24/evolution-of-drones-bionic-birds-bees.html" rel="alternate" type="text/html" title="Evolution of drones, bionic birds &amp; bees" /><published>2015-08-24T13:19:57+02:00</published><updated>2015-08-24T13:19:57+02:00</updated><id>http://maciejczyzewski.me/2015/08/24/evolution-of-drones-bionic-birds-bees</id><content type="html" xml:base="http://maciejczyzewski.me/2015/08/24/evolution-of-drones-bionic-birds-bees.html">&lt;p&gt;Seeing a flying drone cease to amaze me, but recently I began to see interesting objects ever stranger shapes and sizes. Drones are getting quieter and smaller…&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/d5TdbMu8xc4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;birds&quot;&gt;Birds&lt;/h2&gt;
+
+&lt;p&gt;The most intresting project it’s a bird-shaped drone called &lt;strong&gt;Bionic Bird&lt;/strong&gt;. This new mechanical bird, is app controlled, using a Bluetooth 4.0 link to support 100 meters of remote controlled flight from your smartphone or tablet.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hIp3ix4ZcS0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;It looks naturally so can confuse animals and camouflage in the landscape.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aMyGzUvhUZU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;Learn more interesting things, here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.shef.ac.uk/news/nr/green-brain-honey-bee-model-sheffield-university-1.212235&quot;&gt;“Green Brain” to create an autonomous flying robot with a honey bee brain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiegogo.com/projects/bionic-bird-the-furtive-drone&quot;&gt;Bionic Bird: the Furtive Drone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary>Seeing a flying drone cease to amaze me, but recently I began to see interesting objects ever stranger shapes and sizes. Drones are getting quieter and smaller…</summary></entry><entry><title>Fixing sudo on OS X, tricky method</title><link href="http://maciejczyzewski.me/2015/08/23/fixing-sudo-on-os-x-tricky-method.html" rel="alternate" type="text/html" title="Fixing sudo on OS X, tricky method" /><published>2015-08-23T20:42:22+02:00</published><updated>2015-08-23T20:42:22+02:00</updated><id>http://maciejczyzewski.me/2015/08/23/fixing-sudo-on-os-x-tricky-method</id><content type="html" xml:base="http://maciejczyzewski.me/2015/08/23/fixing-sudo-on-os-x-tricky-method.html">&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/sandwich.png&quot; alt=&quot;Sudo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If your &lt;em&gt;sudo&lt;/em&gt; does not work anymore and displays something like:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo: can&#39;t open /private/etc/sudoers: Permission denied
+sudo: no valid sudoers sources found, quitting
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Looks matter seriously, do not worry…&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;First, you need to be logged in as an administrator, open a console and enable root if not done yet.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ dsenableroot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’ll have to type your user and password, and set root a new password (can be the same).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, you can log in as root…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ su
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Last step is fixing the root “/” directory permissions:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ chmod go+rx-w /
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yeah, it’s good time to repair your sudoers file using &lt;em&gt;visudo&lt;/em&gt;…&lt;/p&gt;</content><summary></summary></entry><entry><title>Finding files, right way using command-line utility…</title><link href="http://maciejczyzewski.me/2015/08/22/finding-files-right-way-using-command-line-utility.html" rel="alternate" type="text/html" title="Finding files, right way using command-line utility..." /><published>2015-08-22T17:20:50+02:00</published><updated>2015-08-22T17:20:50+02:00</updated><id>http://maciejczyzewski.me/2015/08/22/finding-files-right-way-using-command-line-utility</id><content type="html" xml:base="http://maciejczyzewski.me/2015/08/22/finding-files-right-way-using-command-line-utility.html">&lt;p&gt;&lt;em&gt;Have you ever saved, moved, or copied a file, script, document, then been unable to find it?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe you saved it in a different directory, with an unusual name &lt;br /&gt; or &lt;u&gt;&lt;font color=&quot;#FF0000&quot;&gt;m&lt;/font&gt;&lt;font color=&quot;#FF4300&quot;&gt;a&lt;/font&gt;&lt;font color=&quot;#FF8600&quot;&gt;g&lt;/font&gt;&lt;font color=&quot;#FFC900&quot;&gt;i&lt;/font&gt;&lt;font color=&quot;#FFff00&quot;&gt;c&lt;/font&gt;&lt;font color=&quot;#BCff00&quot;&gt; &lt;/font&gt;&lt;font color=&quot;#79ff00&quot;&gt;u&lt;/font&gt;&lt;font color=&quot;#36ff00&quot;&gt;n&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;i&lt;/font&gt;&lt;font color=&quot;#00ff43&quot;&gt;c&lt;/font&gt;&lt;font color=&quot;#00ff86&quot;&gt;o&lt;/font&gt;&lt;font color=&quot;#00ffC9&quot;&gt;r&lt;/font&gt;&lt;font color=&quot;#00ffff&quot;&gt;n&lt;/font&gt;&lt;font color=&quot;#00C9ff&quot;&gt;s&lt;/font&gt;&lt;font color=&quot;#0086ff&quot;&gt; &lt;/font&gt;&lt;font color=&quot;#0043ff&quot;&gt;s&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;t&lt;/font&gt;&lt;font color=&quot;#3600ff&quot;&gt;o&lt;/font&gt;&lt;font color=&quot;#7900ff&quot;&gt;l&lt;/font&gt;&lt;font color=&quot;#BC00ff&quot;&gt;e&lt;/font&gt;&lt;font color=&quot;#FF00ff&quot;&gt; &lt;/font&gt;&lt;font color=&quot;#FF00C9&quot;&gt;i&lt;/font&gt;&lt;font color=&quot;#FF0086&quot;&gt;t&lt;/font&gt;&lt;/u&gt;, it’s definitely time to learn &lt;a href=&quot;http://ss64.com/bash/find.html&quot;&gt;find utility&lt;/a&gt;…&lt;/p&gt;
+
+&lt;h2 id=&quot;command&quot;&gt;Command&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;find&lt;/strong&gt; utility recursively descends the directory tree for each path listed, evaluating an expression (composed of the “primaries” and “operands”) in terms of each file in the tree.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.explainxkcd.com/wiki/images/d/d5/old_files.png&quot; alt=&quot;Old files ;-)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Search a folder hierarchy for filename(s) that meet a desired criteria: name, size, file, type…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;basics&quot;&gt;Basics&lt;/h2&gt;
+
+&lt;p&gt;To find all files on a computer named “mysecretfile.py”, just type:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s possible that you will see &lt;em&gt;Permission denied&lt;/em&gt;, you should then call this command as root…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ find / -name &#39;mysecretfile.py&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Command below will show all files in your home directory modified or created today, by default, find counts days from midnight, so an age of 0 means today, -1 means yestarday, -30 means month ago, etc.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ find ~ -type f -mtime 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You may have used the &lt;em&gt;-iname&lt;/em&gt; option with find before, but it can do lots more. These options can be combined, so if that elusive download was an python file, you could narrow the search with:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ find ~ -type f -mtime 0 -iname &#39;*.py&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To find files and directories that are not owned by you, use:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ find ~ ! -user ${USER}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;For more information just type in your console &lt;em&gt;man find&lt;/em&gt;, or visit &lt;a href=&quot;http://www.tldp.org/LDP/abs/html/moreadv.html&quot;&gt;this&lt;/a&gt; page.&lt;/p&gt;</content><summary>Have you ever saved, moved, or copied a file, script, document, then been unable to find it?</summary></entry><entry><title>Better debug notices in C, using macros</title><link href="http://maciejczyzewski.me/2015/02/21/better-debug-notices-in-c-using-macros.html" rel="alternate" type="text/html" title="Better debug notices in C, using macros" /><published>2015-02-21T17:03:22+01:00</published><updated>2015-02-21T17:03:22+01:00</updated><id>http://maciejczyzewski.me/2015/02/21/better-debug-notices-in-c-using-macros</id><content type="html" xml:base="http://maciejczyzewski.me/2015/02/21/better-debug-notices-in-c-using-macros.html">&lt;p&gt;In almost every programming language handling errors is a difficult activity, but very important.&lt;/p&gt;
+
+&lt;p&gt;Last day, I was exploring some small projects on &lt;strong&gt;Github&lt;/strong&gt;. Most didn’t have any notifications, the rest had some creative solutions. Their problem was that they were unreadable.&lt;/p&gt;
+
+&lt;p&gt;So below I present my simple solution, using macros.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &amp;lt;stdlib.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;sr&quot;&gt;/* Debugger */&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#define note(S, ...) fprintf(stderr,                                     \&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m(%s:%d, %s)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[90mnote:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m &quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;S&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;__LINE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__FUNCTION__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;##__VA_ARGS__)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#define warn(S, ...) fprintf(stderr,                                     \&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m(%s:%d, %s)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[33mwarning:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m &quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;S&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;__LINE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__FUNCTION__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;##__VA_ARGS__)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#define errn(S, ...) do { fprintf(stderr,                                \&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m(%s:%d, %s)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[1m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[31merror:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x1b&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;[0m &quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;S&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;   &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;__FILE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;__LINE__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__FUNCTION__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;##__VA_ARGS__); exit(1); } while (0) \&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#include &quot;utils.h&quot; // debugger macros&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;note&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;this will be a hard error in the future&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;function &#39;%s&#39; redefined as non-inline&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;my_function&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;errn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no such file or directory&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/vdmeGth8VMAx0r8T-s-4F5N6dNi_ohig_1bxgE5Nx2s7PyfdiKxKBPyzi8PVUPNX6kdTJzf-QAGah8KZdvhwkuVt4KaBM6LaBxic_TesF4eclOIivt59hcU62uumpk6nmFqTy6OkL1GqZgXqp6FEokVgS2JjcEI6YeQvF5nEEghRpc7fEbzPQ6w02nGqw34ftnc-26PHFhsyudiIs6EMHw44RRrEYwvogPv4Ltlt3CnijptgVuBYvqHH4pRFn4cauIn0EvBz1NR0ZjJIDdzu50Z3dSi-K9J2b94QMfwEQuEWuFp1wXyAJAEZZEkoA6OIXwokKbE0ghDtrmGkDg3gpmUo8OUVTf0D302eJy1Zo8Wqb6UvN5nHvcnKDKpbmGDiB1voJXuu0Kz0SdgdUpFLJ6D0V4pR7xjINqRs7Prt2YG0ldy4_gia-BC0x7z5NCfqMkTmBdhwYkVegTOEa1yLjIvCrGNnH9m8eonzVUYt_iNVF3N8rfoSA_b66Tn3p1RegPnTKIuMJNKS7hiDJDUVFiDPGcMig7nD99WIUqJJ6bRzXgdNPCaa6oZJhEbFTmZ5yVGNbHsKEjMsa776Ft54AuwJWahrr18=w1504-h786-no&quot; alt=&quot;Testing&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Please… Start doing it legibly, do nice notices! They have to facilitate the work. That’s why they are.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;thanks&quot;&gt;Thanks&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Bill Lynch&lt;/strong&gt; - Improved code, found a bug.&lt;/p&gt;</content><summary>In almost every programming language handling errors is a difficult activity, but very important.</summary></entry><entry><title>Sieve of Atkin, finding prime numbers faster</title><link href="http://maciejczyzewski.me/2015/01/12/sieve-of-atkin-finding-prime-numbers-faster.html" rel="alternate" type="text/html" title="Sieve of Atkin, finding prime numbers faster" /><published>2015-01-12T05:03:22+01:00</published><updated>2015-01-12T05:03:22+01:00</updated><id>http://maciejczyzewski.me/2015/01/12/sieve-of-atkin-finding-prime-numbers-faster</id><content type="html" xml:base="http://maciejczyzewski.me/2015/01/12/sieve-of-atkin-finding-prime-numbers-faster.html">&lt;p&gt;It is an optimized version of the ancient &lt;strong&gt;sieve of Eratosthenes&lt;/strong&gt; which does some preliminary work and then marks off multiples of the square of each prime, rather than multiples of the prime itself.&lt;/p&gt;
+
+&lt;p&gt;It was created in 2003 by &lt;em&gt;A. O. L. Atkin&lt;/em&gt; and &lt;em&gt;Daniel J. Bernstein&lt;/em&gt;. References can be found in “&lt;a href=&quot;http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf&quot;&gt;Prime sieves using binary quadratic forms.&lt;/a&gt;”&lt;/p&gt;
+
+&lt;h2 id=&quot;complexity&quot;&gt;Complexity&lt;/h2&gt;
+
+&lt;p&gt;The page segmented version implemented by the authors has the same $O(N)$ operations but reduces the memory requirement to just that required by the base primes below the square root of the range of $O(N^{1/2} / \log N)$ bits of memory plus a minimal page buffer.&lt;/p&gt;
+
+&lt;h2 id=&quot;optimization&quot;&gt;Optimization&lt;/h2&gt;
+
+&lt;p&gt;All numbers with a modulo-sixty remainder:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;that is divisible by 2, 3, or 5 are not prime because they are divisible by 2, 3, or 5, respectively.&lt;/li&gt;
+  &lt;li&gt;1, 13, 17, 29, 37, 41, 49, or 53 have a modulo-four remainder of 1. These numbers are prime iff the number of solutions to $4x^{2} + y^{2} = n$ is odd and the number is not a square of another integer.&lt;/li&gt;
+  &lt;li&gt;7, 19, 31, or 43 have a modulo-six remainder of 1. These numbers are prime iff the number of solutions to $3x^{2} + y^{2} = n$ is odd and the number is not a square of another integer.&lt;/li&gt;
+  &lt;li&gt;11, 23, 47, or 59 have a modulo-twelve remainder of 11. These numbers are prime iff the number solutions to $3x^{2} - y^{2} = n$ is odd and the number is not a square of another integer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sieveOfAtkin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# The array doesn&#39;t need to include even numbers&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;lng&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Create array and assume all numbers in array are prime&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sieve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lng&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# The transforming is not optimal, and the number of&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# operations involved can be reduced.&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Only go up to square root of the end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Skip numbers that aren&#39;t marked as prime&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sieve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Unmark all multiples of i, starting at i**2&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lng&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sieve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Don&#39;t forget 2&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;primes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Gather all the primes into a list, leaving out the composite numbers&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;primes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lng&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sieve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]])&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;primes&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;__main__&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sieveOfAtkin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Conclusions [2, 3, 5, ... , 99991]&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><summary>It is an optimized version of the ancient sieve of Eratosthenes which does some preliminary work and then marks off multiples of the square of each prime, rather than multiples of the prime itself.</summary></entry><entry><title>Monte Carlo method, calculating π</title><link href="http://maciejczyzewski.me/2015/01/10/monte-carlo-method-calculating-pi.html" rel="alternate" type="text/html" title="Monte Carlo method, calculating π" /><published>2015-01-10T08:05:02+01:00</published><updated>2015-01-10T08:05:02+01:00</updated><id>http://maciejczyzewski.me/2015/01/10/monte-carlo-method-calculating-pi</id><content type="html" xml:base="http://maciejczyzewski.me/2015/01/10/monte-carlo-method-calculating-pi.html">&lt;p&gt;&lt;strong&gt;Monte Carlo methods/experiments&lt;/strong&gt; are a class of computational algorithms that rely on repeated random sampling to compute their results.&lt;/p&gt;
+
+&lt;p&gt;These methods are most suited to calculation by a computer and tend to be used when it is unfeasible or impossible to compute an exact result with a deterministic algorithm.&lt;/p&gt;
+
+&lt;h2 id=&quot;calculations&quot;&gt;Calculations&lt;/h2&gt;
+
+&lt;p&gt;Now, we try to apply it to calculate an approximate value for π. Let’s start with the mathematical foundations of the problem.&lt;/p&gt;
+
+&lt;p&gt;The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in a circle, to the whole field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/4Wcl9DDp6BAMLUD9o757hxTK8BNY8LOO3cr5P1Obaf7P0wSagPesxUCvngAHRukZBE_ZtPCtJ2YV0wKst51I9n944d9P_P8mfVtPhhQvILAxVEVzXCzmLxrBhrexQecrkH3VlqPDBKCeQ85gatFEqSqvvCkN0wqR-9I9MeV-RAo26_DWd3oftzh8rQ0Vhbvmmutg6R_1WzktSaniRb9SIhAkq2_j6amSdNhwqS-xJh8jzYMyHrfhX8GaSVx1t7RV0QJ3pZmcB6nYzkYViQIt_zSWxHo9_zUyizZYS8TwaT3GVvCm0n4nyeJE30VNhzjmuuHx60G-vrZVNa4AMMx--ZUKthyg_2JQF8BTwqfZeirgPqiKVCOTrEx7ORVWGAGPOyVUdZuf4acWLgMBvaQR_S-vkyvPisVD_gPP9xQjdj8iojxvm-13mpx6NXUzKK_nCrEYn2w3_9cAGWPQmyrJ26v2LCl4geW_WkkGa1-EmsrzQ-iE5izukVJrWU5jsETJy3Mtkr8eFQoRrw-V_n5cRT-Xc5OB8vcrXag07ObKuDeoLyapzfp8L890GoUagi1BiqY5MJWdlybSPNO49z0efn7aGk5yxtQ=w1040-h905-no&quot; alt=&quot;Circle inside square&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the relationship between these fields and knowing the formula for the area of the square and the circle, we get:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{A_{circle}}{A_{square}} = \frac{\pi r^2} {(2r)^2} = \frac{\pi r^2}{4r^2} = \frac{\pi}{4}&lt;/script&gt;
+
+&lt;p&gt;Therefore:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\pi = 4 * \frac{A_{circle}}{A_{square}}&lt;/script&gt;
+
+&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;withinCircle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Checks whether a point is in a circle&quot;&quot;&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calculatePi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;points&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Calculating Pi using random numbers&quot;&quot;&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;circleArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# The dots in a circle&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;squareArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# The dots in a square&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Random selection of dots&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;points&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# Coordinates of a random dot&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# x-coordinate&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# y-coordinate&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Checking whether the dot is inside the circle&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;withinCircle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;circleArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;circleArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Add it&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Is certainly in the square&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;squareArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;squareArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Add it&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Our formula&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;circleArea&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;squareArea&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;__main__&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calculatePi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# Conclusions&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Approximate value for Pi:        &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Difference to exact value of Pi: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Error in percent:                &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;analysis&quot;&gt;Analysis&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/sMUPyBI7PUmZpebxp2iAyx4br-id8tgKzzMEOZlQlSFAUF4sunmxkr8LGHNqOB2iNpeocsistFKk5kJEetdYuWXSlXxDYlzU4-NjdPqBBHvpi-sF7zit_jQAUt17SMhfWhmz_AmaFVANYi5iZAefhMfTXljK1uRAFuPbU3qRrdZbSjpUaz3nhXmnbfJU2EhVw6XHYH47MSkWVHemfiDn3TD79oRIlt_e9zdNYozM_9RZY9f0P3Zl4iEGXFzq42bJdRqgvG3bY45I4T2BViTKcU-5b7txVq3eu8pOAUts1_UWLKZjTQcFUKR24V1D1Ke4Lw-rVJrT3Iq3wf_GpQkXorM_Z3nmZNpfTkIqKsirJgOMqGjRWi_qpFq2Vr207oBZqHutpd_Y7K2HKCi0CO2PtOlQb4Viy5Wp5A1p5y-k5KbBCYm_ZQURaVamEOpitHga4OgKs-tAjiFJSSjqPKBvC8U4EVGDQGpM2npeyFPsymWouB05AOcwn29hmZXPW4uIY4oT74GUAAomLCjtpwn3JbAZfr9XJu9fCQFB6SA4hYhBdRP0cVMr_ycQIWeurTNIqqwasXJXftNdnLqRXaGdwbCqwyhGQjU=w800-h600-no&quot; alt=&quot;Monte Carlo method result&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Approximate value for Pi:         3.1424
+Difference to exact value of Pi:  0.000807346410207
+Error in percent:                 0.0256986343944 %
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Risk analysis is part of every decision we make. We are constantly faced with uncertainty, ambiguity, and variability.&lt;/em&gt;&lt;/p&gt;</content><summary>Monte Carlo methods/experiments are a class of computational algorithms that rely on repeated random sampling to compute their results.</summary></entry><entry><title>Happy new year!</title><link href="http://maciejczyzewski.me/2015/01/01/happy-new-year.html" rel="alternate" type="text/html" title="Happy new year!" /><published>2015-01-01T01:00:01+01:00</published><updated>2015-01-01T01:00:01+01:00</updated><id>http://maciejczyzewski.me/2015/01/01/happy-new-year</id><content type="html" xml:base="http://maciejczyzewski.me/2015/01/01/happy-new-year.html">&lt;p&gt;Sounds of fireworks around city, Szczecin…&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/183947218%3Fsecret_token%3Ds-1VEW0&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;surprise&quot;&gt;Surprise&lt;/h2&gt;
+
+&lt;p&gt;Finally I received my &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;&lt;strong&gt;DigitalOcean&lt;/strong&gt;&lt;/a&gt; T-shirt!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/_HL8BGJIqkH3Zz480L9qs7EBr17zKWS1Wuy8HxDtyGq6MLpA5laM0hr4xp_n6S8rdlvdrsq8naY2FUXIhk9MRm1-Wa87v5oTwETbXQXLc5L2vqBQenCf6CC3xt_focIGU5zyCm_Uq75nSMnbdi2jdoqiXUuBIMajrzNcmxx3sNZTi7TEnM7IjJQOqD84tsiRA8U3iPbgSPTLDtFa50GEgFXhXhnamqrtkjmSlWrfFYW305liRq2MTrQhfvvejjjeHOgsaYHS_tJN7FnYMxWXs7clSZtNk1bDPCOwtTO7PV6T90JrKvoOyYoaG_kgJLEpmWqj6Vc6LVobe6rARqHWxx1NI-4LFNUDb8CTjUu2KDl3PFrALU2pjxWk9EuqsszId6QJ8KVSHLKOf797-plSueE5PhQZj5VSRaV8DRbVF4Ipz7kBTVjq1dMqtGMgY91_BlAzdPzXDC9Sk2dqcUbAW7WJqDP6NCKRNzmVWBzeij6fvnbXAVuSpN3c0eY3fNFlfxlU1k0z44e5CTi9IS0cs71oToQL_GWnbNFfB-gSlOGapr64Wq2CZyOaco-Uu2-oy9WuEqvnBGIDHIcPaGQ7zBEqh01oI-w=w1884-h1412-no&quot; alt=&quot;Party&quot; /&gt;&lt;/p&gt;</content><summary>Sounds of fireworks around city, Szczecin…</summary></entry></feed>

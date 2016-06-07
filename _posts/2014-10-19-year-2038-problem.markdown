@@ -1,20 +1,20 @@
 ---
-layout: post
+layout: article
 title:  "Year 2038 problem"
 date:   2014-10-19 14:01:00
 
-label:  purple
+label:  bg-purple
 ---
 
-![2038](/assets/images/prints/Year_2038_problem.gif)
+![2038](https://lh3.googleusercontent.com/79iMwM5pXJ0_CUsYb5f3hCkwbv-NYkVf7KYQ5oZxzA86OOh8LGL2U8b-rkAnpC-RG12a2xKrMXEJyOPhrjwSJVzcvmS8-aqHaqzfaFG11hc6Ie-QG1yArNabpjLr5oZGEgeY9dwai9XTaKKLOPQD103lBRpVGSfGCh4ZHqgSAsfeqOU1RLY4sB284u4yb7vPBSDnd2KQ5Aoucrt1ofeH_42JUtm7kviuA9RaRvw9AfwZfhIuNTWAmT5hhEyZD6EFMsaCAzijJig3soMOKbIJRh_FsbTB6OAMoF6PilEdR_noGZQ9BXQ_n5GOQ_9vjm-nIXol_GDcPs8eKxuwodQJXfSgkQgmeFXjedscZ6gfJFz22aYGHOFRDtXD1YEiFN0I4d8pumnP_zwwGnjtBBqzbxpyjWVO95FwRel_TYlB3suHF7JsZUsjY1OkBoOrFTdyU9Nixz1CBRmD7W1Xi05ssnClfcUtv680n8TxL6wXu6FZDxIXpf87cMjjPssVqY-9jpjPUlLHeerfDxfr-B1198yX7zDi71lhOWM_Eb4fWxAjS4O7wGNXkGQxdyNjaZMQleiO5Dubpl-sCEeVTlCGJUqcmAHLQsY=w400-h130-no)
 
 The __year 2038 problem__ is an issue for computing and data storage situations in which time values are stored or calculated as a _signed 32-bit_ integer.
 
-All the smart kids know that this number is interpreted as the number of seconds since _00:00:00 UTC on 1 January 1970_ (“the epoch”).
+All the smart kids know that this number is interpreted as the number of seconds since _00:00:00 UTC on 1 January 1970_ ("the epoch").
 
 ## Mathematics
 
-<p class="ta"><span class="equation" data-expr="2147483648 = 2^{31}"></span> is a perfect 31st power.</p>
+<p>$2147483648 = 2^{31}$ is a perfect 31st power.</p>
 
 Timestamp will be out of _signed 32-bit_ range...
 
@@ -25,4 +25,4 @@ Timestamp will be out of _signed 32-bit_ range...
 
 ## Analogy
 
-![Y2K](/assets/images/prints/Bug_de_l%27an_2000.jpg)
+![Y2K](https://lh3.googleusercontent.com/NfpfrinzYPi2fbSyn99LhuslGTSxWsYQuhQShapVZI9YR1p528tVMFGfjgWyKU-4LXKrtbvSchChnBssugY-d9G1o3xW6JwHhfw3o3zr55xF1L85YBJLtLZUdi71gc4dRBfbI6uX93VUoJFyThUtvK8xEI5_qFHNfFgT3azv6cILQFzoJKBP8M2Q4-eTmgj68X6aG09s6rmB4aM-S8eh86Q2GVGG18DyopsA65OEP1Qc4iP0oCbYMoSzxKfjYcxzu4IHRFK6ZAf88IEHKYhrFaOT7_DypzMLfvbgSF0uNWVrVwPBMl1MfhJkUhn39WI99tnkcI7dM-QXE_0D_moYOjjASRgJGSLDbHgaaro9F0pGTRHvWJ165rqiWTFPB_w9fNxD3ndgqimEtvqy1mmee7UXazU4zuB9c38GeupMiSn8Cw1QLmgCJFRSwXuBMjC9wZalFJ95J6W0Ccn5FyyFow-XHtRKhJNXygNQWbeb-0UsBxNjHnYHhDUcfn9KkIUIisVZCAEn95Cz6bXaKvXJk9XpV4QJEQq_MT6s_nuusLkQrn3B6zMNeVsymw4B7L3fQJ2uvotrBc_M2lUpiAQd_jth_Jly_SA=w640-h480-no)

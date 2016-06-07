@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  <hgroup>
+    <span>Posted on <time datetime="{{ post.date | date:"%Y-%m-%dT%H:%M:%SZ" }}">{{ page.date | date_to_long_string }}</time></span>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="_czyzewski" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </hgroup>
+
+  <div>{{ content }}</div>
+
+  <nav>
+    <a href="{{ page.previous.url }}">
+      {% if page.previous.url %}
+      <p>« previus</p><span>{{ page.previous.title }}</span>
+      {% endif %} 
+    </a>
+    <a href="{{ page.next.url }}">
+      {% if page.next.url %}
+      <p>next »</p><span>{{ page.next.title }}</span>
+      {% endif %} 
+    </a>
+  </nav>
+</article>

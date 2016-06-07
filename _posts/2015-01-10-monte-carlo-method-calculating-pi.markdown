@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Monte Carlo method, calculating π"
 date:   2015-01-10 7:05:02
 
-label:  red
+label:  bg-red
 ---
 
 __Monte Carlo methods/experiments__ are a class of computational algorithms that rely on repeated random sampling to compute their results.
@@ -16,19 +16,19 @@ Now, we try to apply it to calculate an approximate value for π. Let’s start 
 
 The idea is to approximate an area by counting dots, which are randomly scattered over the area. We want to compare the number of dots located in a circle, to the whole field.
 
-<img src="/assets/images/prints/circle_dots.jpeg" alt="Circle inside square" width="400px" />
+![Circle inside square](https://lh3.googleusercontent.com/4Wcl9DDp6BAMLUD9o757hxTK8BNY8LOO3cr5P1Obaf7P0wSagPesxUCvngAHRukZBE_ZtPCtJ2YV0wKst51I9n944d9P_P8mfVtPhhQvILAxVEVzXCzmLxrBhrexQecrkH3VlqPDBKCeQ85gatFEqSqvvCkN0wqR-9I9MeV-RAo26_DWd3oftzh8rQ0Vhbvmmutg6R_1WzktSaniRb9SIhAkq2_j6amSdNhwqS-xJh8jzYMyHrfhX8GaSVx1t7RV0QJ3pZmcB6nYzkYViQIt_zSWxHo9_zUyizZYS8TwaT3GVvCm0n4nyeJE30VNhzjmuuHx60G-vrZVNa4AMMx--ZUKthyg_2JQF8BTwqfZeirgPqiKVCOTrEx7ORVWGAGPOyVUdZuf4acWLgMBvaQR_S-vkyvPisVD_gPP9xQjdj8iojxvm-13mpx6NXUzKK_nCrEYn2w3_9cAGWPQmyrJ26v2LCl4geW_WkkGa1-EmsrzQ-iE5izukVJrWU5jsETJy3Mtkr8eFQoRrw-V_n5cRT-Xc5OB8vcrXag07ObKuDeoLyapzfp8L890GoUagi1BiqY5MJWdlybSPNO49z0efn7aGk5yxtQ=w1040-h905-no)
 
 Using the relationship between these fields and knowing the formula for the area of the square and the circle, we get:
 
-<div class="equation" data-expr="\frac{A_{circle}}{A_{square}} = \frac{\pi r^2} {(2r)^2} = \frac{\pi r^2}{4r^2} = \frac{\pi}{4}"></div>
+$$\frac{A_{circle}}{A_{square}} = \frac{\pi r^2} {(2r)^2} = \frac{\pi r^2}{4r^2} = \frac{\pi}{4}$$
 
 Therefore:
 
-<div class="equation" data-expr="\pi = 4 * \frac{A_{circle}}{A_{square}}"></div>
+$$\pi = 4 * \frac{A_{circle}}{A_{square}}$$
 
 ## Implementation
 
-```python
+{% highlight python %}
 #!/usr/bin/env python
 
 import random
@@ -69,18 +69,16 @@ if __name__ == "__main__":
   print "Approximate value for Pi:        ", my
   print "Difference to exact value of Pi: ", my - pi
   print "Error in percent:                ", (my - pi) / pi * 100, "%"
-```
+{% endhighlight %}
 
 ## Analysis
 
-![Monte Carlo method result](/assets/images/prints/pi_calculation.png)
+![Monte Carlo method result](https://lh3.googleusercontent.com/sMUPyBI7PUmZpebxp2iAyx4br-id8tgKzzMEOZlQlSFAUF4sunmxkr8LGHNqOB2iNpeocsistFKk5kJEetdYuWXSlXxDYlzU4-NjdPqBBHvpi-sF7zit_jQAUt17SMhfWhmz_AmaFVANYi5iZAefhMfTXljK1uRAFuPbU3qRrdZbSjpUaz3nhXmnbfJU2EhVw6XHYH47MSkWVHemfiDn3TD79oRIlt_e9zdNYozM_9RZY9f0P3Zl4iEGXFzq42bJdRqgvG3bY45I4T2BViTKcU-5b7txVq3eu8pOAUts1_UWLKZjTQcFUKR24V1D1Ke4Lw-rVJrT3Iq3wf_GpQkXorM_Z3nmZNpfTkIqKsirJgOMqGjRWi_qpFq2Vr207oBZqHutpd_Y7K2HKCi0CO2PtOlQb4Viy5Wp5A1p5y-k5KbBCYm_ZQURaVamEOpitHga4OgKs-tAjiFJSSjqPKBvC8U4EVGDQGpM2npeyFPsymWouB05AOcwn29hmZXPW4uIY4oT74GUAAomLCjtpwn3JbAZfr9XJu9fCQFB6SA4hYhBdRP0cVMr_ycQIWeurTNIqqwasXJXftNdnLqRXaGdwbCqwyhGQjU=w800-h600-no)
 
 ## Results
 
-```
-Approximate value for Pi:         3.1424
-Difference to exact value of Pi:  0.000807346410207
-Error in percent:                 0.0256986343944 %
-```
+    Approximate value for Pi:         3.1424
+    Difference to exact value of Pi:  0.000807346410207
+    Error in percent:                 0.0256986343944 %
 
 _Risk analysis is part of every decision we make. We are constantly faced with uncertainty, ambiguity, and variability._

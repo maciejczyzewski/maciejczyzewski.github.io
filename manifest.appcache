@@ -1,0 +1,11 @@
+---
+---
+CACHE MANIFEST
+# {{ site.time | date_to_xmlschema }}
+
+CACHE:
+{% for item in site.static_files %}{{ item.path }}
+{% endfor %}
+
+NETWORK:
+*

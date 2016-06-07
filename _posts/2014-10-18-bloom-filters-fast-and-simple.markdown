@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: article
 title:  "Bloom filters, fast and simple"
 date:   2014-10-18 11:14:00
 
-label:  red
+label:  bg-red
 ---
 
 Everyone is always raving about bloom filters. But what exactly are they, and what are they useful for?
@@ -25,7 +25,7 @@ Removal is impossible without introducing false negatives, but there are version
 
 ## Structure
 
-<img src="/assets/images/prints/bloom_filter.jpeg" alt="Diagram" width="500px" />
+![Diagram](https://lh3.googleusercontent.com/OHB6BVcBF67x46vZpMzdGcSVCPHXK_efSU2BT6ie6pRnkVqs300efWhgfwsvAwgrCfZYQ8dGYRO-57BC4cjLvjy9-2Qc-ct0qF-0yMjhGwiSDIT4DfgKQqHPgJZRMO6AmTWCWNjObiANnL45I_jUNd29r_tgbkgsu7nRzGkfTUlXmQ0ibIoaczniDjBw42VjobokKYZfzRV9fcs0-MGYj3J_-n5je3y9cE7UGy1VaxbWPGzW96QDg9xBk_LC4oChEtm5jLvUlWUpjl6wO_LYMjjZcTVthkd2VM_1l5GnWiOml0uJSyEQLjOWX1kRDehusn2yMxbk57aMPSboGG8WG7-k1Of6RDoWAqy4o7aeqmuX1AaiRlK7pvYoOcD3f2Ta5FwUs9i5Z1I848or_0llmF4b9PF9Tn0icfrCuaM2vVf0LzkFg44_jtv4wr8PNg5HMS6jd9uo8nTsl-M0WXr0LT5p9bl6UIFf5sItfLVABeFLwarzoIiavoyEnpTdx32HxjHVTSKk7hWWsVEkgqPyQxKhvB8xCDgyNG7fhhqJQ_PNznfd2Tyc1kiJxFiZTN7InQYknbNQcEfouPViyi4ocEaH8sxJb9g=w1459-h1164-no)
 
 Internally Bloom filters use a bit array, and multiple different hash functions.
 
@@ -33,7 +33,7 @@ Internally Bloom filters use a bit array, and multiple different hash functions.
 
 Let’s say for instance we have a bit array of a _100 elements_ and _3 hash functions_.
 
-__Add__, when we want to insert the word “Maciej” into the filter:
+__Add__, when we want to insert the word "Maciej" into the filter:
 
 * We pass it through hash functions:
  - hash 1, returns 33
@@ -49,7 +49,7 @@ __Query__, now to test whether the word might be in the collection:
 
 ## Implementation
 
-```python
+{% highlight python %}
 #!/usr/bin/env python
 
 from hashlib import sha256
@@ -127,4 +127,4 @@ if __name__ == "__main__":
   print bf.query(1)            # True
   print bf.query(40005)        # True
   print bf.query(123)          # False
-```
+{% endhighlight %}

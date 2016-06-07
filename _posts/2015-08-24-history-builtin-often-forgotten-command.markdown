@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "History built-in, often forgotten command"
 date:   2015-08-24 13:00:22
 ---

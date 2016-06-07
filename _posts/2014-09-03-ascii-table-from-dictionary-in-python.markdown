@@ -1,22 +1,21 @@
 ---
-layout: post
+layout: article
 title:  "ASCII table from dictionary in Python"
 date:   2014-09-03 17:14:00
 ---
 
 Sometimes I wish to print pretty table of dictionary as an ASCII, like this:
 
-               | Github project | Number of stars | Number of watchers |
-               +----------------+-----------------+--------------------+
-               | hyhyhy         |             195 |                 12 |
-               | bottomline     |              17 |                  3 |
-               | retter         |               2 |                  2 |
-               | hashbase       |               1 |                  1 |
-               +----------------+-----------------+--------------------+
-
+    | Github project | Number of stars | Number of watchers |
+    +----------------+-----------------+--------------------+
+    | hyhyhy         |             195 |                 12 |
+    | bottomline     |              17 |                  3 |
+    | retter         |               2 |                  2 |
+    | hashbase       |               1 |                  1 |
+    +----------------+-----------------+--------------------+
 
 Surprisingly it got complicated because of variable lengths of the data.
-I _googled_ for “standard” ways of doing this and I found suggestions like:
+I _googled_ for "standard" ways of doing this and I found suggestions like:
 
 [http://stackoverflow.com/questions/5909873/python-pretty-printing-ascii-tables][stackoverflow]
 
@@ -33,7 +32,7 @@ pleased with what I got!
 
 Here is a simple function that generate table, where each row runs the `leftright()` function:
 
-```python
+{% highlight python %}
 def table(data, headers):
   """
   Generate ASCII table
@@ -85,13 +84,13 @@ def table(data, headers):
 
   # Remove last '\n'
   return final[:-1]
-```
+{% endhighlight %}
 
 ## Testing
 
 Now it’s time to play code.
 
-```python
+{% highlight python %}
 data = [
   {'name': 'hyhyhy',     'stars': 195, 'watchers': 12},
   {'name': 'bottomline', 'stars': 17,  'watchers': 3},
@@ -106,7 +105,7 @@ headers = [
 ]
 
 print table(data, headers)
-```
+{% endhighlight %}
 
 Remember! Wikipedia is lying... My table is better.
 

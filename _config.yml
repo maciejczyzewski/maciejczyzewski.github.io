@@ -1,10 +1,39 @@
-markdown:           redcarpet
-highlighter:        pygments
-lsi:                false
-excerpt_separator:  "\n\n"
+timezone:     Europe/Oslo
 
-url:                http://maciejczyzewski.me
-name:               Maciej A. Czyzewski on the Web
-description:        "Software engineer, hacker, and design enthusiast."
+# Basic
+url:          http://maciejczyzewski.me
+title:        Maciej A. Czyzewski on the Web
+description:  "Software engineer, hacker, and design enthusiast."
 
-timezone:           Europe/Oslo
+# SEO
+logo:                     /assets/images/czyzewski.png
+google_site_verification: HBawTMww3xGdm4ZIKokBD8_Bx3YudVqrv1PISdhnthE
+
+# Social
+twitter:
+  username:   _czyzewski
+github:
+  username:   maciejczyzewski
+
+# Jekyll
+markdown:     kramdown
+highlighter:  rouge
+include:      ["_pages"]
+
+# Compress
+compress_html:
+  clippings:  all
+  comments:   ["<!-- ", " -->"]
+  blanklines: false
+  startings:  [html, head, body]
+
+# Stylesheets
+sass:
+  sass_dir:   _sass/
+  style:      compressed
+
+# Rubygems
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

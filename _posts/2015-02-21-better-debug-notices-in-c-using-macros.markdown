@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Better debug notices in C, using macros"
 date:   2015-02-21 16:03:22
 ---
@@ -12,7 +12,7 @@ So below I present my simple solution, using macros.
 
 ## Implementation
 
-```C
+{% highlight ruby %}
 #include <stdlib.h>
 
 /* Debugger */
@@ -28,11 +28,11 @@ So below I present my simple solution, using macros.
 #define errn(S, ...) do { fprintf(stderr,                                \
   "\x1b[1m(%s:%d, %s)\x1b[0m\n  \x1b[1m\x1b[31merror:\x1b[0m " S "\n",   \
   __FILE__, __LINE__, __FUNCTION__, ##__VA_ARGS__); exit(1); } while (0) \
-```
+{% endhighlight %}
 
 ## Testing
 
-```C
+{% highlight ruby %}
 #include <stdio.h>
 #include "utils.h" // debugger macros
 
@@ -44,11 +44,11 @@ int main(int argc, char const *argv[])
 
   return 0;
 }
-```
+{% endhighlight %}
 
 ## Results
 
-![Testing](/assets/images/prints/Screenshot 2015-03-31 00.10.31.png)
+![Testing](https://lh3.googleusercontent.com/vdmeGth8VMAx0r8T-s-4F5N6dNi_ohig_1bxgE5Nx2s7PyfdiKxKBPyzi8PVUPNX6kdTJzf-QAGah8KZdvhwkuVt4KaBM6LaBxic_TesF4eclOIivt59hcU62uumpk6nmFqTy6OkL1GqZgXqp6FEokVgS2JjcEI6YeQvF5nEEghRpc7fEbzPQ6w02nGqw34ftnc-26PHFhsyudiIs6EMHw44RRrEYwvogPv4Ltlt3CnijptgVuBYvqHH4pRFn4cauIn0EvBz1NR0ZjJIDdzu50Z3dSi-K9J2b94QMfwEQuEWuFp1wXyAJAEZZEkoA6OIXwokKbE0ghDtrmGkDg3gpmUo8OUVTf0D302eJy1Zo8Wqb6UvN5nHvcnKDKpbmGDiB1voJXuu0Kz0SdgdUpFLJ6D0V4pR7xjINqRs7Prt2YG0ldy4_gia-BC0x7z5NCfqMkTmBdhwYkVegTOEa1yLjIvCrGNnH9m8eonzVUYt_iNVF3N8rfoSA_b66Tn3p1RegPnTKIuMJNKS7hiDJDUVFiDPGcMig7nD99WIUqJJ6bRzXgdNPCaa6oZJhEbFTmZ5yVGNbHsKEjMsa776Ft54AuwJWahrr18=w1504-h786-no)
 
 > Please... Start doing it legibly, do nice notices! They have to facilitate the work. That’s why they are.
 

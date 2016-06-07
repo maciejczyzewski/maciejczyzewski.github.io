@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Finding files, right way using command-line utility..."
 date:   2015-08-22 15:20:50
 ---
@@ -10,7 +10,7 @@ Maybe you saved it in a different directory, with an unusual name <br> or <u><FO
 
 ## Command
 
-The __find__ utility recursively descends the directory tree for each path listed, evaluating an expression (composed of the “primaries” and “operands”) in terms of each file in the tree.
+The __find__ utility recursively descends the directory tree for each path listed, evaluating an expression (composed of the "primaries" and "operands") in terms of each file in the tree.
 
 ![Old files ;-)](http://www.explainxkcd.com/wiki/images/d/d5/old_files.png)
 
@@ -21,7 +21,7 @@ Search a folder hierarchy for filename(s) that meet a desired criteria: name, si
 
 ## Basics
 
-To find all files on a computer named “mysecretfile.py”, just type:
+To find all files on a computer named "mysecretfile.py", just type:
 
 > It’s possible that you will see _Permission denied_, you should then call this command as root...
 
@@ -42,5 +42,3 @@ To find files and directories that are not owned by you, use:
 ## More
 
 For more information just type in your console _man find_, or visit [this](http://www.tldp.org/LDP/abs/html/moreadv.html) page.
-
-

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "Fixing sudo on OS X, tricky method"
 date:   2015-08-23 18:42:22
 ---
@@ -25,9 +25,8 @@ Now, you can log in as root...
 
     $ su
 
-Last step is fixing the root “/” directory permissions:
+Last step is fixing the root "/" directory permissions:
 
     $ chmod go+rx-w /
 
 Yeah, it’s good time to repair your sudoers file using _visudo_...
-
