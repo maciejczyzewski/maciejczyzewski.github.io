@@ -1,12 +1,9 @@
-/* Highlight
-/* ========================================================================= */
-
 figure     { margin: 0 }
 
 pre        { font: normal 16px helvetica, sans-serif;
              background: #ecf0f1;
              padding: 1em 1em;
-             margin: 1em -1em;
+             margin: 1.5em -1em;
              overflow-y: scroll }
 pre .c     { color: #999988;
              font-style: italic }             /* Comment */
@@ -82,3 +79,4 @@ pre .vc    { color: #008080 }                 /* Name.Variable.Class */
 pre .vg    { color: #008080 }                 /* Name.Variable.Global */
 pre .vi    { color: #008080 }                 /* Name.Variable.Instance */
 pre .il    { color: #009999 }                 /* Literal.Number.Integer.Long */
+

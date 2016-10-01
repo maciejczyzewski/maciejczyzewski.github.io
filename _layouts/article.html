@@ -1,27 +1,22 @@
 ---
-layout: default
+layout: page
 ---
 
-<article>
+<article class="module">
   <h1>{{ page.title }}</h1>
 
   <hgroup>
     <span>Posted on <time datetime="{{ post.date | date:"%Y-%m-%dT%H:%M:%SZ" }}">{{ page.date | date_to_long_string }}</time></span>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="_czyzewski" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </hgroup>
+
+	<div class="line"></div>
 
   <div>{{ content }}</div>
 
-  <nav>
-    <a href="{{ page.previous.url }}">
-      {% if page.previous.url %}
-      <p>« previus</p><span>{{ page.previous.title }}</span>
-      {% endif %} 
-    </a>
-    <a href="{{ page.next.url }}">
-      {% if page.next.url %}
-      <p>next »</p><span>{{ page.next.title }}</span>
-      {% endif %} 
-    </a>
-  </nav>
+	<div class="share grid grid--center">
+		<span class="share__figure grid__cell grid__cell--autoSize">
+			<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28 0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54 1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463 1.198-1.04 1.638-1.7z" fill-rule="nonzero"></path></svg>
+		</span>
+		<p class="share__pitch grid__cell grid--fit"> If you liked this article and think others should read it, please <a ga-on="click" ga-hit-type="social" ga-social-network="Twitter" ga-social-action="tweet" ga-social-target="{{ page.url }}" href="http://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&amp;text=%22{{ page.title | url_encode }}%22&amp;via=_czyzewski"> share it on Twitter</a>.</p>
+	</div>
 </article>

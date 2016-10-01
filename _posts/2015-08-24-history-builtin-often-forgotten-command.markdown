@@ -6,7 +6,7 @@ date:   2015-08-24 13:00:22
 
 All modern shells have some mechanism of working with the history of commands.
 
-It is operated on history file and memory buffer with recent commands. History file is stored in a regular flat file. (generally .bash\_history, .sh\_history or .zsh\_history)
+It's operates on history file and memory buffer with recent commands. History file is stored in a regular flat file. (generally .bash\_history, .sh\_history or .zsh\_history)
 
 To check which file are you using now, simply write in your terminal prompt:
 

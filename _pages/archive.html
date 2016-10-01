@@ -1,33 +1,41 @@
 ---
-layout: default
+layout: page
 permalink: /archive
 ---
 
-<div class="labels">
-  <div><span class="bg-red"></span> algorithms, science</div>
-  <div><span class="bg-purple"></span> technology, curiosities</div>
-  <div><span class="bg-green"></span>research, papers, projects</div>
-  <div><span class="bg-white"></span> others</div>
+<div class="module grid grid--gutters">
+  <div class="grid__cell small__grid--1of2">
+		<span class="square bg-red"></span><br> algorithms, science
+	</div>
+  <div class="grid__cell small__grid--1of2">
+		<span class="square bg-purple"></span><br> technology, curiosities
+	</div>
+  <div class="grid__cell small__grid--1of2">
+		<span class="square bg-green"></span><br> research, papers, projects
+	</div>
+  <div class="grid__cell small__grid--1of2">
+		<span class="square border border--black"></span><br> others
+	</div>
 </div>
 
-<ol class="stories">
+<ol class="module stories">
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% capture cyear %}{{ site.time | date: '%Y' }}{% endcapture %}
   {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
   {% if year != nyear %}
-    <li class="story">
+    <div class="story">
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% if year == '2016' %}
       <p>My first scientific publication. Researching <a href="https://eprint.iacr.org/2016/468">chaos machine</a> theory. Learning LaTeX & TeX.</p>
     {% endif %}
     {% if year == '2015' %}
-      <p>Exploring cryptography and how operating system works. Learning Shell and markup languages like HTML5 or Yaml. In 24 hours, coded a pseudo-random number generator that passes all randomness tests.</p>
+      <p>Exploring cryptography and how operating system works. Learning Shell and markup languages like HTML5 or Yaml. In 24 hours, coded a pseudo-random number generator that passes all randomness tests like Dieharder, NIST and TestU01.</p>
     {% endif %}
     {% if year == '2014' %}
-      <p>Learning programming languages such as Javascript, Python, Ruby & ANSI C. Becoming familiar with basic concepts, data structures and algorithms. Started using OS X. My first open source project called <a href="https://github.com/maciejczyzewski/hyhyhy">hyhyhy</a>.</p>
+      <p>Learning programming languages such as Javascript, Python and Ruby. Becoming familiar with basic concepts, data structures and algorithms. Started using OS X. My first open source project called <a href="https://github.com/maciejczyzewski/hyhyhy">hyhyhy</a>.</p>
     {% endif %}
-    </li>
+    </div>
   {% endif %}
   {% include story.html %}
 {% endfor %}

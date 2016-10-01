@@ -3,7 +3,7 @@ timezone:     Europe/Oslo
 # Basic
 url:          http://maciejczyzewski.me
 title:        Maciej A. Czyzewski on the Web
-description:  "Software engineer, hacker, and design enthusiast."
+description:  "Software engineer, hacker and design enthusiast."
 
 # SEO
 logo:                     /assets/images/czyzewski.png
