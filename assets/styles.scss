@@ -51,6 +51,9 @@ $black:   #111111;
 .bg-silver {  background-color: $silver; }
 .bg-black {   background-color: $black; }
 
+/* SPECIAL */
+.bg-special { background-image: linear-gradient(-90deg, #9499FF, #94FFC4); }
+
 /* Colors */
 
 .navy {       color: $navy; }
@@ -301,13 +304,18 @@ body, html {
 	box-sizing: border-box;
 }
 
-img {max-width: 100%;}
+img { max-width: 100%; }
 
 main.grid {
 	margin-left: 2em;
 }
 
-li {     padding: 0.5em 0; }
+li { padding: 0.25em 0; }
+
+ol ul, ul ol, ul ul, ol ol {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
 h3{
 	text-transform: uppercase;
@@ -413,6 +421,10 @@ ol.stories {
 	background: white;
 }
 
+.stories--background:hover a {
+	background: transparent;
+}
+
 @media (max-width:479px) {
 	ol.stories time { width:100%; }
 }
@@ -462,7 +474,14 @@ article {
 	}
 
 	h2 {
-		padding-top: 1em
+		border-left: 27px solid;
+		padding-left: 0.5em;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 1.6;
+		margin: 0.5em 0;
 	}
 }
 

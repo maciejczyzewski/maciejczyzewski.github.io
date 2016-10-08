@@ -4,6 +4,10 @@ pre        { font: normal 16px helvetica, sans-serif;
              background: #ecf0f1;
              padding: 1em 1em;
              margin: 1.5em -1em;
+             -webkit-tab-size: 2;
+             -moz-tab-size: 2;
+             -o-tab-size: 2;
+             tab-size: 2;
              overflow-y: scroll }
 pre .c     { color: #999988;
              font-style: italic }             /* Comment */

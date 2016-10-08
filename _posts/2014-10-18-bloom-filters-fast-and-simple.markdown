@@ -35,15 +35,15 @@ Let’s say for instance we have a bit array of a _100 elements_ and _3 hash fun
 
 __Add__, when we want to insert the word "Maciej" into the filter:
 
-* We pass it through hash functions:
+1. We pass it through hash functions:
  - hash 1, returns 33
  - hash 2, returns 7
  - hash 3, returns 22
-* Next, we go to each of those elements in the array and set them to 1.
+2. Next, we go to each of those elements in the array and set them to 1.
 
 __Query__, now to test whether the word might be in the collection:
 
-* We pass it through hash functions, and check those elements in the bit array:
+1. We pass it through hash functions, and check those elements in the bit array:
  - _true_, if all 3 elements are set to 1.
  - _false_, if any one of the elements are set to zero.
 
