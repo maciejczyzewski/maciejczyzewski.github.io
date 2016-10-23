@@ -19,7 +19,7 @@ First, you need to be logged in as an administrator, open a console and enable r
 
     $ dsenableroot
 
-> You’ll have to type your user and password, and set root a new password (can be the same).
+> You'll have to type your user and password, and set root a new password...
 
 Now, you can log in as root...
 

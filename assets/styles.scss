@@ -367,9 +367,28 @@ header {
 }
 
 blockquote {
-	padding-left: 10px;
-	margin: 0;
-	border-left: 3px solid $silver;
+	display: inline-block;
+	border-left: 0.5em solid $silver;
+	background-image: linear-gradient(to right, #ecf0f1 1px, transparent 75%);
+	padding: 0.25em 0.8em 0.25em 0.3em;
+	margin: 1em -0.8em; // 0em -0.8em
+
+	p {
+		font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+		font-style: italic;
+		font-size: 21px;
+		line-height: 1.58;
+	}
+
+	span {
+		float: right;
+		font-weight: bold;
+		font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+		font-style: italic;
+		font-size: 21px;
+		line-height: 1.58;
+		letter-spacing: -.003em;
+	}
 }
 
 .module { margin-bottom: 0.5em; margin-top: 0.5em;
@@ -380,7 +399,7 @@ max-width: 800px; padding-right: 2em; }
 .line {
 	width: 22px;
 	height: 2px;
-	margin-bottom: 40px;
+	margin-bottom: 1em;
 	background-color: rgba(1,255,112,0.5);
 }
 
@@ -433,6 +452,9 @@ ol.stories {
 /* ========================================================================= */
 
 article {
+	width: 100%;
+	font-size: 20px;
+
 	h1 {
 		letter-spacing: 0;
 		margin-top: 20px;
@@ -474,7 +496,7 @@ article {
 	}
 
 	h2 {
-		border-left: 27px solid;
+		border-left: 34px solid;
 		padding-left: 0.5em;
 	}
 
@@ -489,16 +511,23 @@ article {
 /* ========================================================================= */
 
 .share {
-	background: #f4f2f0;
-	border-radius: 3px;
+	background: #ecf0f1;
+	border: 0.5em solid #ddd;
 	margin-top: 3em;
 	padding: 1.25em;
 	margin-bottom: 2em;
+	transition: border 2s, box-shadow 2s;
+
+	&:hover {
+		box-shadow: 0 0 2em #9ecaed;
+		border: 0.5em solid #ecf0f1;
+	}
 }
 
 .share__figure {
 	color: #55acee;
-	width:28px;
+	height: 28px;
+	width: 28px;
 }
 
 .share svg {
@@ -511,7 +540,7 @@ article {
 	font-size: .9em;
 	margin: 0;
 	text-align: center;
-	padding-left: 1em;
+	margin-left: 1em;
 }
 
 /* Groups

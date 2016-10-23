@@ -120,10 +120,12 @@ a:hover svg {
 	bottom: 30px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	padding-bottom: 0.25em;
 
 	a {
 		background: 0 0;
 		display: inline-block;
+		height: 32px;
 		width: 32px;
 		margin-right: .5em
 	}
