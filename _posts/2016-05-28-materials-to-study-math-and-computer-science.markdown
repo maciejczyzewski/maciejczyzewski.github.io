@@ -5,7 +5,7 @@ date:   2016-05-28 11:21:00
 ---
 
 Below is a list of books and materials, which deems for me as essential. <br>
-If you want more resources, I recommend this list - [free programming books](https://github.com/vhf/free-programming-books).
+If you want more resources, I would recommend this list - [free programming books](https://github.com/vhf/free-programming-books).
 
 ## Mathematics
 
@@ -87,7 +87,7 @@ _Mark Pilgrim_ <br>
 
 ## Cryptography
 
-__Handbook of Applied Cryptography__ 
+__Handbook of Applied Cryptography__
 _Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone_ <br>
 <http://cacr.uwaterloo.ca/hac/>
 
