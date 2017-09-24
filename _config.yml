@@ -33,7 +33,7 @@ sass:
   style:      compressed
 
 # Rubygems
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap

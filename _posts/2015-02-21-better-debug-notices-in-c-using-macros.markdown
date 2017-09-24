@@ -12,7 +12,7 @@ So below I present my simple solution, using macros.
 
 ## Implementation
 
-{% highlight ruby %}
+{% highlight c++ %}
 #include <stdlib.h>
 
 /* Debugger */
